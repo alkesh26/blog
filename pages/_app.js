@@ -1,7 +1,8 @@
-import '../styles/globals.css'
+// pages/_app.js
+import "../styles/tailwind.css";
+import "typeface-open-sans";
+import "typeface-merriweather";
 
-function MyApp({ Component, pageProps }) {
-  return <Component {...pageProps} />
+export default function MyApp({ Component, pageProps }) {
+  return <Component {...pageProps} />;
 }
-
-export default MyApp

@@ -11,7 +11,7 @@ export default function Home({ posts }) {
           <header>
             <h3 className="mb-2">
               <Link href={"/post/[slug]"} as={`/post/${slug}`}>
-                <a className="text-3xl font-semibold text-yellow-500 no-underline">
+                <a className="text-xl font-semibold text-yellow-500 no-underline">
                   {title}
                 </a>
               </Link>

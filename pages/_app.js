@@ -4,8 +4,17 @@ import "typeface-open-sans";
 import "typeface-merriweather";
 import Head from "next/head";
 import { useRouter } from "next/router";
+import { frontmatter } from "./../utils/constants"
 
 export default function MyApp({ Component, pageProps }) {
+  if ( !pageProps.frontmatter ) {
+    pageProps.frontmatter = {
+      title: frontmatter.title,
+      description: frontmatter.description,
+      categories: frontmatter.categories,
+    }
+  }
+
   const title = pageProps.frontmatter.title;
   const description = pageProps.frontmatter.description;
   const categories = pageProps.frontmatter.categories;
@@ -32,7 +41,6 @@ export default function MyApp({ Component, pageProps }) {
         <meta property="og:description" content={description} key="ogdesc" />
         <meta property="og:site_name" content="Alkesh blogs" />
 
-        {/* Twitter Card */}
         <meta name="twitter:card" content="summary"></meta>
         <meta name="twitter:site" content="@_alkesh26"></meta>
         <meta name="twitter:title" content={title}></meta>

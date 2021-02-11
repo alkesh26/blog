@@ -2,6 +2,7 @@ import fs from "fs";
 import matter from "gray-matter";
 import Layout from "./../components/layout";
 import Link from "next/link";
+import { frontmatter } from "../utils/constants"
 
 export default function Home({ posts }) {
   return (
@@ -55,6 +56,7 @@ export async function getStaticProps() {
   return {
     props: {
       posts,
+      frontmatter: frontmatter
     },
   };
 }

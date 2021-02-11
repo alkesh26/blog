@@ -15,6 +15,7 @@
     "react": "17.0.1",
     "react-dom": "17.0.1",
     "react-icons": "^4.1.0",
+    "react-share": "^4.3.1",
     "react-syntax-highlighter": "^15.4.3",
     "react-typography": "^0.16.19",
     "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.0.2",

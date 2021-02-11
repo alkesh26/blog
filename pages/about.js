@@ -1,4 +1,5 @@
 import Layout from "../components/layout"
+import { frontmatter } from "../utils/constants"
 
 export default function About() {
   return (
@@ -56,4 +57,12 @@ export default function About() {
       </div>
     </Layout>
   );
+}
+
+export async function getStaticProps() {
+  return {
+    props: {
+      frontmatter: frontmatter
+    },
+  };
 }

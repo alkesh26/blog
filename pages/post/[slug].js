@@ -6,6 +6,7 @@ import ReactMarkdown from "react-markdown/with-html";
 import { Prism as SyntaxHighlighter } from "react-syntax-highlighter";
 
 import Layout from "./../../components/layout";
+import SocialMediaShare from "./../socialMediaShare";
 
 const CodeBlock = ({ language, value }) => {
   return <SyntaxHighlighter language={language}>{value}</SyntaxHighlighter>;
@@ -17,6 +18,7 @@ export default function Post({ content, frontmatter }) {
       <article>
         <ReactMarkdown escapeHtml={false} source={content} renderers={{ code: CodeBlock }}/>
       </article>
+      <SocialMediaShare frontmatter={frontmatter}/>
     </Layout>
   );
 }

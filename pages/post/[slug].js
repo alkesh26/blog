@@ -6,7 +6,7 @@ import ReactMarkdown from "react-markdown/with-html";
 import { Prism as SyntaxHighlighter } from "react-syntax-highlighter";
 
 import Layout from "./../../components/layout";
-import SocialMediaShare from "./../socialMediaShare";
+import SocialMediaShare from "./../../components/socialMediaShare";
 
 const CodeBlock = ({ language, value }) => {
   return <SyntaxHighlighter language={language}>{value}</SyntaxHighlighter>;

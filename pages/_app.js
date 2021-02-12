@@ -4,7 +4,9 @@ import "typeface-open-sans";
 import "typeface-merriweather";
 import Head from "next/head";
 import { useRouter } from "next/router";
-import { frontmatter } from "./../utils/constants"
+import { frontmatter } from "./../utils/constants";
+import * as gtag from "../lib/gtag";
+import { useEffect } from "react";
 
 export default function MyApp({ Component, pageProps }) {
   if ( !pageProps.frontmatter ) {
@@ -15,12 +17,23 @@ export default function MyApp({ Component, pageProps }) {
     }
   }
 
+  const router = useRouter();
   const title = pageProps.frontmatter.title;
   const description = pageProps.frontmatter.description;
   const categories = pageProps.frontmatter.categories;
   const basePath = process.env.BASE_PATH;
-  const relativePath = useRouter().asPath;
+  const relativePath = router.asPath;
   const fullPath = `${basePath}${relativePath}`;
+
+  useEffect(() => {
+    const handleRouteChange = (url) => {
+      gtag.pageview(url)
+    }
+    router.events.on('routeChangeComplete', handleRouteChange)
+    return () => {
+      router.events.off('routeChangeComplete', handleRouteChange)
+    }
+  }, [router.events])
 
   return (
     <>

@@ -3,7 +3,7 @@ import { FaTwitter, FaLinkedin, FaReddit, FaTumblr } from 'react-icons/fa';
 import { useRouter } from "next/router";
 
 export default function SocialMediaShare(props){
-  const { title, description } = props.frontmatter;
+  const { title, description, hashtags } = props.frontmatter;
   const basePath = process.env.BASE_PATH;
   const relativePath = useRouter().asPath;
   const fullPath = `${basePath}${relativePath}`;
@@ -13,12 +13,12 @@ export default function SocialMediaShare(props){
       <div className="justify-center">Share this post!</div>
       <div className="flex flex-row">
         <div>
-          <TwitterShareButton url={fullPath} title={title} description={description}>
+          <TwitterShareButton url={fullPath} title={title} description={description} hashtags={hashtags}>
             <FaTwitter />
           </TwitterShareButton>
         </div>
         <div className="pl-5">
-          <LinkedinShareButton url={fullPath} title={title} description={description}>
+          <LinkedinShareButton url={fullPath} title={title} summary={description} source={process.env.BASE_PATH}>
             <FaLinkedin />
           </LinkedinShareButton>
         </div>
@@ -28,7 +28,7 @@ export default function SocialMediaShare(props){
           </RedditShareButton>
         </div>
         <div className="pl-5">
-          <TumblrShareButton url={fullPath} title={title} description={description}>
+          <TumblrShareButton url={fullPath} title={title} caption={description} tags={hashtags}>
             <FaTumblr />
           </TumblrShareButton>
         </div>

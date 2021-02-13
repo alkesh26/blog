@@ -59,7 +59,7 @@ export default function MyApp({ Component, pageProps }) {
         <meta name="twitter:title" content={title}></meta>
         <meta name="twitter:description" content={description}></meta>
         <meta name="twitter:url" content={fullPath}></meta>
-        <meta name="twitter:image" content={`${basePath}/favicon.ico`}></meta>
+        <meta name="twitter:image" content={`${basePath}/logo.png`}></meta>
         <title>{title}</title>
       </Head>
       <Component {...pageProps} />

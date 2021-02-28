@@ -9,6 +9,7 @@ export default function Home({ posts }) {
       {posts.map(({ frontmatter: { title, description, date }, slug }) => (
         <article key={title}>
           <header>
+            <span className="text-sm text-gray-600">{date}</span>
             <h3 className="mb-2">
               <Link href={"/post/[slug]"} as={`/post/${slug}`}>
                 <a className="text-xl font-semibold text-yellow-500 no-underline">
@@ -16,7 +17,6 @@ export default function Home({ posts }) {
                 </a>
               </Link>
             </h3>
-            <span className="mb-4 text-sm">{date}</span>
           </header>
           <section>
             <p className="mb-8">{description}</p>

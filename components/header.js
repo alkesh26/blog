@@ -8,6 +8,8 @@ export default function Header() {
           <img
             className="rounded-full border border-gray-100 shadow-sm"
             src="./../alkesh.jpg"
+            width="100"
+            height="100"
             alt="Alkesh"
           />
         </div>

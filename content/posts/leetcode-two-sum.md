@@ -58,6 +58,13 @@ for (int i = 0; i < nums.length; i++){
 The time complexity for the above code is **O(N²)** and hence the solution is
 not efficient.
 
+#### Sorting
+
+The approach here is to sort the array first using two pointers.
+
+A detailed solution can be found
+[here](https://alkeshghorpade.me/post/geeks-for-geeks-pair-in-array-with-sum-equal-to-target).
+
 #### Hash Map
 
 The problem can be solved in **O(N)** time, using extra space.

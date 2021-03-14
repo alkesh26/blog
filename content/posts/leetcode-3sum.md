@@ -44,9 +44,10 @@ A C++ code block will look as below:
 ```cpp
 for (int i = 0; i < nums.length; i++){
     for (int j = i + 1; j < nums.length; j++){
-        for (int k = j + 1; k < nums.length; k++)
-        if (nums[i] + nums[j] + nums[k] == 0){
-            // Logic for checking unique triplets
+        for (int k = j + 1; k < nums.length; k++){
+            if (nums[i] + nums[j] + nums[k] == 0){
+                // Logic for checking unique triplets
+            }
         }
     }
 }
@@ -68,7 +69,6 @@ post.
 
 ```
 - Sort the array in ascending order.
-- Initialize variable result to 2D array.
 - Set a variable size to array length.
 - Initialize three variables sum, p and q.
 - Loop while(i < size - 2)

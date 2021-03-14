@@ -6,7 +6,7 @@ import Link from "next/link";
 export default function Home({ posts }) {
   return (
     <Layout>
-      {posts.map(({ frontmatter: { title, description, date }, slug }) => (
+      {sortedPosts(posts).map(({ frontmatter: { title, description, date }, slug }) => (
         <article key={title}>
           <header>
             <span className="text-sm text-gray-600">{date}</span>
@@ -25,6 +25,10 @@ export default function Home({ posts }) {
       ))}
     </Layout>
   );
+}
+
+function sortedPosts(posts) {
+  return posts.sort((a, b) => new Date(b.frontmatter.date) - new Date(a.frontmatter.date))
 }
 
 export async function getStaticProps() {

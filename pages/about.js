@@ -19,7 +19,7 @@ export default function About() {
               I try to contribute to the open-source community. I have contributed to
               <ul className="list-disc list-inside">
                 <li>
-                  <a href="https://contributors.rubyonrails.org/contributors/alkesh26/commits" target="_blank" rel="nofollow noopener noreferrer" className="text-yellow-500">Rails</a>
+                  <a href="https://contributors.rubyonrails.org/contributors/alkesh-ghorpade/commits" target="_blank" rel="nofollow noopener noreferrer" className="text-yellow-500">Rails</a>
                 </li>
                 <li>
                   <a href="https://go-review.googlesource.com/q/alkesh26" target="_blank" rel="nofollow noopener noreferrer" className="text-yellow-500">Go</a>

@@ -10,7 +10,7 @@ export default function Home({ posts }) {
         <article key={title}>
           <header>
             <span className="text-sm text-gray-600">{date}</span>
-            <h3 className="mb-2">
+            <h3 className="mb-2 mt-0">
               <Link href={"/post/[slug]"} as={`/post/${slug}`}>
                 <a className="text-xl font-semibold text-yellow-500 no-underline">
                   {title}

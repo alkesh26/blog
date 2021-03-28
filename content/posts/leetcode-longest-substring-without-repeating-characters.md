@@ -235,7 +235,7 @@ Step 7: i = 1, j = 6
         m['f'] = j + 1 = 7
         ans = max(ans, j - i + 1) = max(5, 6 - 1 + 1) = 6
 
-Step 7: i = 1, j = 7
+Step 8: i = 1, j = 7
         s[j] = 'b'
         m['b'] is 2
         set i = max(i, m['a']) = max(1, 2) = 2

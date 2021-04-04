@@ -309,7 +309,7 @@ Step 1: i = 1, i < 5
           high++ is 3
 
         low is -1 so this fails
-        low >=0 and high < 5 and s[i] == s[j]
+        low >= 0 and high < 5 and s[i] == s[j]
 
 Step 2: i = 2, i < 5
         // check for even length palindrome substring

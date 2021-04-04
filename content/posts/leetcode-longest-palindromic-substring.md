@@ -352,7 +352,7 @@ Step 4: i = 4, i < 5
         high is 5 so this fails
         low >= 0 and high < 5 is but s[i] != s[j] as 'b' == 'd'
 
-As start is 0 and maxLength is 3 answer
+As start is 0 and maxLength is 3
 s.substring(start, start + maxLength)
 "babad".substring(0, 3)
 => "bab"

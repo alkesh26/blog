@@ -1,6 +1,6 @@
 ---
 title: LeetCode Two Sum
-description: LeetCode Two Sum solution in C++ and Golang.
+description: LeetCode two sum solution in C++ and Golang.
 date: 2021-02-28
 hashtags: ["leetcode", "algorithms", "golang", "cpp"]
 ---

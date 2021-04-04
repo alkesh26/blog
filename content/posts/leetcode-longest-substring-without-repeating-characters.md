@@ -1,6 +1,6 @@
 ---
 title: LeetCode Longest Substring Without Repeating Characters
-description: LeetCode Longest Substring Without Repeating Characters in C++, Golang and Javascript.
+description: LeetCode longest substring without repeating characters in C++, Golang and Javascript.
 date: 2021-03-28
 hashtags: ["leetcode", "algorithms", "golang", "cpp", "javascript"]
 ---

@@ -1,7 +1,7 @@
 ---
 title: LeetCode Longest Palindromic Substring
 description: LeetCode longest palindromic substring in C++, Golang and Javascript.
-date: 2021-03-28
+date: 2021-04-04
 hashtags: ["leetcode", "algorithms", "golang", "cpp", "javascript"]
 ---
 

@@ -73,7 +73,7 @@ Below are the observations from the above examples -
 - Set flag = 1
 
 - if i < length && s[i] == '+' || s[i] == '-'
-  - Set flag to -1 if s[i] == [-]
+  - Set flag to -1 if s[i] == '-'
   - i++
 
 // if the string starts with a word

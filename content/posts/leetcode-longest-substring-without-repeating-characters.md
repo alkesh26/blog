@@ -191,7 +191,7 @@ var lengthOfLongestSubstring = function(s) {
 };
 ```
 
-Let's take the below example and check how the above solution works.
+Let's dry-run our algorithm to see how the solution works.
 
 ```
 s = "abcdeafb"

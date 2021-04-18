@@ -171,7 +171,7 @@ var reverse = function(x) {
 };
 ```
 
-Let's take the below example and check how the above solution works.
+Let's dry-run our algorithm to see how the solution works.
 
 ```
 x = 123

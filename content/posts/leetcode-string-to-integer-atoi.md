@@ -177,7 +177,7 @@ func myAtoi(s string) int {
 
 	return result * flag
 }
-````
+```
 
 ##### Javascript solution
 

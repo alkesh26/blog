@@ -3,6 +3,7 @@ title: LeetCode Add Two Numbers
 description: LeetCode add two numbers represented using LinkedList in C++ and Golang.
 date: 2021-03-21
 hashtags: ["leetcode", "algorithms", "golang", "cpp"]
+categories: "leetcode - add two numbers represented using LinkedList, c++, golang"
 ---
 
 ### Problem statement

@@ -3,6 +3,7 @@ title: Find a pair in an array with a sum equal to the target using sorting
 description: Given array nums and a number target, check for pair in nums with sum as target.
 date: 2021-03-06
 hashtags: ["GeeksForGeeks", "algorithms", "golang", "cpp"]
+categories: "geeksforgeeks - pair in an array with a sum equal to the target, c++, golang"
 ---
 
 ### Problem statement

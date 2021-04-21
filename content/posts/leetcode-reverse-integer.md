@@ -3,6 +3,7 @@ title: LeetCode Reverse Integer
 description: LeetCode reverse an integer in C++, Golang and Javascript
 date: 2021-04-11
 hashtags: ["leetcode", "algorithms", "golang", "cpp", "javascript"]
+categories: "leetcode - reverse an integer, c++, golang, javascript"
 ---
 
 ### Problem statement

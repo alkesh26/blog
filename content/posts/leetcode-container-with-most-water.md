@@ -320,7 +320,7 @@ Step 8: left < right
         false
         right-- = 1
 
-Step 8: left < right
+Step 9: left < right
         1 < 1
         false
 

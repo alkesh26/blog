@@ -7,7 +7,7 @@ export default function Home({ posts }) {
   return (
     <Layout>
       {sortedPosts(posts).map(({ frontmatter: { title, description, date }, slug }) => (
-        <article key={title}>
+        <article key={title} className="mb-5 border-b border-t-0 border-l-0 border-r-0 border-gray-200 border-solid">
           <header>
             <span className="text-sm text-gray-600">{date}</span>
             <h3 className="mb-2 mt-0">
@@ -19,7 +19,7 @@ export default function Home({ posts }) {
             </h3>
           </header>
           <section>
-            <p className="mb-8">{description}</p>
+            <p>{description}</p>
           </section>
         </article>
       ))}

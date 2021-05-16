@@ -44,7 +44,7 @@ Output: [1]
 
 #### Single pointer
 
-One of the approaches to solve this problem is usee single pointer by following the below steps
+One of the approaches to solve this problem is use single pointer by following the below steps
   - Calculating the length of the linked list
   - Subtract n from the length
   - Start from the head and iterate to above (length-n)th node.

@@ -1,7 +1,7 @@
 ---
 title: LeetCode Median of Two Sorted Arrays
 description: LeetCode median of two sorted arrays solution in C++, Golang and Javascript.
-date: 2021-08-21
+date: 2021-08-22
 hashtags: ["leetcode", "algorithms", "golang", "cpp", "javascript"]
 categories: "leetcode - median of two sorted arrays, c++, golang, javascript"
 ---

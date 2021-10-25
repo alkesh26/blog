@@ -1,7 +1,7 @@
 ---
 title: Bypassing Captcha using 2Captcha and Javascript
 description: How to bypass Captcha using 2Captcha services and Javascript.
-date: 2021-10-24
+date: 2021-10-25
 hashtags: ["captcha", "2captcha", "javascript"]
 categories: "captcha, 2captcha, javascript"
 ---

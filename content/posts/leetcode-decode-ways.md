@@ -84,7 +84,7 @@ A naive approach is to generate all possible combinations and
 count the number of correct sequences.
 
 This approach is easy to implement but has time complexity of
-**0(2^N)**.
+**O(2^N)**.
 
 #### Dynamic programming
 

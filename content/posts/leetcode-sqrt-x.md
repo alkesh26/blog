@@ -97,7 +97,7 @@ Let's check the algorithm below:
 
 The time complexity of the above approach is **O(log(n))**
 
-##### C++ solution
+#### C++ solution
 
 ```cpp
 class Solution {
@@ -132,7 +132,7 @@ public:
 };
 ```
 
-##### Golang solution
+#### Golang solution
 
 ```go
 func mySqrt(x int) int {
@@ -154,7 +154,7 @@ func mySqrt(x int) int {
 }
 ```
 
-##### Javascript solution
+#### Javascript solution
 
 ```javascript
 var mySqrt = function(x) {

@@ -105,7 +105,7 @@ Let's check the algorithm and solution.
 - return false.
 ```
 
-##### C++ solution
+#### C++ solution
 
 ```cpp
 class Solution {
@@ -141,7 +141,7 @@ public:
 };
 ```
 
-##### Golang solution
+#### Golang solution
 
 ```go
 func isValid(s string) bool {
@@ -169,7 +169,7 @@ func isValid(s string) bool {
 }
 ```
 
-##### Javascript solution
+#### Javascript solution
 
 ```javascript
 var isValid = function(s) {

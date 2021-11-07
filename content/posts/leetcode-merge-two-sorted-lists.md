@@ -88,7 +88,7 @@ Let's check the algorithm for this approach.
   - set p->next = l2
 ```
 
-##### C++ solution
+#### C++ solution
 
 ```cpp
 class Solution {
@@ -138,7 +138,7 @@ public:
 };
 ```
 
-##### Golang solution
+#### Golang solution
 
 ```go
 func mergeTwoLists(l1 *ListNode, l2 *ListNode) *ListNode {
@@ -185,7 +185,7 @@ func mergeTwoLists(l1 *ListNode, l2 *ListNode) *ListNode {
 }
 ```
 
-##### Javascript solution
+#### Javascript solution
 
 ```javascript
 var mergeTwoLists = function(l1, l2) {

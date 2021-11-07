@@ -83,7 +83,7 @@ changing links is a better idea in general.
 The time complexity of the above program is **O(N)**
 where N is the number of nodes in a given linked list.
 
-##### C++ Solution
+#### C++ solution
 
 ```cpp
 class Solution {
@@ -120,7 +120,7 @@ public:
 };
 ```
 
-##### Golang Solution
+#### Golang solution
 
 ```go
 func swapPairs(head *ListNode) *ListNode {
@@ -153,7 +153,7 @@ func swapPairs(head *ListNode) *ListNode {
 }
 ```
 
-##### Javascript solution
+#### Javascript solution
 
 ```javascript
 var swapPairs = function(head) {

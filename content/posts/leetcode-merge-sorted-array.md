@@ -97,7 +97,7 @@ Let's check the algorithm below:
   - set nums1[k--] = nums2[j--]
 ```
 
-##### C++ solution
+#### C++ solution
 
 ```cpp
 class Solution {
@@ -125,7 +125,7 @@ public:
 };
 ```
 
-##### Golang solution
+#### Golang solution
 
 ```go
 func merge(nums1 []int, m int, nums2 []int, n int)  {
@@ -157,7 +157,7 @@ func merge(nums1 []int, m int, nums2 []int, n int)  {
 }
 ```
 
-##### Javascript solution
+#### Javascript solution
 
 ```javascript
 var merge = function(nums1, m, nums2, n) {

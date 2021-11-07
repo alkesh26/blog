@@ -90,7 +90,7 @@ Runtime error.
 - return reverse*flag
 ```
 
-##### C++ solution
+#### C++ solution
 
 ```cpp
 class Solution {
@@ -126,7 +126,7 @@ public:
 };
 ```
 
-##### Golang solution
+#### Golang solution
 
 ```
 func reverse(x int) int {
@@ -146,7 +146,7 @@ func reverse(x int) int {
 }
 ```
 
-##### Javascript solution
+#### Javascript solution
 
 ```
 var reverse = function(x) {

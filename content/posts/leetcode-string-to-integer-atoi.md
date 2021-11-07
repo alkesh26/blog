@@ -94,7 +94,7 @@ Below are the observations from the above examples -
 - return num * flag
 ```
 
-##### C++ solution
+#### C++ solution
 
 ```cpp
 class Solution {
@@ -136,7 +136,7 @@ public:
 };
 ```
 
-##### Golang solution
+#### Golang solution
 
 ```go
 func myAtoi(s string) int {
@@ -180,7 +180,7 @@ func myAtoi(s string) int {
 }
 ```
 
-##### Javascript solution
+#### Javascript solution
 
 ```javascript
 var myAtoi = function(s) {

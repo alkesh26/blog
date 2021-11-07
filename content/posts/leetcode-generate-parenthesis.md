@@ -108,7 +108,7 @@ added so far.
     - call _generateParenthesis(current + ')', n, left, right + 1, result)
 ```
 
-##### C++ solution
+#### C++ solution
 
 ```cpp
 class Solution {
@@ -137,7 +137,7 @@ public:
 };
 ```
 
-##### Golang solution
+#### Golang solution
 
 ```go
 func generateParenthesis(n int) []string {
@@ -163,7 +163,7 @@ func _generateParenthesis(current string, n, left, right int, result *[]string) 
 }
 ```
 
-##### Javascript solution
+#### Javascript solution
 
 ```javascript
 var generateParenthesis = function(n) {

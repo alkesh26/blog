@@ -93,7 +93,7 @@ to find that correct index.
 - return start
 ```
 
-##### C++ solution
+#### C++ solution
 
 ```cpp
 class Solution {
@@ -119,7 +119,7 @@ public:
 };
 ```
 
-##### Golang solution
+#### Golang solution
 
 ```go
 func searchInsert(nums []int, target int) int {
@@ -142,7 +142,7 @@ func searchInsert(nums []int, target int) int {
 }
 ```
 
-##### Javascript solution
+#### Javascript solution
 
 ```javascript
 var searchInsert = function(nums, target) {

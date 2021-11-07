@@ -80,7 +80,7 @@ Let's check the algorithm below:
 
 The time complexity of the above approach is **O(N)** and, space complexity is **O(1)**.
 
-##### C++ solution
+#### C++ solution
 
 ```cpp
 class Solution {
@@ -104,7 +104,7 @@ public:
 };
 ```
 
-##### Golang solution
+#### Golang solution
 
 ```go
 func removeDuplicates(nums []int) int {
@@ -127,7 +127,7 @@ func removeDuplicates(nums []int) int {
 }
 ```
 
-##### Javascript solution
+#### Javascript solution
 
 ```javascript
 var removeDuplicates = function(nums) {

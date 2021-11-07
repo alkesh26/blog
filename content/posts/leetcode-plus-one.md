@@ -75,7 +75,7 @@ and return the array else assign zero to the current digit.
 - return array
 ```
 
-##### C++ solution
+#### C++ solution
 
 ```cpp
 class Solution {
@@ -99,7 +99,7 @@ public:
 };
 ```
 
-##### Golang solution
+#### Golang solution
 
 ```go
 func plusOne(digits []int) []int {
@@ -124,7 +124,7 @@ func plusOne(digits []int) []int {
 }
 ```
 
-##### Javascript solution
+#### Javascript solution
 
 ```javascript
 var plusOne = function(digits) {

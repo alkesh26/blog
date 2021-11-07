@@ -81,7 +81,7 @@ The maximum sum can be **9 + 9 = 18**. So carry will be either 1 or 0.
 - Return result->next since result is still pointing to current's first position.
 ```
 
-##### C++ solution
+#### C++ solution
 
 ```cpp
 class Solution {
@@ -116,7 +116,7 @@ public:
 };
 ```
 
-##### Golang solution
+#### Golang solution
 
 ```go
 func addTwoNumbers(l1 *ListNode, l2 *ListNode) *ListNode {

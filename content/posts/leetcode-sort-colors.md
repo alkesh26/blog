@@ -125,7 +125,7 @@ Let's check the algorithm:
 The time complexity of the program is **O(N)** as we iterate the array only once.
 Space complexity is **O(1)** because we do not use any other additional data structures.
 
-##### C++ solution
+#### C++ solution
 
 ```cpp
 class Solution {
@@ -150,7 +150,7 @@ public:
 };
 ```
 
-##### Golang solution
+#### Golang solution
 
 ```go
 func sortColors(nums []int)  {
@@ -181,7 +181,7 @@ func sortColors(nums []int)  {
 }
 ```
 
-##### Javascript solution
+#### Javascript solution
 
 ```javascript
 var sortColors = function(nums) {

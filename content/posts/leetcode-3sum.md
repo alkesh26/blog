@@ -89,7 +89,7 @@ post.
 - Return the result
 ```
 
-##### C++ solution
+#### C++ solution
 
 ```cpp
 class Solution {
@@ -135,7 +135,7 @@ public:
 };
 ```
 
-##### Golang solution
+#### Golang solution
 
 ```go
 func threeSum(nums []int) [][]int {

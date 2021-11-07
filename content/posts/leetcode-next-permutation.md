@@ -112,7 +112,7 @@ We reverse all the numbers from index **i** and **nums.size() - 1**.
 - sort(nums.begin() + i, nums.end());
 ```
 
-##### C++ solution
+#### C++ solution
 
 ```cpp
 class Solution {
@@ -155,7 +155,7 @@ public:
 };
 ```
 
-##### Golang solution
+#### Golang solution
 
 ```go
 func reverse(nums []int) {
@@ -194,7 +194,7 @@ func nextPermutation(nums []int)  {
 }
 ```
 
-##### Javascript solution
+#### Javascript solution
 
 ```javascript
 var nextPermutation = function(nums) {

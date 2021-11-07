@@ -143,7 +143,7 @@ updating the maximum length that we have identified so far.
 - return s[start : start + maxLength]
 ```
 
-##### C++ solution
+#### C++ solution
 
 ```cpp
 class Solution {
@@ -191,7 +191,7 @@ public:
 };
 ```
 
-##### Golang solution
+#### Golang solution
 
 ```go
 func longestPalindrome(s string) string {
@@ -236,7 +236,7 @@ func longestPalindrome(s string) string {
 }
 ```
 
-##### Javascript solution
+#### Javascript solution
 
 ```javascript
 var longestPalindrome = function(s) {

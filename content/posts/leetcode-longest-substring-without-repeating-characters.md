@@ -121,7 +121,7 @@ Instead of iterating over each index of the string,
 we define a mapping of the characters to its index.
 Then we skip all the characters immediately when we find a repeated character.
 
-##### C++ solution
+#### C++ solution
 
 ```cpp
 class Solution {
@@ -143,7 +143,7 @@ public:
 };
 ```
 
-##### Golang solution
+#### Golang solution
 
 ```go
 func lengthOfLongestSubstring(s string) int {
@@ -167,7 +167,7 @@ func lengthOfLongestSubstring(s string) int {
 }
 ```
 
-##### Javascript solution
+#### Javascript solution
 
 ```javascript
 var lengthOfLongestSubstring = function(s) {

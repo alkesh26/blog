@@ -121,7 +121,7 @@ Since the two-pointer takes linear time, it is better than a nested loop.
 - return sum
 ```
 
-##### C++ Solution
+#### C++ solution
 
 ```cpp
 class Solution {
@@ -167,7 +167,7 @@ public:
 };
 ```
 
-##### Golang Solution
+#### Golang solution
 
 ```go
 const MaxUint = ^uint(0)
@@ -223,7 +223,7 @@ func threeSumClosest(nums []int, target int) int {
 }
 ```
 
-##### Javascript solution
+#### Javascript solution
 
 ```javascript
 var threeSumClosest = function(nums, target) {

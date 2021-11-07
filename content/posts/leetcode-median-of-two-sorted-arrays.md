@@ -175,7 +175,7 @@ find the median.
     - starts = partitionX + 1
 ```
 
-##### C++ solution
+#### C++ solution
 
 ```cpp
 class Solution {
@@ -220,7 +220,7 @@ public:
 };
 ```
 
-##### Golang solution
+#### Golang solution
 
 ```go
 var (
@@ -299,7 +299,7 @@ func minRight(position int, array []int) int {
 }
 ```
 
-##### Javascript solution
+#### Javascript solution
 
 ```javascript
 var findMedianSortedArrays = function(nums1, nums2) {

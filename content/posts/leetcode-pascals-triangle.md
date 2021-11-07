@@ -144,7 +144,7 @@ Let's check the algorithm:
 - return result
 ```
 
-##### C++ Solution
+#### C++ solution
 
 ```cpp
 class Solution {
@@ -169,7 +169,7 @@ public:
 };
 ```
 
-##### Golang Solution
+#### Golang solution
 
 ```go
 func generate(numRows int) [][]int {
@@ -191,7 +191,7 @@ func generate(numRows int) [][]int {
 }
 ```
 
-##### Javascript solution
+#### Javascript solution
 
 ```javascript
 var generate = function(numRows) {

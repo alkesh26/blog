@@ -113,7 +113,7 @@ Let's check the algorithm below:
 The time complexity of the above approach is **O(log(N))** and,
 space complexity is **O(1)**.
 
-##### C++ solution
+#### C++ solution
 
 ```cpp
 class Solution {
@@ -158,7 +158,7 @@ public:
 };
 ```
 
-##### Golang solution
+#### Golang solution
 
 ```go
 func searchRange(nums []int, target int) []int {
@@ -197,7 +197,7 @@ func searchRange(nums []int, target int) []int {
 }
 ```
 
-##### Javascript solution
+#### Javascript solution
 
 ```javascript
 var searchRange = function(nums, target) {

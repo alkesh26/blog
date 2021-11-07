@@ -85,7 +85,7 @@ will store the array element as a key and the value will be the index at which t
 - Return empty array as a result if nums array iteration is completed in the above step
 ```
 
-##### C++ solution
+#### C++ solution
 
 ```cpp
 class Solution {
@@ -109,7 +109,7 @@ public:
 };
 ```
 
-##### Golang solution
+#### Golang solution
 
 ```go
 func twoSum(nums []int, target int) []int {

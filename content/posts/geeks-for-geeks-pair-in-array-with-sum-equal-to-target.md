@@ -49,7 +49,7 @@ The **NlogN** is the average time taken to sort an array.
 - If no such pair found return []
 ```
 
-##### C++ solution
+#### C++ solution
 
 ```cpp
 class Solution {
@@ -73,7 +73,7 @@ public:
 };
 ```
 
-##### Golang solution
+#### Golang solution
 
 ```go
 func twoSum(nums []int, target int) []int {

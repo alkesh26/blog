@@ -106,7 +106,7 @@ Let's check the algorithm.
 - return true
 ```
 
-##### C++ solution
+#### C++ solution
 
 ```cpp
 class Solution {
@@ -135,7 +135,7 @@ public:
 };
 ```
 
-##### Golang solution
+#### Golang solution
 
 ```go
 func isPalindrome(x int) bool {
@@ -163,7 +163,7 @@ func isPalindrome(x int) bool {
 }
 ```
 
-##### Javascript solution
+#### Javascript solution
 
 ```javascript
 var isPalindrome = function(x) {

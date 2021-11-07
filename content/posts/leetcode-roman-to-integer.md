@@ -111,7 +111,7 @@ or add it to the total sum.
 - return sum
 ```
 
-##### C++ solution
+#### C++ solution
 
 ```cpp
 class Solution {
@@ -151,7 +151,7 @@ public:
 };
 ```
 
-##### Golang solution
+#### Golang solution
 
 ```go
 func romanToInt(s string) int {
@@ -189,7 +189,7 @@ func romanToInt(s string) int {
 }
 ```
 
-##### Javascript solution
+#### Javascript solution
 
 ```javascript
 var romanToInt = function(s) {

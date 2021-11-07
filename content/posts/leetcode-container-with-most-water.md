@@ -104,7 +104,7 @@ by the height of the shorter line.
 - return ans
 ```
 
-##### C++ solution
+#### C++ solution
 
 ```cpp
 class Solution {
@@ -130,7 +130,7 @@ public:
 };
 ```
 
-##### Golang solution
+#### Golang solution
 
 ```go
 func maxArea(height []int) int {
@@ -165,7 +165,7 @@ func min(a, b int) int{
 }
 ```
 
-##### JavaScript Solution
+#### Javascript solution
 
 ```javascript
 var maxArea = function(height) {

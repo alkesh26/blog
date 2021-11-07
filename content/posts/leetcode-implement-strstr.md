@@ -136,7 +136,7 @@ Let's check the algorithm below:
 - return -1
 ```
 
-##### C++ solution
+#### C++ solution
 
 ```cpp
 class Solution {
@@ -175,7 +175,7 @@ public:
 };
 ```
 
-##### Golang solution
+#### Golang solution
 
 ```
 func strStr(haystack string, needle string) int {
@@ -218,7 +218,7 @@ func strStr(haystack string, needle string) int {
 }
 ```
 
-##### Javascript solution
+#### Javascript solution
 
 ```javascript
 var strStr = function(haystack, needle) {

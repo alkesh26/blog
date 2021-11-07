@@ -145,7 +145,7 @@ Let's check the algorithm on how to compute the above formula:
 - return paths
 ```
 
-##### C++ solution
+#### C++ solution
 
 ```cpp
 class Solution {
@@ -163,7 +163,7 @@ public:
 };
 ```
 
-##### Golang solution
+#### Golang solution
 
 ```go
 func uniquePaths(m int, n int) int {
@@ -178,7 +178,7 @@ func uniquePaths(m int, n int) int {
 }
 ```
 
-##### Javascript solution
+#### Javascript solution
 
 ```javascript
 var uniquePaths = function(m, n) {

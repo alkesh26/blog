@@ -82,7 +82,7 @@ Let's check the algorithm.
 The time complexity of the program is **O(M)** as each cell is getting read once and written once.
 Space complexity is **O(1)** because we do not use any other additional data structures.
 
-##### C++ solution
+#### C++ solution
 
 ```cpp
 class Solution {
@@ -104,7 +104,7 @@ public:
 };
 ```
 
-##### Golang solution
+#### Golang solution
 
 ```go
 func rotate(matrix [][]int)  {
@@ -123,7 +123,7 @@ func rotate(matrix [][]int)  {
 }
 ```
 
-##### Javascript solution
+#### Javascript solution
 
 ```javascript
 var rotate = function(matrix) {

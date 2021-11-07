@@ -98,7 +98,7 @@ fg, fh, fi.
       }
 ```
 
-##### C++ solution
+#### C++ solution
 
 ```cpp
 class Solution {
@@ -134,7 +134,7 @@ public:
 };
 ```
 
-##### Golang solution
+#### Golang solution
 
 ```go
 var letters = [...]string{"", "", "abc", "def", "ghi", "jkl",
@@ -166,7 +166,7 @@ func generateCombination(current string, digits string, ans *[]string) {
 }
 ```
 
-##### Javascript solution
+#### Javascript solution
 
 ```javascript
 const map = {

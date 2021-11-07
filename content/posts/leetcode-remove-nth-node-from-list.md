@@ -112,7 +112,7 @@ in a single pass. Let's check the algorithm for this.
 return head
 ```
 
-##### C++ solution
+#### C++ solution
 
 ```cpp
 class Solution {
@@ -150,7 +150,7 @@ public:
 };
 ```
 
-##### Golang solution
+#### Golang solution
 
 ```go
 func removeNthFromEnd(head *ListNode, n int) *ListNode {
@@ -171,7 +171,7 @@ func removeNthFromEnd(head *ListNode, n int) *ListNode {
 }
 ```
 
-##### Javascript solution
+#### Javascript solution
 
 ```javascript
 var removeNthFromEnd = function(head, n) {

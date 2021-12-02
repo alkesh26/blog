@@ -1,24 +1,26 @@
 ---
-title: LeetCode - Binary Tree Level Order Traversal
-description: LeetCode - return the level order traversal of binary tree nodes using C++, Golang and Javascript.
-date: 2021-11-18
+title: LeetCode - Binary Tree Zigzag Level Order Traversal
+description: LeetCode - Return the zigzag level order traversal of binary tree nodes values using C++, Golang and Javascript.
+date: 2021-12-02
 hashtags: ["leetcode", "algorithms", "golang", "cpp", "javascript"]
-categories: "leetcode - return the level order traversal of binary tree nodes, c++, golang, javascript"
+categories: "leetcode - return the zigzag level order traversal of binary tree nodes, c++, golang, javascript"
 ---
 
 ### Problem statement
 
-Given the *root* of a binary tree, return *the level order traversal of its nodes'* values. (i.e., from left to right, level by level).
+Given the `root` of a binary tree,
+return *the zigzag level order traversal of its nodes' values.*
+(i.e., from left to right, then right to left for the next level and alternate between).
 
-Problem statement taken from: <a href="https://leetcode.com/problems/binary-tree-level-order-traversal" target="_blank">https://leetcode.com/problems/binary-tree-level-order-traversal</a>
+Problem statement taken from: <a href="https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/" target="_blank">https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/</a>
 
 **Example 1:**
 
-![Container](./../tree-level-order-traversal.png)
+![Container](./../binary-tree-zigzag.png)
 
 ```
 Input: root = [3, 9, 20, null, null, 15, 7]
-Output: [[3], [9, 20], [15, 7]]
+Output: [[3], [20, 9], [15, 7]]
 ```
 
 **Example 2:**
@@ -38,55 +40,26 @@ Output: []
 **Constraints:**
 
 ```
-- The number of nodes in the tree is in the range [0, 2000]
-- -1000 <= Node.val <= 1000
+- The number of nodes in the tree is in the range [0, 2000].
+- -100 <= Node.val <= 100
 ```
 
 ### Explanation
 
-#### Recursive function
+To traverse binary tree level by level we can refer our previous blog post
+[here](https://alkeshghorpade.me/post/leetcode-binary-tree-level-order-traversal).
 
-With trees, recursion is the most widely used approach as the code is easy to read.
-But for a few problems, recursion increases the time complexity.
-For large trees, recursion can result in stack overflow or because of
-**O(N^2)** time complexity will take a lot of time.
+As per the problem statement,
+we need to traverse in zigzag fashion.
+We can achieve this by reversing the `tmp` array we create
+when a level is traversed completely.
 
-For this problem, we can use recursion, but we need to calculate
-the height of the tree.
-
-A small C++ snippet of the above approach will look as below:
-
-```cpp
-void printLevelOrder(node* root){
-    int h = height(root);
-    for (int i = 0; i < h; i++)
-        printCurrentLevel(root, i);
-}
-
-void printLevel(node* root, int level){
-    if (root == NULL)
-        return;
-
-    if (level == 0)
-        cout << root->data << " ";
-    else if (level > 0) {
-        printLevel(root->left, level - 1);
-        printLevel(root->right, level - 1);
-    }
-}
-```
-
-The time complexity of the above approach is **O(N^2)** for skewed trees.
-The worst-case space complexity is **O(N)**.
-
-#### Iterative approach
-
-We can improve the time complexity by using a queue as a data structure.
-Let's check the algorithm.
+Let's check the algorithm:
 
 ```
 - initialize 2D array as vector vector<vector<int>> result
 - initialize size and i
+- set left to true
 
 - return result if root == null
 
@@ -111,7 +84,11 @@ Let's check the algorithm.
     - remove the front node: q.pop()
     - push node->val to tmp. tmp.push_back(node->val)
 
+  - left is false: if(!left)
+    - reverse(tmp.begin(), tmp.end())
+
   - push the tmp to result: result.push_back(tmp)
+  - toggle left: left = !left
 
 - return result
 ```
@@ -121,14 +98,15 @@ Let's check the algorithm.
 ```cpp
 class Solution {
 public:
-    vector<vector<int>> levelOrder(TreeNode* root) {
+    vector<vector<int>> zigzagLevelOrder(TreeNode* root) {
         vector<vector<int>> result;
         int size, i;
+        bool left = true;
 
         if(root == NULL)
             return result;
 
-        queue<TreeNode*> q;
+        queue<TreeNode* > q;
         q.push(root);
 
         TreeNode* node;
@@ -139,6 +117,7 @@ public:
 
             for(i = 0; i < size; i++){
                 node = q.front();
+
                 if(node->left)
                     q.push(node->left);
 
@@ -149,7 +128,12 @@ public:
                 tmp.push_back(node->val);
             }
 
+            if(!left){
+                reverse(tmp.begin(), tmp.end());
+            }
+
             result.push_back(tmp);
+            left = !left;
         }
 
         return result;
@@ -160,8 +144,17 @@ public:
 #### Golang solution
 
 ```go
-func levelOrder(root *TreeNode) [][]int {
+func reverse(array []int) []int {
+    for i, j := 0, len(array) - 1; i < j; i, j = i+1, j-1 {
+        array[i], array[j] = array[j], array[i]
+    }
+
+    return array
+}
+
+func zigzagLevelOrder(root *TreeNode) [][]int {
     result := [][]int{}
+    left := true
 
     queue := []*TreeNode{root}
 
@@ -179,7 +172,12 @@ func levelOrder(root *TreeNode) [][]int {
             queue = queue[1:]
         }
 
+        if !left {
+            tmp = reverse(tmp)
+        }
+
         result = append(result, tmp)
+        left = !left
     }
 
     return result[:len(result)-1]
@@ -189,9 +187,10 @@ func levelOrder(root *TreeNode) [][]int {
 #### Javascript solution
 
 ```javascript
-var levelOrder = function(root) {
+var zigzagLevelOrder = function(root) {
     let result = [];
     let queue = [];
+    let left = true;
 
     if(root)
         queue.push(root);
@@ -213,7 +212,12 @@ var levelOrder = function(root) {
             }
         }
 
+        if( !left ) {
+            tmp = tmp.reverse();
+        }
+
         result.push(tmp);
+        left = !left;
     }
 
     return result;
@@ -225,15 +229,16 @@ Let's dry-run our algorithm to see how the solution works.
 ```
 Input: root = [3, 9, 20, null, null, 15, 7]
 
-Step 1: vector<vector<int>> result;
-        int size, i;
+Step 1: vector<vector<int>> result
+        int size, i
+        left = true
 
 Step 2: root == null
         [3, 9..] == null
         false
 
-Step 3: queue<TreeNode*> q;
-        q.push(root);
+Step 3: queue<TreeNode*> q
+        q.push(root)
 
         q = [3]
 
@@ -277,8 +282,13 @@ Step 4: loop !q.empty()
         1 < 1
         false
 
+        if !left
+           !left = false
+
         result.push_back(tmp)
         result = [[3]]
+        left = !left
+             = false
 
 Step 5: loop !q.empty()
         q = [9, 20]
@@ -344,8 +354,16 @@ Step 5: loop !q.empty()
           - 2 < 2
           - false
 
+        if !left
+           !left = true
+
+        reverse(tmp.begin(), tmp.end())
+        tmp = [20, 9]
+
         result.push_back(tmp)
-        result = [[3], [9, 20]]
+        result = [[3], [20, 9]]
+        left = !left
+             = true
 
 Step 6: loop !q.empty()
         q = [15, 7]
@@ -409,8 +427,11 @@ Step 6: loop !q.empty()
           - 2 < 2
           - false
 
+        if !left
+           !left = false
+
         result.push_back(tmp)
-        result = [[3], [9, 20], [15, 7]]
+        result = [[3], [20, 9], [15, 7]]
 
 Step 7: loop !q.empty()
         q = []
@@ -419,5 +440,5 @@ Step 7: loop !q.empty()
 
 Step 8: return result
 
-So we return the result as [[3], [9, 20], [15, 7]].
+So we return the result as [[3], [20, 9], [15, 7]].
 ```

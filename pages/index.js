@@ -6,6 +6,7 @@ import Link from "next/link";
 export default function Home({ posts }) {
   return (
     <Layout>
+      <h1 className="text-2xl text-yellow-500 font-semibold">All blogs</h1>
       {sortedPosts(posts).map(({ frontmatter: { title, description, date }, slug }) => (
         <article key={title} className="mb-5 border-b border-t-0 border-l-0 border-r-0 border-gray-200 border-solid">
           <header>

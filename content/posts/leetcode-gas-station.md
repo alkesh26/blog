@@ -1,6 +1,6 @@
 ---
 title: LeetCode - Gas Station
-description: LeetCode - check if we can complete gas station circuit.
+description: LeetCode - check if we can complete gas station circuit using C++, Golang and Javascript.
 date: 2021-12-12
 hashtags: ["leetcode", "algorithms", "golang", "cpp", "javascript"]
 categories: "leetcode - check if we can complete gas station circuit, c++, golang, javascript"

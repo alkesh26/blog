@@ -1,6 +1,6 @@
 ---
 title: LeetCode - Spiral Matrix
-description: LeetCode - for a given matrix m * n return all elements of the matrix in spiral order.
+description: LeetCode - for a given matrix m * n return all elements of the matrix in spiral order using C++, Golang and Javascript.
 date: 2022-01-16
 hashtags: ["leetcode", "algorithms", "golang", "cpp", "javascript"]
 categories: "leetcode - for a given matrix m * n return all elements of the matrix in spiral order, c++, golang, javascript"

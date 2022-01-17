@@ -1,6 +1,6 @@
 ---
 title: LeetCode - House Robber
-description: LeetCode - return the maximum amount of money you can rob tonight.
+description: LeetCode - return the maximum amount of money you can rob tonight using C++, Golang and Javascript.
 date: 2022-01-02
 hashtags: ["leetcode", "algorithms", "golang", "cpp", "javascript"]
 categories: "leetcode - the maximum amount of money you can rob tonight, c++, golang, javascript"

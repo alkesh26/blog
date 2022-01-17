@@ -1,6 +1,6 @@
 ---
 title: LeetCode - Search in Rotated Sorted Array
-description: LeetCode - search target element in rotated sorted array.
+description: LeetCode - search target element in rotated sorted array using C++, Golang and Javascript.
 date: 2022-01-06
 hashtags: ["leetcode", "algorithms", "golang", "cpp", "javascript"]
 categories: "leetcode - the maximum amount of money you can rob tonight, c++, golang, javascript"

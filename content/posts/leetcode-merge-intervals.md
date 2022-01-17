@@ -1,6 +1,6 @@
 ---
 title: LeetCode - Merge Intervals
-description: LeetCode - merge all overlapping intervals and return an array of non-overlapping intervals.
+description: LeetCode - merge all overlapping intervals and return an array of non-overlapping intervals using C++, Golang and Javascript.
 date: 2022-01-13
 hashtags: ["leetcode", "algorithms", "golang", "cpp", "javascript"]
 categories: "leetcode - merge all overlapping intervals and return an array of non-overlapping intervals, c++, golang, javascript"

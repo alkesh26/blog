@@ -1,6 +1,6 @@
 ---
 title: LeetCode - Factorial Trailing Zeroes
-description: LeetCode - return the number of trailing zeroes in n!.
+description: LeetCode - return the number of trailing zeroes in n! using C++, Golang and Javascript.
 date: 2021-12-30
 hashtags: ["leetcode", "algorithms", "golang", "cpp", "javascript"]
 categories: "leetcode - return the number of trailing zeroes in n!, c++, golang, javascript"

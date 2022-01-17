@@ -1,6 +1,6 @@
 ---
 title: LeetCode - Valid Sudoku
-description: LeetCode - determine if 9 x 9 Sudoku board is valid or not.
+description: LeetCode - determine if 9 x 9 Sudoku board is valid or not using C++, Golang and Javascript.
 date: 2022-01-09
 hashtags: ["leetcode", "algorithms", "golang", "cpp", "javascript"]
 categories: "leetcode - determine if 9 x 9 Sudoku board is valid or not, c++, golang, javascript"

@@ -1,6 +1,6 @@
 ---
 title: LeetCode - Largest Number
-description: LeetCode - arrange numbers of array to form largest number.
+description: LeetCode - arrange numbers of array to form largest number using C++, Golang and Javascript.
 date: 2021-12-26
 hashtags: ["leetcode", "algorithms", "golang", "cpp", "javascript"]
 categories: "leetcode - arrange numbers of array to form largest number, c++, golang, javascript"

@@ -1,6 +1,6 @@
 ---
 title: LeetCode - Single Number II
-description: LeetCode - Find the number which appears only one time in an array using C++, Golang and Javascript.
+description: LeetCode - Find the number that appears only once in an array using C++, Golang, and Javascript.
 date: 2022-02-20
 hashtags: ["leetcode", "algorithms", "golang", "cpp", "javascript"]
 categories: "leetcode - find the number which appears only one time in an array, c++, golang, javascript"
@@ -40,9 +40,7 @@ Output: 99
 
 #### Brute force solution
 
-The brute force approach is to run the loop twice and also maintain the count
-of each unique element. We then iterate over the hash and return the element
-that appeared only once. The time complexity will be **O(N^2)** and space complexity
+The brute force approach is to run the loop twice and also maintain the count of each unique element. We then iterate over the hash and return the element that appeared only once. The time complexity will be **O(N^2)** and space complexity
 will be **O(N)**.
 
 A C++ snippet of the above logic will be:
@@ -70,20 +68,15 @@ We can use sorting and do it in **O(N(log(N)))**.
 
 #### XOR operators
 
-Identifying a number that appeared only once, where other elements appeared twice was easy using
-XOR operator (^). We can refer to the solution for this problem
-[here](https://alkeshghorpade.me/post/leetcode-single-number).
+Identifying a number that appeared only once, where other elements appeared twice, was easy using the XOR operator (^). We can refer to the solution for this problem [here](https://alkeshghorpade.me/post/leetcode-single-number).
 
-In this case, the array elements appear thrice expect one. One XOR operator will not be
-sufficient to identify the single number.
-We will focus on using two variables and use XOR operator on them.
-Let's name the variable as **ones** and **twos**.
+In this case, the array elements appear thrice except one. One XOR operator will not be sufficient to identify a single number. We will use two variables and use the XOR operator on them. Let's name the variable as **ones** and **twos**.
 
 **ones** - This variable will hold the XOR of all the elements that appeared only once.
 **twos** - This variable will hold the XOR of all the elements that appeared twice.
 
 At any point of time -
-1. A new number appears it is XORed with ones variable. It specifies the first appearance of the number.
+1. A new number appears it's XORed with ones variable. It specifies the first appearance of the number.
 2. A number gets repeated it is removed from ones variable and XORed with twos.
 3. A number appears thrice it is removed from both ones and twos.
 
@@ -104,7 +97,7 @@ Let's check the algorithm first:
   // so now ones variable get the bit representation of nums[i]
   - ones = ones ^ nums[i]
 
-  // Now if the number appeared thrice both the ones and twos
+  // Now, if the number appeared thrice, both the ones and twos
   // variable has the bit representation of nums[i].
   // We create a negate of these set bits and remove them from the
   // ones and twos variable in next steps.
@@ -119,8 +112,7 @@ Let's check the algorithm first:
 - return ones
 ```
 
-The time complexity of the above approach is **O(N)** and space complexity
-is **O(1)**. Let's check out our solutions in **C++**, **Golang**, and **Javascript**.
+The time complexity of the above approach is **O(N)**, and space complexity is **O(1)**. Let's check out our solutions in **C++**, **Golang**, and **Javascript**.
 
 #### C++ solution
 

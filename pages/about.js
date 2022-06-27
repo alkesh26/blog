@@ -8,7 +8,7 @@ export default function About() {
           <div className="w-100">
             <h3>About me</h3>
             <p className="lead mb-5">
-              I am into software development since 9+ years. I am a Ruby on Rails developer from Pune, India.
+              I am into software development since 10+ years. I am a Ruby on Rails developer from Pune, India.
               I mostly work on Rails and Go and currently learning React and React Native.
               <br/>
               <br/>

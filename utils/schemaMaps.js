@@ -28,7 +28,7 @@ export function blogPostDetails(pageProps) {
       "url": "${pageProps.url}",
       "name": "${pageProps.frontmatter.title}",
       "headline": "${pageProps.frontmatter.title}",
-      "keywords": "${pageProps.frontmatter.hashtags.join(", ")}",
+      "keywords": "${pageProps.frontmatter.hashtags ? pageProps.frontmatter.hashtags.join(", ") : ""}",
       "description": "${pageProps.frontmatter.description}",
       "articleBody": "${pageProps.content}",
       "datePublished": "${pageProps.frontmatter.date}",

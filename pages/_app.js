@@ -7,6 +7,7 @@ import { useRouter } from "next/router";
 import { frontmatter } from "./../utils/constants";
 import * as gtag from "../lib/gtag";
 import { useEffect } from "react";
+import  { authorDetails, blogPostDetails } from "../utils/schemaMaps"
 
 export default function MyApp({ Component, pageProps }) {
   if ( !pageProps.frontmatter ) {
@@ -24,6 +25,7 @@ export default function MyApp({ Component, pageProps }) {
   const basePath = process.env.BASE_PATH;
   const relativePath = router.asPath;
   const fullPath = `${basePath}${relativePath}`;
+  pageProps.url = fullPath;
 
   useEffect(() => {
     const handleRouteChange = (url) => {
@@ -61,8 +63,20 @@ export default function MyApp({ Component, pageProps }) {
         <meta name="twitter:url" content={fullPath}></meta>
         <meta name="twitter:image" content={`${basePath}/logo.png`}></meta>
         <title>{title}</title>
+        <script type="application/ld+json"
+          dangerouslySetInnerHTML={loadSchemaBasedOnPage(relativePath, pageProps)}
+          key="product-jsonld"
+        />
       </Head>
       <Component {...pageProps} />
     </>
   );
+}
+
+function loadSchemaBasedOnPage(relativePath, pageProps) {
+  if (relativePath === "/" || relativePath === "/about") {
+    return authorDetails()
+  } else {
+    return blogPostDetails(pageProps)
+  }
 }

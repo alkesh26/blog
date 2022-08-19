@@ -2,6 +2,7 @@ import fs from "fs";
 import matter from "gray-matter";
 import Layout from "./../components/layout";
 import Link from "next/link";
+import generateRSS from "../lib/generateRssFeed";
 
 export default function Home({ posts }) {
   return (
@@ -40,7 +41,7 @@ export async function getStaticProps() {
       .readFileSync(`content/posts/${filename}`)
       .toString();
 
-    const { data } = matter(markdownWithMetadata);
+    const { data, content } = matter(markdownWithMetadata);
 
     // Convert post date to format: Month day, Year
     const options = { year: "numeric", month: "long", day: "numeric" };
@@ -48,6 +49,7 @@ export async function getStaticProps() {
 
     const frontmatter = {
       ...data,
+      content: content,
       date: formattedDate,
     };
 
@@ -56,6 +58,8 @@ export async function getStaticProps() {
       frontmatter,
     };
   });
+
+  await generateRSS(sortedPosts(posts));
 
   return {
     props: {

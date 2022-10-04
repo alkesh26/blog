@@ -12,7 +12,7 @@ Given a **non-empty** array of integers *nums*, every element appears *twice* ex
 
 You must implement a solution with a linear runtime complexity and use only constant extra space.
 
-Problem statement taken from: <a href="https://leetcode.com/problems/single-number" target="_blank">https://leetcode.com/problems/single-number</a>.
+Problem statement taken from: <a href='https://leetcode.com/problems/single-number' target='_blank'>https://leetcode.com/problems/single-number</a>.
 
 **Example 1:**
 

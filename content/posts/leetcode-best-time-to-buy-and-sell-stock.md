@@ -14,7 +14,7 @@ You want to maximize your profit by choosing a **single day** to buy one stock a
 
 Return *the maximum profit you can achieve from this transaction*. If you cannot achieve any profit, return *0*.
 
-Problem statement taken from: <a href="https://leetcode.com/problems/best-time-to-buy-and-sell-stock" target="_blank">https://leetcode.com/problems/best-time-to-buy-and-sell-stock</a>
+Problem statement taken from: <a href='https://leetcode.com/problems/best-time-to-buy-and-sell-stock' target='_blank'>https://leetcode.com/problems/best-time-to-buy-and-sell-stock</a>
 
 **Example 1:**
 

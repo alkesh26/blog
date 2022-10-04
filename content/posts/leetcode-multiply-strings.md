@@ -12,7 +12,7 @@ Given two non-negative integers *num1* and *num2* represented as strings, return
 
 **Note**: You must not use any built-in BigInteger library or convert the inputs to integer directly.
 
-Problem statement taken from: <a href="https://leetcode.com/problems/multiply-strings" target="_blank">https://leetcode.com/problems/multiply-strings</a>
+Problem statement taken from: <a href='https://leetcode.com/problems/multiply-strings' target='_blank'>https://leetcode.com/problems/multiply-strings</a>
 
 **Example 1:**
 

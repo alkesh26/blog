@@ -10,7 +10,7 @@ categories: "leetcode - longest palindromic substring, c++, golang, javascript"
 
 Given a string **s**, return the longest palindromic substring in **s**.
 
-Problem statement taken from: <a href="https://leetcode.com/problems/longest-palindromic-substring" target="_blank">https://leetcode.com/problems/longest-palindromic-substring</a>
+Problem statement taken from: <a href='https://leetcode.com/problems/longest-palindromic-substring' target='_blank'>https://leetcode.com/problems/longest-palindromic-substring</a>
 
 **Example 1:**
 ```

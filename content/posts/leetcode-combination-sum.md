@@ -18,7 +18,7 @@ Two combinations are unique if the frequency of at least one of the chosen numbe
 It is **guaranteed** that the number of unique combinations that sum up to *target*
 is less than *150* combinations for the given input.
 
-Problem statement taken from: <a href="https://leetcode.com/problems/combination-sum/" target="_blank">https://leetcode.com/problems/combination-sum/</a>.
+Problem statement taken from: <a href='https://leetcode.com/problems/combination-sum/' target='_blank'>https://leetcode.com/problems/combination-sum/</a>.
 
 **Example 1:**
 

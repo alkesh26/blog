@@ -13,7 +13,7 @@ Write an efficient algorithm that searches for a value *target* in an *m x n* in
 * Integers in each row are sorted from left to right.
 * The first integer of each row is greater than the last integer of the previous row.
 
-Problem statement taken from: <a href="https://leetcode.com/problems/search-a-2d-matrix" target="_blank">https://leetcode.com/problems/search-a-2d-matrix</a>
+Problem statement taken from: <a href='https://leetcode.com/problems/search-a-2d-matrix' target='_blank'>https://leetcode.com/problems/search-a-2d-matrix</a>
 
 **Example 1:**
 

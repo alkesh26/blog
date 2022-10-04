@@ -21,7 +21,7 @@ You **may not** use the same element twice.
 
 Your solution must use only constant extra space.
 
-Problem statement taken from: <a href="https://leetcode.com/problems/two-sum-ii-input-array-is-sorted" target="_blank">https://leetcode.com/problems/two-sum-ii-input-array-is-sorted</a>
+Problem statement taken from: <a href='https://leetcode.com/problems/two-sum-ii-input-array-is-sorted' target='_blank'>https://leetcode.com/problems/two-sum-ii-input-array-is-sorted</a>
 
 **Example 1:**
 

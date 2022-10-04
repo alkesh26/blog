@@ -11,7 +11,7 @@ categories: "leetcode - generate parentheses, c++, golang, javascript"
 Given **n** pairs of parentheses,
 write a function to *generate all combinations of well-formed parentheses*.
 
-Problem statement taken from: <a href="https://leetcode.com/problems/generate-parentheses" target="_blank">https://leetcode.com/problems/generate-parentheses</a>
+Problem statement taken from: <a href='https://leetcode.com/problems/generate-parentheses' target='_blank'>https://leetcode.com/problems/generate-parentheses</a>
 
 **Example 1:**
 

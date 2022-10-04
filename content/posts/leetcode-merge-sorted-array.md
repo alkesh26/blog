@@ -25,7 +25,7 @@ where the first **m** elements denote the elements that should be merged,
 and the last **n** elements are set to **0** and should be ignored.
 **nums2** has a length of **n**.
 
-Problem statement taken from: <a href="https://leetcode.com/problems/merge-sorted-array" target="_blank">https://leetcode.com/problems/merge-sorted-array</a>
+Problem statement taken from: <a href='https://leetcode.com/problems/merge-sorted-array' target='_blank'>https://leetcode.com/problems/merge-sorted-array</a>
 
 **Example 1:**
 

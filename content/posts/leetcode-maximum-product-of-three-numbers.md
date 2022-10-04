@@ -10,7 +10,7 @@ categories: "leetcode - find three numbers whose product is maximum, c++, golang
 
 Given an integer array **nums**, *find three numbers whose product is maximum and return the maximum product*.
 
-Problem statement taken from: <a href="https://leetcode.com/problems/maximum-product-of-three-numbers" target="_blank">https://leetcode.com/problems/maximum-product-of-three-numbers</a>
+Problem statement taken from: <a href='https://leetcode.com/problems/maximum-product-of-three-numbers' target='_blank'>https://leetcode.com/problems/maximum-product-of-three-numbers</a>
 
 **Example 1:**
 

@@ -11,7 +11,7 @@ categories: "leetcode - compute units of water trapped in an elevation map, c++,
 Given *n* non-negative integers representing an elevation map where the width of each bar is *1*,
 compute how much water it can trap after raining.
 
-Problem statement taken from: <a href="https://leetcode.com/problems/trapping-rain-water" target="_blank">https://leetcode.com/problems/trapping-rain-water</a>
+Problem statement taken from: <a href='https://leetcode.com/problems/trapping-rain-water' target='_blank'>https://leetcode.com/problems/trapping-rain-water</a>
 
 **Example 1:**
 

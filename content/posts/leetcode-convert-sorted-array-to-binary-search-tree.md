@@ -14,7 +14,7 @@ Given an integer array *nums* where the elements are sorted in **ascending order
 A **height-balanced** binary tree is a binary tree in which the depth of the two
 subtrees of every node never differ by more than one.
 
-Problem statement taken from: <a href="https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/" target="_blank">https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/</a>
+Problem statement taken from: <a href='https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/' target='_blank'>https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/</a>
 
 **Example 1:**
 

@@ -16,7 +16,7 @@ Each number in *candidates* may only be used **once** in the combination.
 
 **Note**: The solution set must not contain duplicate combinations.
 
-Problem statement taken from: <a href="https://leetcode.com/problems/combination-sum-ii" target="_blank">https://leetcode.com/problems/combination-sum-ii</a>.
+Problem statement taken from: <a href='https://leetcode.com/problems/combination-sum-ii' target='_blank'>https://leetcode.com/problems/combination-sum-ii</a>.
 
 **Example 1:**
 

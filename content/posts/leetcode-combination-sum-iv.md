@@ -13,7 +13,7 @@ return *the number of possible combinations that add up to the target*.
 
 The test cases are generated so that the answer can fit in a **32-bit** integer.
 
-Problem statement taken from: <a href="https://leetcode.com/problems/combination-sum-iv" target="_blank">https://leetcode.com/problems/combination-sum-iv</a>.
+Problem statement taken from: <a href='https://leetcode.com/problems/combination-sum-iv' target='_blank'>https://leetcode.com/problems/combination-sum-iv</a>.
 
 **Example 1:**
 

@@ -21,7 +21,7 @@ This is a great question to ask during an interview.
 For the purpose of this problem, we will return 0 when **needle** is an empty string.
 This is consistent to C's **strstr()** and Java's **indexOf()**.
 
-Problem statement taken from: <a href="https://leetcode.com/problems/implement-strstr" target="_blank">https://leetcode.com/problems/implement-strstr</a>
+Problem statement taken from: <a href='https://leetcode.com/problems/implement-strstr' target='_blank'>https://leetcode.com/problems/implement-strstr</a>
 
 **Example 1:**
 

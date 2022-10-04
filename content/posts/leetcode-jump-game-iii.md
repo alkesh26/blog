@@ -12,7 +12,7 @@ Given an array of non-negative integers *arr*, you are initially positioned at *
 
 Notice that you can not jump outside of the array at any time.
 
-Problem statement taken from: <a href="https://leetcode.com/problems/jump-game-iii/" target="_blank">https://leetcode.com/problems/jump-game-iii/</a>
+Problem statement taken from: <a href='https://leetcode.com/problems/jump-game-iii/' target='_blank'>https://leetcode.com/problems/jump-game-iii/</a>
 
 **Example 1:**
 

@@ -16,7 +16,7 @@ Your goal is to reach the last index in the minimum number of jumps.
 
 You can assume that you can always reach the last index.
 
-Problem statement taken from: <a href="https://leetcode.com/problems/jump-game-ii/" target="_blank">https://leetcode.com/problems/jump-game-ii/</a>
+Problem statement taken from: <a href='https://leetcode.com/problems/jump-game-ii/' target='_blank'>https://leetcode.com/problems/jump-game-ii/</a>
 
 **Example 1:**
 

@@ -12,7 +12,7 @@ Given an array *nums* of distinct integers,
 return *all the possible permutations*.
 You can return the answer in **any order**.
 
-Problem statement taken from: <a href="https://leetcode.com/problems/permutations" target="_blank">https://leetcode.com/problems/permutations</a>
+Problem statement taken from: <a href='https://leetcode.com/problems/permutations' target='_blank'>https://leetcode.com/problems/permutations</a>
 
 **Example 1:**
 

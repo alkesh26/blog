@@ -37,7 +37,7 @@ for (int i = 0; i < actualLength; i++) {
 
 If all assertions pass, then your solution will be **accepted**.
 
-Problem statement taken from: <a href="https://leetcode.com/problems/remove-element" target="_blank">https://leetcode.com/problems/remove-element</a>
+Problem statement taken from: <a href='https://leetcode.com/problems/remove-element' target='_blank'>https://leetcode.com/problems/remove-element</a>
 
 **Example 1:**
 

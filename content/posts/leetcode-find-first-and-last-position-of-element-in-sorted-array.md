@@ -15,7 +15,7 @@ find the starting and ending position of a given **target** value.
 
 If **target** is not found in the array, return **[-1, -1]**.
 
-Problem statement taken from: <a href="https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array" target="_blank">https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array</a>
+Problem statement taken from: <a href='https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array' target='_blank'>https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array</a>
 
 **Example 1:**
 

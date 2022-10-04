@@ -10,7 +10,7 @@ categories: "leetcode - return the number of structurally unique BST's, c++, gol
 
 Given an integer *n*, return *the number of structurally unique **BST's** (binary search trees) which has exactly n nodes of unique values from 1 to n*.
 
-Problem statement taken from: <a href="https://leetcode.com/problems/unique-binary-search-trees" target="_blank">https://leetcode.com/problems/unique-binary-search-trees</a>.
+Problem statement taken from: <a href='https://leetcode.com/problems/unique-binary-search-trees' target='_blank'>https://leetcode.com/problems/unique-binary-search-trees</a>.
 
 **Example 1:**
 

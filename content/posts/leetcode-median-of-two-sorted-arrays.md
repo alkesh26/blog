@@ -19,7 +19,7 @@ return **the median** of the two sorted arrays.
 
 The overall run time complexity should be **O(log (m+n))**.
 
-Problem statement taken from: <a href="https://leetcode.com/problems/median-of-two-sorted-arrays" target="_blank">https://leetcode.com/problems/median-of-two-sorted-arrays</a>
+Problem statement taken from: <a href='https://leetcode.com/problems/median-of-two-sorted-arrays' target='_blank'>https://leetcode.com/problems/median-of-two-sorted-arrays</a>
 
 **Example 1:**
 ```

@@ -15,7 +15,7 @@ where each represents a point at coordinate **(i, ai)**.
 Find two lines, which, together with the x-axis forms a container,
 such that the container contains the most water.
 
-Problem statement taken from: <a href="https://leetcode.com/problems/container-with-most-water" target="_blank">https://leetcode.com/problems/container-with-most-water</a>
+Problem statement taken from: <a href='https://leetcode.com/problems/container-with-most-water' target='_blank'>https://leetcode.com/problems/container-with-most-water</a>
 
 **Example 1:**
 

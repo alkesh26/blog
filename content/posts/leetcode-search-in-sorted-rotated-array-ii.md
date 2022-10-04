@@ -20,7 +20,7 @@ return true if target is in nums, or false if it is not in nums.
 
 You must decrease the overall operation steps as much as possible.
 
-Problem statement taken from: <a href="https://leetcode.com/problems/search-in-rotated-sorted-array-ii/" target="_blank">https://leetcode.com/problems/search-in-rotated-sorted-array-ii/</a>.
+Problem statement taken from: <a href='https://leetcode.com/problems/search-in-rotated-sorted-array-ii/' target='_blank'>https://leetcode.com/problems/search-in-rotated-sorted-array-ii/</a>.
 
 **Example 1:**
 

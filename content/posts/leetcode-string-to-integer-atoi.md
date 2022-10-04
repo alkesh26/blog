@@ -11,7 +11,7 @@ categories: "leetcode - string to integer atoi, c++, golang, javascript"
 Implement the myAtoi(string s) function, which converts a string to a 32-bit signed integer
 (similar to C/C++'s atoi function).
 
-Problem statement taken from: <a href="https://leetcode.com/problems/string-to-integer-atoi" target="_blank">https://leetcode.com/problems/string-to-integer-atoi</a>
+Problem statement taken from: <a href='https://leetcode.com/problems/string-to-integer-atoi' target='_blank'>https://leetcode.com/problems/string-to-integer-atoi</a>
 
 **Example 1:**
 ```

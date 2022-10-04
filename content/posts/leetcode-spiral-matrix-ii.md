@@ -10,7 +10,7 @@ categories: "leetcode - generate an n x n matrix filled with elements from 1 to 
 
 Given a positive integer *n*, generate an *n x n matrix* filled with elements from *1* to *n^2* in spiral order.
 
-Problem statement taken from: <a href="https://leetcode.com/problems/spiral-matrix-ii" target="_blank">https://leetcode.com/problems/spiral-matrix-ii</a>
+Problem statement taken from: <a href='https://leetcode.com/problems/spiral-matrix-ii' target='_blank'>https://leetcode.com/problems/spiral-matrix-ii</a>
 
 **Example 1:**
 

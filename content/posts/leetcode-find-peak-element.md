@@ -16,7 +16,7 @@ You may imagine that *nums[-1] = nums[n] = -∞*.
 
 You must write an algorithm that runs in *O(log n)* time.
 
-Problem statement taken from: <a href="https://leetcode.com/problems/find-peak-element" target="_blank">https://leetcode.com/problems/find-peak-element</a>
+Problem statement taken from: <a href='https://leetcode.com/problems/find-peak-element' target='_blank'>https://leetcode.com/problems/find-peak-element</a>
 
 **Example 1:**
 

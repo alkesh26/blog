@@ -12,7 +12,7 @@ Given two integers *n* and *k*, return *all possible combinations of k numbers o
 
 You may return the answer in **any order**.
 
-Problem statement taken from: <a href="https://leetcode.com/problems/combinations/" target="_blank">https://leetcode.com/problems/combinations/</a>.
+Problem statement taken from: <a href='https://leetcode.com/problems/combinations/' target='_blank'>https://leetcode.com/problems/combinations/</a>.
 
 **Example 1:**
 

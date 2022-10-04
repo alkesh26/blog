@@ -20,7 +20,7 @@ If *version1 < version2*, return *-1*.
 If *version1 > version2*, return *1*.
 Otherwise, return *0*.
 
-Problem statement taken from: <a href="https://leetcode.com/problems/compare-version-numbers" target="_blank">https://leetcode.com/problems/compare-version-numbers</a>
+Problem statement taken from: <a href='https://leetcode.com/problems/compare-version-numbers' target='_blank'>https://leetcode.com/problems/compare-version-numbers</a>
 
 **Example 1:**
 

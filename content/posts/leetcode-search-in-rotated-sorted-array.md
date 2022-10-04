@@ -21,7 +21,7 @@ return the index of *target* if *it is in nums, or -1 if it is not in nums*.
 
 You must write an algorithm with `O(log n)` runtime complexity.
 
-Problem statement taken from: <a href="https://leetcode.com/problems/search-in-rotated-sorted-array" target="_blank">https://leetcode.com/problems/search-in-rotated-sorted-array</a>
+Problem statement taken from: <a href='https://leetcode.com/problems/search-in-rotated-sorted-array' target='_blank'>https://leetcode.com/problems/search-in-rotated-sorted-array</a>
 
 **Example 1:**
 

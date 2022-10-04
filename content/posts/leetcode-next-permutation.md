@@ -16,7 +16,7 @@ it must rearrange it as the lowest possible order (i.e., sorted in ascending ord
 
 The replacement must be in place and use only constant extra memory.
 
-Problem statement taken from: <a href="https://leetcode.com/problems/next-permutation" target="_blank">https://leetcode.com/problems/next-permutation</a>
+Problem statement taken from: <a href='https://leetcode.com/problems/next-permutation' target='_blank'>https://leetcode.com/problems/next-permutation</a>
 
 **Example 1:**
 

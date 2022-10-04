@@ -12,7 +12,7 @@ Given an integer rowIndex, return the rowIndexth (0-indexed) row of Pascal's tri
 
 In Pascal's triangle, each number is the sum of the two numbers directly above it, as shown:
 
-Problem statement taken from: <a href="https://leetcode.com/problems/pascals-triangle-ii" target="_blank">https://leetcode.com/problems/pascals-triangle-ii</a>
+Problem statement taken from: <a href='https://leetcode.com/problems/pascals-triangle-ii' target='_blank'>https://leetcode.com/problems/pascals-triangle-ii</a>
 
 ![Container](./../pascals-triangle-animated.gif)
 

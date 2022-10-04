@@ -10,7 +10,7 @@ categories: "leetcode - longest substring without repeating characters, c++, gol
 
 Given a string **s**, find the length of the longest substring without repeating characters.
 
-Problem statement taken from: <a href="https://leetcode.com/problems/longest-substring-without-repeating-characters" target="_blank">https://leetcode.com/problems/longest-substring-without-repeating-characters</a>
+Problem statement taken from: <a href='https://leetcode.com/problems/longest-substring-without-repeating-characters' target='_blank'>https://leetcode.com/problems/longest-substring-without-repeating-characters</a>
 
 **Example 1:**
 ```

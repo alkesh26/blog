@@ -14,7 +14,7 @@ Besides the *root*, each house has one and only one parent house. After a tour, 
 
 Given the *root* of the binary tree, return *the maximum amount of money the thief can rob **without alerting the police***.
 
-Problem statement taken from: <a href="https://leetcode.com/problems/house-robber-iii/" target="_blank">https://leetcode.com/problems/house-robber-iii/</a>
+Problem statement taken from: <a href='https://leetcode.com/problems/house-robber-iii/' target='_blank'>https://leetcode.com/problems/house-robber-iii/</a>
 
 **Example 1:**
 

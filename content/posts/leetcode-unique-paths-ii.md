@@ -19,7 +19,7 @@ Return *the number of possible unique paths that the robot can take to reach the
 
 The test cases are generated so that the answer will be less than or equal to *2 * 10^9*.
 
-Problem statement taken from: <a href="https://leetcode.com/problems/unique-paths-ii" target="_blank">https://leetcode.com/problems/unique-paths-ii</a>
+Problem statement taken from: <a href='https://leetcode.com/problems/unique-paths-ii' target='_blank'>https://leetcode.com/problems/unique-paths-ii</a>
 
 **Example 1:**
 

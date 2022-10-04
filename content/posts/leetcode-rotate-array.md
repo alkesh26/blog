@@ -10,7 +10,7 @@ categories: "leetcode - rotate array to right by k steps, c++, golang, javascrip
 
 Given an array, rotate the array to the right by **k** steps, where **k** is non-negative.
 
-Problem statement taken from: <a href="https://leetcode.com/problems/rotate-array/" target="_blank">https://leetcode.com/problems/rotate-array/</a>.
+Problem statement taken from: <a href='https://leetcode.com/problems/rotate-array/' target='_blank'>https://leetcode.com/problems/rotate-array/</a>.
 
 **Example 1:**
 

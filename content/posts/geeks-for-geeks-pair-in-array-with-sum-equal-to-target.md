@@ -12,7 +12,7 @@ Given array nums of n numbers and another number target, determines
 whether or not there exist two elements in nums whose sum is exactly equal to target.
 
 Problem statement taken from:
-<a href="https://www.geeksforgeeks.org/given-an-array-a-and-a-number-x-check-for-pair-in-a-with-sum-as-x/" target="_blank">
+<a href='https://www.geeksforgeeks.org/given-an-array-a-and-a-number-x-check-for-pair-in-a-with-sum-as-x/' target='_blank'>
   https://www.geeksforgeeks.org/given-an-array-a-and-a-number-x-check-for-pair-in-a-with-sum-as-x/
 </a>
 

@@ -17,7 +17,7 @@ and each element in the array contains a single digit.
 You may assume the integer does not contain any leading zero,
 except the number 0 itself.
 
-Problem statement taken from: <a href="https://leetcode.com/problems/plus-one" target="_blank">https://leetcode.com/problems/plus-one</a>
+Problem statement taken from: <a href='https://leetcode.com/problems/plus-one' target='_blank'>https://leetcode.com/problems/plus-one</a>
 
 **Example 1:**
 

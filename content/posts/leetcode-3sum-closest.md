@@ -15,7 +15,7 @@ Return *the sum of the three integers*.
 
 You may assume that each input would have exactly one solution.
 
-Problem statement taken from: <a href="https://leetcode.com/problems/3sum-closest" target="_blank">https://leetcode.com/problems/3sum-closest</a>
+Problem statement taken from: <a href='https://leetcode.com/problems/3sum-closest' target='_blank'>https://leetcode.com/problems/3sum-closest</a>
 
 **Example 1:**
 

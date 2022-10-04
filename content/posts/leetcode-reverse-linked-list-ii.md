@@ -11,7 +11,7 @@ categories: "leetcode - reverse a sublist in a linked list, c++, golang, javascr
 Given the head of a singly linked list and two integers *left* and *right* where *left <= right*,
 reverse the nodes of the list from position *left* to position *right*, and return the reversed list.
 
-Problem statement taken from: <a href="https://leetcode.com/problems/reverse-linked-list-ii" target="_blank">https://leetcode.com/problems/reverse-linked-list-ii</a>
+Problem statement taken from: <a href='https://leetcode.com/problems/reverse-linked-list-ii' target='_blank'>https://leetcode.com/problems/reverse-linked-list-ii</a>
 
 **Example 1:**
 

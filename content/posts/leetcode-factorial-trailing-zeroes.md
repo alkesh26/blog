@@ -12,7 +12,7 @@ Given an integer *n*, return the number of trailing zeroes in *n!*.
 
 Note that *n! = n * (n - 1) * (n - 2) * ... * 3 * 2 * 1*.
 
-Problem statement taken from: <a href="https://leetcode.com/problems/factorial-trailing-zeroes" target="_blank">https://leetcode.com/problems/factorial-trailing-zeroes</a>
+Problem statement taken from: <a href='https://leetcode.com/problems/factorial-trailing-zeroes' target='_blank'>https://leetcode.com/problems/factorial-trailing-zeroes</a>
 
 **Example 1:**
 

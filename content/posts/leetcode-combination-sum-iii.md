@@ -16,7 +16,7 @@ Find all valid combinations of *k* numbers that sum up to *n* such that the foll
 Return *a list of all possible valid combinations*.
 The list must not contain the same combination twice, and the combinations may be returned in any order.
 
-Problem statement taken from: <a href="https://leetcode.com/problems/combination-sum-iii" target="_blank">https://leetcode.com/problems/combination-sum-iii</a>.
+Problem statement taken from: <a href='https://leetcode.com/problems/combination-sum-iii' target='_blank'>https://leetcode.com/problems/combination-sum-iii</a>.
 
 **Example 1:**
 

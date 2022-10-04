@@ -34,7 +34,7 @@ for (int i = 0; i < k; i++) {
 
 If all assertions pass, then your solution will be **accepted**.
 
-Problem statement taken from: <a href="https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii" target="_blank">https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii</a>
+Problem statement taken from: <a href='https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii' target='_blank'>https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii</a>
 
 **Example 1:**
 

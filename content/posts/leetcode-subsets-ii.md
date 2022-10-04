@@ -12,7 +12,7 @@ Given an integer array *nums* that may contain duplicates, return *all possible 
 
 The solution set **must not** contain duplicate subsets. Return the solution in **any order**.
 
-Problem statement taken from: <a href="https://leetcode.com/problems/subsets-ii" target="_blank">https://leetcode.com/problems/subsets-ii</a>.
+Problem statement taken from: <a href='https://leetcode.com/problems/subsets-ii' target='_blank'>https://leetcode.com/problems/subsets-ii</a>.
 
 **Example 1:**
 

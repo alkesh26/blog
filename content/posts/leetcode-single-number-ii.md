@@ -12,7 +12,7 @@ Given an integer array nums where every element appears **three times** except f
 
 You must implement a solution with a linear runtime complexity and use only constant extra space.
 
-Problem statement taken from: <a href="https://leetcode.com/problems/single-number-ii" target="_blank">https://leetcode.com/problems/single-number-ii</a>.
+Problem statement taken from: <a href='https://leetcode.com/problems/single-number-ii' target='_blank'>https://leetcode.com/problems/single-number-ii</a>.
 
 **Example 1:**
 

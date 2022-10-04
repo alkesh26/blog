@@ -14,7 +14,7 @@ all the values along the path equal *targetSum*.
 
 A **leaf** is a node with no children.
 
-Problem statement taken from: <a href="https://leetcode.com/problems/path-sum" target="_blank">https://leetcode.com/problems/path-sum</a>
+Problem statement taken from: <a href='https://leetcode.com/problems/path-sum' target='_blank'>https://leetcode.com/problems/path-sum</a>
 
 **Example 1:**
 

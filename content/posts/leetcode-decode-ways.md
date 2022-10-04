@@ -33,7 +33,7 @@ Given a string *s* containing only digits, *return the **number** of ways to **d
 
 The answer is guaranteed to fit in a 32-bit integer.
 
-Problem statement taken from: <a href="https://leetcode.com/problems/decode-ways" target="_blank">https://leetcode.com/problems/decode-ways</a>
+Problem statement taken from: <a href='https://leetcode.com/problems/decode-ways' target='_blank'>https://leetcode.com/problems/decode-ways</a>
 
 **Example 1:**
 

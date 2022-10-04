@@ -14,7 +14,7 @@ Find all unique triplets in the array which gives the sum of zero.
 
 **Note:** The solution set must not contain duplicate triplets.
 
-Problem statement taken from: <a href="https://leetcode.com/problems/3sum/" target="_blank">https://leetcode.com/problems/3sum/</a>
+Problem statement taken from: <a href='https://leetcode.com/problems/3sum/' target='_blank'>https://leetcode.com/problems/3sum/</a>
 
 **Example 1:**
 ```

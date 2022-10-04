@@ -16,7 +16,7 @@ appears only once and returns the new length.
 Do not allocate extra space for another array,
 you must do this by modifying the input array in-place with **O(1)** extra memory.
 
-Problem statement taken from: <a href="https://leetcode.com/problems/remove-duplicates-from-sorted-array" target="_blank">https://leetcode.com/problems/remove-duplicates-from-sorted-array</a>
+Problem statement taken from: <a href='https://leetcode.com/problems/remove-duplicates-from-sorted-array' target='_blank'>https://leetcode.com/problems/remove-duplicates-from-sorted-array</a>
 
 **Example 1:**
 

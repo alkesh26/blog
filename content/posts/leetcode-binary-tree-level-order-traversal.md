@@ -10,7 +10,7 @@ categories: "leetcode - return the level order traversal of binary tree nodes, c
 
 Given the *root* of a binary tree, return *the level order traversal of its nodes'* values. (i.e., from left to right, level by level).
 
-Problem statement taken from: <a href="https://leetcode.com/problems/binary-tree-level-order-traversal" target="_blank">https://leetcode.com/problems/binary-tree-level-order-traversal</a>
+Problem statement taken from: <a href='https://leetcode.com/problems/binary-tree-level-order-traversal' target='_blank'>https://leetcode.com/problems/binary-tree-level-order-traversal</a>
 
 **Example 1:**
 

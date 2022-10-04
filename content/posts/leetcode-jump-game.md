@@ -14,7 +14,7 @@ and each element in the array represents your maximum jump length at that positi
 
 Return **true** if you can reach the last index, or **false** otherwise.
 
-Problem statement taken from: <a href="https://leetcode.com/problems/jump-game" target="_blank">https://leetcode.com/problems/jump-game</a>
+Problem statement taken from: <a href='https://leetcode.com/problems/jump-game' target='_blank'>https://leetcode.com/problems/jump-game</a>
 
 **Example 1:**
 

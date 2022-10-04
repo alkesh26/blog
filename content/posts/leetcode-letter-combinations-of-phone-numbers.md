@@ -17,7 +17,7 @@ Return the answer in **any order**.
 A mapping of digit to letters (just like on the telephone buttons) is given below.
 Note that 1 does not map to any letters.
 
-Problem statement taken from: <a href="https://leetcode.com/problems/letter-combinations-of-a-phone-number" target="_blank">https://leetcode.com/problems/letter-combinations-of-a-phone-number</a>
+Problem statement taken from: <a href='https://leetcode.com/problems/letter-combinations-of-a-phone-number' target='_blank'>https://leetcode.com/problems/letter-combinations-of-a-phone-number</a>
 
 **Example 1:**
 

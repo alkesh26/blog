@@ -13,7 +13,7 @@ merge all overlapping intervals,
 and
 *return an array of the non-overlapping intervals that cover all the intervals in the input*.
 
-Problem statement taken from: <a href="https://leetcode.com/problems/merge-intervals" target="_blank">https://leetcode.com/problems/merge-intervals</a>
+Problem statement taken from: <a href='https://leetcode.com/problems/merge-intervals' target='_blank'>https://leetcode.com/problems/merge-intervals</a>
 
 **Example 1:**
 

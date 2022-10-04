@@ -13,7 +13,7 @@ find a path from the top left to the bottom right, which minimizes the sum of al
 
 **Note:** You can only move either down or right at any point in time.
 
-Problem statement taken from: <a href="https://leetcode.com/problems/minimum-path-sum" target="_blank">https://leetcode.com/problems/minimum-path-sum</a>
+Problem statement taken from: <a href='https://leetcode.com/problems/minimum-path-sum' target='_blank'>https://leetcode.com/problems/minimum-path-sum</a>
 
 **Example 1:**
 

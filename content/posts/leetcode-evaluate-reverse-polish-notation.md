@@ -16,7 +16,7 @@ Valid operators are *+*, *-*, *, and */*. Each operand may be an integer or anot
 
 It is guaranteed that the given RPN expression is always valid. That means the expression would always evaluate to a result, and there will not be any division by zero operation.
 
-Problem statement taken from: <a href="https://leetcode.com/problems/evaluate-reverse-polish-notation" target="_blank">https://leetcode.com/problems/evaluate-reverse-polish-notation</a>
+Problem statement taken from: <a href='https://leetcode.com/problems/evaluate-reverse-polish-notation' target='_blank'>https://leetcode.com/problems/evaluate-reverse-polish-notation</a>
 
 **Example 1:**
 

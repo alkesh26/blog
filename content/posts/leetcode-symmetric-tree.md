@@ -11,7 +11,7 @@ categories: "leetcode - check whether a tree is mirror of itself, c++, golang, j
 Given the *root* of a binary tree,
 *check whether it is a mirror of itself* (i.e., symmetric around its center).
 
-Problem statement taken from: <a href="https://leetcode.com/problems/symmetric-tree" target="_blank">https://leetcode.com/problems/symmetric-tree</a>
+Problem statement taken from: <a href='https://leetcode.com/problems/symmetric-tree' target='_blank'>https://leetcode.com/problems/symmetric-tree</a>
 
 **Example 1:**
 

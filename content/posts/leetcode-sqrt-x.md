@@ -18,7 +18,7 @@ and only **the integer part** of the result is returned.
 **Note**: You are not allowed to use any built-in exponent function or operator, such as
 `pow(x, 0.5)` or `x ** 0.5`.
 
-Problem statement taken from: <a href="https://leetcode.com/problems/sqrtx" target="_blank">https://leetcode.com/problems/sqrtx</a>
+Problem statement taken from: <a href='https://leetcode.com/problems/sqrtx' target='_blank'>https://leetcode.com/problems/sqrtx</a>
 
 **Example 1:**
 

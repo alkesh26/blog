@@ -15,7 +15,7 @@ swap every two adjacent nodes and return its head.
 You must solve the problem without modifying the
 values in the list's nodes (i.e., only nodes themselves may be changed.)
 
-Problem statement taken from: <a href="https://leetcode.com/problems/swap-nodes-in-pairs" target="_blank">https://leetcode.com/problems/swap-nodes-in-pairs</a>
+Problem statement taken from: <a href='https://leetcode.com/problems/swap-nodes-in-pairs' target='_blank'>https://leetcode.com/problems/swap-nodes-in-pairs</a>
 
 **Example 1:**
 

@@ -15,7 +15,7 @@ return the index where it would be if it were inserted in order.
 
 You must write an algorithm with **O(log n)** runtime complexity.
 
-Problem statement taken from: <a href="https://leetcode.com/problems/search-insert-position" target="_blank">https://leetcode.com/problems/search-insert-position</a>
+Problem statement taken from: <a href='https://leetcode.com/problems/search-insert-position' target='_blank'>https://leetcode.com/problems/search-insert-position</a>
 
 **Example 1:**
 

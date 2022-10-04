@@ -24,7 +24,7 @@ Write the code that will take a string and make this conversion given a number o
 string convert(string s, int numRows);
 ```
 
-Problem statement taken from: <a href="https://leetcode.com/problems/zigzag-conversion" target="_blank">https://leetcode.com/problems/zigzag-conversion</a>
+Problem statement taken from: <a href='https://leetcode.com/problems/zigzag-conversion' target='_blank'>https://leetcode.com/problems/zigzag-conversion</a>
 
 **Example 1:**
 

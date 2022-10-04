@@ -14,7 +14,7 @@ Add the two numbers and return the sum as a linked list.
 
 You may assume the two numbers do not contain any leading zero, except the number 0 itself.
 
-Problem statement taken from: <a href="https://leetcode.com/problems/add-two-numbers" target="_blank">https://leetcode.com/problems/add-two-numbers</a>
+Problem statement taken from: <a href='https://leetcode.com/problems/add-two-numbers' target='_blank'>https://leetcode.com/problems/add-two-numbers</a>
 
 **Example 1:**
 ```

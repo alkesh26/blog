@@ -24,7 +24,7 @@ Populate each next pointer to point to its next right node. If there is no next 
 
 Initially, all next pointers are set to NULL.
 
-Problem statement taken from: <a href="https://leetcode.com/problems/populating-next-right-pointers-in-each-node" target="_blank">https://leetcode.com/problems/populating-next-right-pointers-in-each-node</a>
+Problem statement taken from: <a href='https://leetcode.com/problems/populating-next-right-pointers-in-each-node' target='_blank'>https://leetcode.com/problems/populating-next-right-pointers-in-each-node</a>
 
 **Example 1:**
 

@@ -15,7 +15,7 @@ The test cases are generated so that the answer will fit in a **32-bit** integer
 
 A **subarray** is a contiguous subsequence of the array.
 
-Problem statement taken from: <a href="https://leetcode.com/problems/maximum-product-subarray" target="_blank">https://leetcode.com/problems/maximum-product-subarray</a>.
+Problem statement taken from: <a href='https://leetcode.com/problems/maximum-product-subarray' target='_blank'>https://leetcode.com/problems/maximum-product-subarray</a>.
 
 **Example 1:**
 

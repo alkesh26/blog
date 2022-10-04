@@ -10,7 +10,7 @@ categories: "leetcode - for a given matrix m * n return all elements of the matr
 
 Given an **m x n matrix**, return *all elements of the matrix in spiral order*.
 
-Problem statement taken from: <a href="https://leetcode.com/problems/spiral-matrix" target="_blank">https://leetcode.com/problems/spiral-matrix</a>
+Problem statement taken from: <a href='https://leetcode.com/problems/spiral-matrix' target='_blank'>https://leetcode.com/problems/spiral-matrix</a>
 
 
 **Example 1:**

@@ -18,7 +18,7 @@ We will use the integers **0**, **1**, and **2** to represent the color red, whi
 
 You must solve this problem without using the library's sort function.
 
-Problem statement taken from: <a href="https://leetcode.com/problems/sort-colors" target="_blank">https://leetcode.com/problems/sort-colors</a>
+Problem statement taken from: <a href='https://leetcode.com/problems/sort-colors' target='_blank'>https://leetcode.com/problems/sort-colors</a>
 
 **Example 1:**
 

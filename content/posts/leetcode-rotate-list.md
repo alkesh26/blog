@@ -10,7 +10,7 @@ categories: "leetcode - rotate the list to the right by k places, c++, golang, j
 
 Given the *head* of a linked list, rotate the list to the right by *k* places.
 
-Problem statement taken from: <a href="https://leetcode.com/problems/rotate-list" target="_blank">https://leetcode.com/problems/rotate-list</a>
+Problem statement taken from: <a href='https://leetcode.com/problems/rotate-list' target='_blank'>https://leetcode.com/problems/rotate-list</a>
 
 **Example 1:**
 

@@ -19,7 +19,7 @@ An input string is valid if:
   2. Open brackets must be closed in the correct order.
 ```
 
-Problem statement taken from: <a href="https://leetcode.com/problems/valid-parentheses" target="_blank">https://leetcode.com/problems/valid-parentheses</a>
+Problem statement taken from: <a href='https://leetcode.com/problems/valid-parentheses' target='_blank'>https://leetcode.com/problems/valid-parentheses</a>
 
 **Example 1:**
 

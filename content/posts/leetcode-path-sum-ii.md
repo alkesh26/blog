@@ -15,7 +15,7 @@ Given the *root* of a binary tree and an integer *targetSum*, return
 A **root-to-leaf** path is a path starting from the root and ending at any leaf node.
 A **leaf** is a node with no children.
 
-Problem statement taken from: <a href="https://leetcode.com/problems/path-sum-ii" target="_blank">https://leetcode.com/problems/path-sum-ii</a>
+Problem statement taken from: <a href='https://leetcode.com/problems/path-sum-ii' target='_blank'>https://leetcode.com/problems/path-sum-ii</a>
 
 **Example 1:**
 

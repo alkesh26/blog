@@ -15,31 +15,31 @@ Problem statement taken from: <a href='https://leetcode.com/problems/string-to-i
 
 **Example 1:**
 ```
-Input: s = "42"
+Input: s = '42'
 Output: 42
 ```
 
 **Example 2:**
 ```
-Input: s = "      -142"
+Input: s = '      -142'
 Output: 142
 ```
 
 **Example 3:**
 ```
-Input: s = "871 and words"
+Input: s = '871 and words'
 Output: 871
 ```
 
 **Example 4:**
 ```
-Input: s = "Words and then number 987"
+Input: s = 'Words and then number 987'
 Output: 0
 ```
 
 **Example 5:**
 ```
-Input: s = "-91283472332"
+Input: s = '-91283472332'
 Output: -2147483648
 ```
 
@@ -225,7 +225,7 @@ var myAtoi = function(s) {
 Let's dry-run our algorithm to see how the solution works.
 
 ```
-s = "      -142"
+s = '      -142'
 
 Step 1: intMax = 2^31 - 1
         intMin = -2^31.

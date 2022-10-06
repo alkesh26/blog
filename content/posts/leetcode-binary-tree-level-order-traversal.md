@@ -68,7 +68,7 @@ void printLevel(node* root, int level){
         return;
 
     if (level == 0)
-        cout << root->data << " ";
+        cout << root->data << ' ';
     else if (level > 0) {
         printLevel(root->left, level - 1);
         printLevel(root->right, level - 1);

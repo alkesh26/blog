@@ -26,21 +26,21 @@ Problem statement taken from: <a href='https://leetcode.com/problems/implement-s
 **Example 1:**
 
 ```
-Input: haystack = "hello", needle = "ll"
+Input: haystack = 'hello', needle = 'll'
 Output: 2
 ```
 
 **Example 2:**
 
 ```
-Input: haystack = "aaaaa", needle = "bba"
+Input: haystack = 'aaaaa', needle = 'bba'
 Output: -1
 ```
 
 **Example 3:**
 
 ```
-Input: haystack = "", needle = ""
+Input: haystack = '', needle = ''
 Output: 0
 ```
 
@@ -259,7 +259,7 @@ var strStr = function(haystack, needle) {
 Let's dry-run our algorithm to see how the solution works.
 
 ```
-Input: haystack = "hello", needle = "ll"
+Input: haystack = 'hello', needle = 'll'
 
 Step 1: needle.size() == 0
         false

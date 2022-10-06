@@ -21,7 +21,7 @@ Problem statement taken from: <a href='https://leetcode.com/problems/evaluate-re
 **Example 1:**
 
 ```
-Input: tokens = ["2", "1", "+", "3", "*"]
+Input: tokens = ['2', '1', '+', '3', '*']
 Output: 9
 Explanation: ((2 + 1) * 3) = 9
 ```
@@ -29,7 +29,7 @@ Explanation: ((2 + 1) * 3) = 9
 **Example 2:**
 
 ```
-Input: tokens = ["4", "13", "5", "/", "+"]
+Input: tokens = ['4', '13', '5', '/', '+']
 Output: 6
 Explanation: (4 + (13 / 5)) = 6
 ```
@@ -37,7 +37,7 @@ Explanation: (4 + (13 / 5)) = 6
 **Example 3:**
 
 ```
-Input: tokens = ["10", "6", "9", "3", "+", "-11", "*", "/", "*", "17", "+", "5", "+"]
+Input: tokens = ['10', '6', '9', '3', '+', '-11', '*', '/', '*', '17', '+', '5', '+']
 Output: 22
 Explanation: ((10 * (6 / ((9 + 3) * -11))) + 17) + 5
 = ((10 * (6 / (12 * -11))) + 17) + 5
@@ -52,7 +52,7 @@ Explanation: ((10 * (6 / ((9 + 3) * -11))) + 17) + 5
 
 ```
 - 1 <= tokens.length <= 10^4
-- tokens[i] is either an operator: "+", "-", "*", or "/", or an integer in the range [-200, 200]
+- tokens[i] is either an operator: '+', '-', '*', or '/', or an integer in the range [-200, 200]
 ```
 
 #### Explanation
@@ -67,17 +67,17 @@ The basic approach is using the stack. Let's check the algorithm directly:
   initialize int op1, op2
 
 - loop for i = 0; i < tokens.size; i++
-  - if tokens[i] != "+" && tokens[i] != "-" && tokens[i] != "*" && tokens[i] != "/"
+  - if tokens[i] != '+' && tokens[i] != '-' && tokens[i] != '*' && tokens[i] != '/'
     - push to stack st.push(tokens[i])
   - else
     - set op2 = st.pop()
       set op1 = st.pop()
 
-    - if tokens[i] == "+"
+    - if tokens[i] == '+'
       - st.push(op1 + op2)
-    - else if tokens[i] == "-"
+    - else if tokens[i] == '-'
       - st.push(op1 - op2)
-    - else if tokens[i] == "*"
+    - else if tokens[i] == '*'
       - st.push(op1 * op2)
     - else
       - st.push(op1 / op2)
@@ -102,7 +102,7 @@ public:
         ll op1, op2;
 
         for(int i = 0; i < tokens.size(); i++) {
-            if(tokens[i] != "+" && tokens[i] != "-" && tokens[i] != "*" && tokens[i] != "/") {
+            if(tokens[i] != '+' && tokens[i] != '-' && tokens[i] != '*' && tokens[i] != '/') {
                 st.push(stol(tokens[i]));
             } else {
                 op2 = st.top();
@@ -110,11 +110,11 @@ public:
                 op1 = st.top();
                 st.pop();
 
-                if(tokens[i] == "+")
+                if(tokens[i] == '+')
                     st.push(op1 + op2);
-                else if(tokens[i] == "-")
+                else if(tokens[i] == '-')
                     st.push(op1 - op2);
-                else if(tokens[i] == "*")
+                else if(tokens[i] == '*')
                     st.push(op1 * op2);
                 else
                     st.push(op1 / op2);
@@ -133,16 +133,16 @@ func evalRPN(tokens []string) int {
     st := []int{}
 
     for _, token := range tokens {
-        if token == "+" {
+        if token == '+' {
             st[len(st) - 2] += st[len(st) - 1]
             st = st[:len(st) - 1]
-        } else if token == "-" {
+        } else if token == '-' {
             st[len(st) - 2] -= st[len(st) - 1]
             st = st[:len(st) - 1]
-        } else if token == "*" {
+        } else if token == '*' {
             st[len(st) - 2] *= st[len(st) - 1]
             st = st[:len(st) - 1]
-        } else if token == "/" {
+        } else if token == '/' {
             st[len(st) - 2] /= st[len(st) - 1]
             st = st[:len(st) - 1]
         } else {
@@ -163,17 +163,17 @@ var evalRPN = function(tokens) {
     let op1, op2;
 
     for(let i = 0; i < tokens.length; i++) {
-        if(tokens[i] != "+" && tokens[i] != "-" && tokens[i] != "*" && tokens[i] != "/") {
+        if(tokens[i] != '+' && tokens[i] != '-' && tokens[i] != '*' && tokens[i] != '/') {
                 st.push(parseInt(tokens[i]));
         } else {
             op2 = st.pop();
             op1 = st.pop();
 
-            if(tokens[i] === "+")
+            if(tokens[i] === '+')
                 st.push(op1 + op2);
-            else if(tokens[i] === "-")
+            else if(tokens[i] === '-')
                 st.push(op1 - op2);
-            else if(tokens[i] === "*")
+            else if(tokens[i] === '*')
                 st.push(op1 * op2);
             else
                 st.push(op1 / op2 | 0);
@@ -187,7 +187,7 @@ var evalRPN = function(tokens) {
 Let's dry-run our algorithm to see how the solution works.
 
 ```
-Input: tokens = ["2", "1", "+", "3", "*"]
+Input: tokens = ['2', '1', '+', '3', '*']
 
 Step 1: stack<ll> st
         int op1, op2
@@ -197,8 +197,8 @@ Step 2: loop for int i = 0; i < tokens.size()
           0 < 5
           true
 
-          if tokens[i] != "+" && tokens[i] != "-" && tokens[i] != "*" && tokens[i] != "/"
-             tokens[0] is "2"
+          if tokens[i] != '+' && tokens[i] != '-' && tokens[i] != '*' && tokens[i] != '/'
+             tokens[0] is '2'
              true
 
              st.push(stoi(tokens[i]))
@@ -214,8 +214,8 @@ Step 3: loop for i < tokens.size()
           1 < 5
           true
 
-          if tokens[i] != "+" && tokens[i] != "-" && tokens[i] != "*" && tokens[i] != "/"
-             tokens[1] is "1"
+          if tokens[i] != '+' && tokens[i] != '-' && tokens[i] != '*' && tokens[i] != '/'
+             tokens[1] is '1'
              true
 
              st.push(stoi(tokens[i]))
@@ -231,8 +231,8 @@ Step 4: loop for i < tokens.size()
           2 < 5
           true
 
-          if tokens[i] != "+" && tokens[i] != "-" && tokens[i] != "*" && tokens[i] != "/"
-             tokens[1] is "+"
+          if tokens[i] != '+' && tokens[i] != '-' && tokens[i] != '*' && tokens[i] != '/'
+             tokens[1] is '+'
              false
 
           else
@@ -248,7 +248,7 @@ Step 4: loop for i < tokens.size()
             st.pop()
             st = []
 
-            if tokens[i] == "+"
+            if tokens[i] == '+'
                true
 
                st.push(op1 + op2)
@@ -264,8 +264,8 @@ Step 5: loop for i < tokens.size()
           3 < 5
           true
 
-          if tokens[i] != "+" && tokens[i] != "-" && tokens[i] != "*" && tokens[i] != "/"
-             tokens[3] is "3"
+          if tokens[i] != '+' && tokens[i] != '-' && tokens[i] != '*' && tokens[i] != '/'
+             tokens[3] is '3'
              true
 
              st.push(stoi(tokens[i]))
@@ -281,8 +281,8 @@ Step 6: loop for i < tokens.size()
           4 < 5
           true
 
-          if tokens[i] != "+" && tokens[i] != "-" && tokens[i] != "*" && tokens[i] != "/"
-             tokens[4] is "*"
+          if tokens[i] != '+' && tokens[i] != '-' && tokens[i] != '*' && tokens[i] != '/'
+             tokens[4] is '*'
              false
 
           else
@@ -298,11 +298,11 @@ Step 6: loop for i < tokens.size()
             st.pop()
             st = []
 
-            if tokens[i] == "+"
+            if tokens[i] == '+'
               false
-            else if tokens[i] == "-"
+            else if tokens[i] == '-'
               false
-            else if tokens[i] == "*"
+            else if tokens[i] == '*'
                st.push(op1 * op2)
                st.push(3 * 3)
                st.push(9)

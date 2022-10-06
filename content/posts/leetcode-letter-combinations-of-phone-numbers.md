@@ -22,22 +22,22 @@ Problem statement taken from: <a href='https://leetcode.com/problems/letter-comb
 **Example 1:**
 
 ```
-Input: digits = "23"
-Output: ["ad", "ae", "af", "bd", "be", "bf", "cd", "ce", "cf"]
+Input: digits = '23'
+Output: ['ad', 'ae', 'af', 'bd', 'be', 'bf', 'cd', 'ce', 'cf']
 ```
 
 **Example 2:**
 
 ```
-Input: digits = ""
+Input: digits = ''
 Output: []
 ```
 
 **Example 3:**
 
 ```
-Input: digits = "2"
-Output: ["a", "b", "c"]
+Input: digits = '2'
+Output: ['a', 'b', 'c']
 ```
 
 **Constraints:**
@@ -65,10 +65,10 @@ will pass on the current output string.
 
 For example,
 if the number is 34,
-digit 3 is mapped to "def".
+digit 3 is mapped to 'def'.
 Three recursive functions will be called
 for each character d, e, and f.
-And for digit 4 which is mapped to "ghi", we
+And for digit 4 which is mapped to 'ghi', we
 append characters g, h, and i to all d, e, and f.
 This will generate dg, dh, di, eg, eh, ei and
 fg, fh, fi.
@@ -81,7 +81,7 @@ fg, fh, fi.
 - initialize the result as an empty array.
 
 - if digits.size() != 0
-  - call recursive function generateCombination("", digits, 0)
+  - call recursive function generateCombination('', digits, 0)
 
 - return result.
 
@@ -104,9 +104,9 @@ fg, fh, fi.
 class Solution {
 private:
     map<char, string> m = {
-        {'2', "abc"}, {'3', "def"}, {'4', "ghi"},
-        {'5', "jkl"}, {'6', "mno"}, {'7', "pqrs"},
-        {'8', "tuv"}, {'9', "wxyz"}
+        {'2', 'abc'}, {'3', 'def'}, {'4', 'ghi'},
+        {'5', 'jkl'}, {'6', 'mno'}, {'7', 'pqrs'},
+        {'8', 'tuv'}, {'9', 'wxyz'}
     };
 
     vector<string> result;
@@ -114,7 +114,7 @@ private:
 public:
     vector<string> letterCombinations(string digits) {
         if(digits.size() != 0){
-            generateCombination("", digits, 0);
+            generateCombination('', digits, 0);
         }
 
         return result;
@@ -137,8 +137,8 @@ public:
 #### Golang solution
 
 ```go
-var letters = [...]string{"", "", "abc", "def", "ghi", "jkl",
-	"mno", "pqrs", "tuv", "wxyz"}
+var letters = [...]string{'', '', 'abc', 'def', 'ghi', 'jkl',
+	'mno', 'pqrs', 'tuv', 'wxyz'}
 
 func letterCombinations(digits string) []string {
     if len(digits) == 0 {
@@ -147,7 +147,7 @@ func letterCombinations(digits string) []string {
 
 	var result []string
 
-    generateCombination("", digits, &result)
+    generateCombination('', digits, &result)
 
 	return result
 }
@@ -209,12 +209,12 @@ function generateCombination(current, digits, index) {
 Let's dry-run our algorithm to see how the solution works.
 
 ```
-Input: digits = "23"
+Input: digits = '23'
 
 Step 1: map<char, string> m = {
-            {'2', "abc"}, {'3', "def"}, {'4', "ghi"},
-            {'5', "jkl"}, {'6', "mno"}, {'7', "pqrs"},
-            {'8', "tuv"}, {'9', "wxyz"}
+            {'2', 'abc'}, {'3', 'def'}, {'4', 'ghi'},
+            {'5', 'jkl'}, {'6', 'mno'}, {'7', 'pqrs'},
+            {'8', 'tuv'}, {'9', 'wxyz'}
         };
 
         vector<string> result;
@@ -223,7 +223,7 @@ Step 2: digits.size() == 0
         2 == 0
         false
 
-Step 3: generateCombination("", digits, 0)
+Step 3: generateCombination('', digits, 0)
 
 Step 4: index == digits.size()
         0 == 2
@@ -231,51 +231,51 @@ Step 4: index == digits.size()
 
         char currentDigit = digits[index];
         currentDigit = digits[0];
-        currentDigit = "2"
+        currentDigit = '2'
 
         string mapping = m[currentDigit];
-        mapping = m["2"]
-        mapping = "abc"
+        mapping = m['2']
+        mapping = 'abc'
 
         loop 1.0:
         for(int i = 0; i < mapping.size(); i++)
         0 < 2
 
         generateCombination(current + mapping[i], digits, index + 1)
-        generateCombination("" + mapping[0], "23", 0 + 1)
-        generateCombination("" + "a", "23", 0 + 1)
-        generateCombination("a", "23", 1)
+        generateCombination('' + mapping[0], '23', 0 + 1)
+        generateCombination('' + 'a', '23', 0 + 1)
+        generateCombination('a', '23', 1)
 
-Step 5: generateCombination("a", "23", 1)
+Step 5: generateCombination('a', '23', 1)
         index == digits.size()
         1 == 2
         false
 
         char currentDigit = digits[1];
         currentDigit = digits[1];
-        currentDigit = "3"
+        currentDigit = '3'
 
         string mapping = m[currentDigit];
-        mapping = m["3"]
-        mapping = "def"
+        mapping = m['3']
+        mapping = 'def'
 
         loop 1.1:
         for(int i = 0; i < mapping.size(); i++)
         0 < 3
 
         generateCombination(current + mapping[i], digits, index + 1)
-        generateCombination("a" + mapping[0], "23", 1 + 1)
-        generateCombination("a" + "d", "23", 1 + 1)
-        generateCombination("ad", "23", 2)
+        generateCombination('a' + mapping[0], '23', 1 + 1)
+        generateCombination('a' + 'd', '23', 1 + 1)
+        generateCombination('ad', '23', 2)
 
-Step 6: generateCombination("ad", "23", 2)
+Step 6: generateCombination('ad', '23', 2)
         index == digits.size()
         2 == 2
         true
 
         result.push_back(current)
-        result.push_back("ad")
-        result = ["ad"]
+        result.push_back('ad')
+        result = ['ad']
 
 Step 7: Algo flow returns to loop 1.1
 
@@ -288,18 +288,18 @@ Step 7: Algo flow returns to loop 1.1
         true
 
         generateCombination(current + mapping[i], digits, index + 1)
-        generateCombination("a" + mapping[1], "23", 1 + 1)
-        generateCombination("a" + "e", "23", 1 + 1)
-        generateCombination("ae", "23", 2)
+        generateCombination('a' + mapping[1], '23', 1 + 1)
+        generateCombination('a' + 'e', '23', 1 + 1)
+        generateCombination('ae', '23', 2)
 
-Step 8: generateCombination("ae", "23", 2)
+Step 8: generateCombination('ae', '23', 2)
         index == digits.size()
         2 == 2
         true
 
         result.push_back(current)
-        result.push_back("ae")
-        result = ["ad", "ae"]
+        result.push_back('ae')
+        result = ['ad', 'ae']
 
 Step 9: Algo flow returns to loop 1.2
 
@@ -312,18 +312,18 @@ Step 9: Algo flow returns to loop 1.2
         true
 
         generateCombination(current + mapping[i], digits, index + 1)
-        generateCombination("a" + mapping[2], "23", 1 + 1)
-        generateCombination("a" + "f", "23", 1 + 1)
-        generateCombination("af", "23", 2)
+        generateCombination('a' + mapping[2], '23', 1 + 1)
+        generateCombination('a' + 'f', '23', 1 + 1)
+        generateCombination('af', '23', 2)
 
-Step 10: generateCombination("af", "23", 2)
+Step 10: generateCombination('af', '23', 2)
         index == digits.size()
         2 == 2
         true
 
         result.push_back(current)
-        result.push_back("af")
-        result = ["ad", "ae", "af"]
+        result.push_back('af')
+        result = ['ad', 'ae', 'af']
 
 Step 11: Algo flow returns to loop 1.3
 
@@ -346,11 +346,11 @@ Step 12: Algo flow returns to loop 1.0
         true
 
         generateCombination(current + mapping[i], digits, index + 1)
-        generateCombination("" + mapping[1], "23", 0 + 1)
-        generateCombination("" + "b", "23", 0 + 1)
-        generateCombination("b", "23", 1)
+        generateCombination('' + mapping[1], '23', 0 + 1)
+        generateCombination('' + 'b', '23', 0 + 1)
+        generateCombination('b', '23', 1)
 
-Step 13: generateCombination("b", "23", 1)
+Step 13: generateCombination('b', '23', 1)
 
         index == digits.size()
         1 == 2
@@ -358,29 +358,29 @@ Step 13: generateCombination("b", "23", 1)
 
         char currentDigit = digits[1];
         currentDigit = digits[1];
-        currentDigit = "3"
+        currentDigit = '3'
 
         string mapping = m[currentDigit];
-        mapping = m["3"]
-        mapping = "def"
+        mapping = m['3']
+        mapping = 'def'
 
         loop 2.1:
         for(int i = 0; i < mapping.size(); i++)
         0 < 3
 
         generateCombination(current + mapping[i], digits, index + 1)
-        generateCombination("b" + mapping[0], "23", 1 + 1)
-        generateCombination("b" + "d", "23", 1 + 1)
-        generateCombination("bd", "23", 2)
+        generateCombination('b' + mapping[0], '23', 1 + 1)
+        generateCombination('b' + 'd', '23', 1 + 1)
+        generateCombination('bd', '23', 2)
 
-Step 14: generateCombination("bd", "23", 2)
+Step 14: generateCombination('bd', '23', 2)
         index == digits.size()
         2 == 2
         true
 
         result.push_back(current)
-        result.push_back("bd")
-        result = ["ad", "ae", "af", "bd"]
+        result.push_back('bd')
+        result = ['ad', 'ae', 'af', 'bd']
 
 Step 15: Algo flow returns to loop 2.1
 
@@ -393,18 +393,18 @@ Step 15: Algo flow returns to loop 2.1
         true
 
         generateCombination(current + mapping[i], digits, index + 1)
-        generateCombination("b" + mapping[1], "23", 1 + 1)
-        generateCombination("b" + "e", "23", 1 + 1)
-        generateCombination("be", "23", 2)
+        generateCombination('b' + mapping[1], '23', 1 + 1)
+        generateCombination('b' + 'e', '23', 1 + 1)
+        generateCombination('be', '23', 2)
 
-Step 16: generateCombination("be", "23", 2)
+Step 16: generateCombination('be', '23', 2)
         index == digits.size()
         2 == 2
         true
 
         result.push_back(current)
-        result.push_back("be")
-        result = ["ad", "ae", "af", "bd", "be"]
+        result.push_back('be')
+        result = ['ad', 'ae', 'af', 'bd', 'be']
 
 Step 17: Algo flow returns to loop 2.2
 
@@ -417,21 +417,21 @@ Step 17: Algo flow returns to loop 2.2
         true
 
         generateCombination(current + mapping[i], digits, index + 1)
-        generateCombination("b" + mapping[1], "23", 1 + 1)
-        generateCombination("b" + "f", "23", 1 + 1)
-        generateCombination("bf", "23", 2)
+        generateCombination('b' + mapping[1], '23', 1 + 1)
+        generateCombination('b' + 'f', '23', 1 + 1)
+        generateCombination('bf', '23', 2)
 
-Step 18: generateCombination("bf", "23", 2)
+Step 18: generateCombination('bf', '23', 2)
         index == digits.size()
         2 == 2
         true
 
         result.push_back(current)
-        result.push_back("bf")
-        result = ["ad", "ae", "af", "bd", "be", "bf"]
+        result.push_back('bf')
+        result = ['ad', 'ae', 'af', 'bd', 'be', 'bf']
 
 // similar steps are triggered for c with d, e, and f.
 
 The output is
-["ad", "ae", "af", "bd", "be", "bf", "cd", "ce", "cf"]
+['ad', 'ae', 'af', 'bd', 'be', 'bf', 'cd', 'ce', 'cf']
 ```

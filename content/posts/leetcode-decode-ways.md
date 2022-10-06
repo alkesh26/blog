@@ -11,23 +11,23 @@ categories: "leetcode - find number of ways in which an encoded message can be d
 A message containing letters from *A-Z* can be **encoded** into numbers using the following mapping:
 
 ```
-'A' -> "1"
-'B' -> "2"
+'A' -> '1'
+'B' -> '2'
 ...
-'Z' -> "26"
+'Z' -> '26'
 ```
 
 To **decode** an encoded message,
 all the digits must be grouped then mapped back into letters using the reverse of the mapping above (there may be multiple ways).
-For example, *"11106"* can be mapped into:
+For example, *'11106'* can be mapped into:
 
 ```
-"AAJF" with the grouping (1 1 10 6)
+'AAJF' with the grouping (1 1 10 6)
 
-"KJF" with the grouping (11 10 6)
+'KJF' with the grouping (11 10 6)
 ```
 
-Note that the grouping (1 11 06) is invalid because "06" cannot be mapped into 'F' since "6" is different from "06".
+Note that the grouping (1 11 06) is invalid because '06' cannot be mapped into 'F' since '6' is different from '06'.
 
 Given a string *s* containing only digits, *return the **number** of ways to **decode** it*.
 
@@ -38,35 +38,35 @@ Problem statement taken from: <a href='https://leetcode.com/problems/decode-ways
 **Example 1:**
 
 ```
-Input: s = "12"
+Input: s = '12'
 Output: 2
-Explanation: "12" could be decoded as "AB" (1 2) or "L" (12).
+Explanation: '12' could be decoded as 'AB' (1 2) or 'L' (12).
 ```
 
 **Example 2:**
 
 ```
-Input: s = "226"
+Input: s = '226'
 Output: 3
-Explanation: "226" could be decoded as "BZ" (2 26), "VF" (22 6), or "BBF" (2 2 6).
+Explanation: '226' could be decoded as 'BZ' (2 26), 'VF' (22 6), or 'BBF' (2 2 6).
 ```
 
 **Example 3:**
 
 ```
-Input: s = "0"
+Input: s = '0'
 Output: 0
 Explanation: There is no character that is mapped to a number starting with 0.
-The only valid mappings with 0 are 'J' -> "10" and 'T' -> "20", neither of which start with 0.
+The only valid mappings with 0 are 'J' -> '10' and 'T' -> '20', neither of which start with 0.
 Hence, there are no valid ways to decode this since all digits need to be mapped.
 ```
 
 **Example 4:**
 
 ```
-Input: s = "06"
+Input: s = '06'
 Output: 0
-Explanation: "06" cannot be mapped to "F" because of the leading zero ("6" is different from "06").
+Explanation: '06' cannot be mapped to 'F' because of the leading zero ('6' is different from '06').
 ```
 
 **Constraints:**
@@ -90,7 +90,7 @@ This approach is easy to implement but has time complexity of
 
 The problem can be solved using dynamic programming approach.
 
-Let's take the string **"12"**. We can decode the string in 2 ways
+Let's take the string **'12'**. We can decode the string in 2 ways
 **[1, 2]** or **12**.
 Now lets append *6* at the end of the string.
 For the new string the decode ways are
@@ -114,13 +114,13 @@ Let's check the algorithm.
 - loop for i = 2; i <= n; i++
   - set count[i] = 0
 
-  // if string is "02" we should not count "02" as a valid case.
+  // if string is '02' we should not count '02' as a valid case.
   // But if the previous char is greater than 0 we set the current index count same
   // as the previous index count.
   - if s[i - 1] > '0'
     - count[i] = count[i - 1]
 
-  // if string is "32" it is not possible to map to any character.
+  // if string is '32' it is not possible to map to any character.
   // hence we have (i - 2)th index for 1 or 2 and
   // if s[i - 2] is 2 we additionally check for (i - 1)th index to
   // be less than 7.
@@ -216,7 +216,7 @@ var numDecodings = function(s) {
 Let's dry-run our algorithm to see how the solution works.
 
 ```
-Input: s = "226"
+Input: s = '226'
 
 Step 1: int count[n + 1]
         count[0] = count[1] = 1

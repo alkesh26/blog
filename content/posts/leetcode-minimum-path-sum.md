@@ -53,7 +53,7 @@ The solution works for small-sized arrays but will timeout for big-sized arrays.
 
 The path to reach (m, n) must be through one of the two cells: (m - 1, n) or (m, n - 1).
 The minimum cost to reach (m, n) can be calculated as
-"minimum of the two cells plus grid(m, n)".
+'minimum of the two cells plus grid(m, n)'.
 
 ```
 minimumCost(m, n) = min(minimumCost(m - 1, n), minimumCost(m, n - 1)) + grid(m, n)

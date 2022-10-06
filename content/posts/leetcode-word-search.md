@@ -19,21 +19,21 @@ Problem statement taken from: <a href='https://leetcode.com/problems/word-search
 ![Container](./../word-search.png)
 
 ```
-Input: board = [["A", "B", "C", "E"], ["S", "F", "C", "S"], ["A", "D", "E", "E"]], word = "ABCCED"
+Input: board = [['A', 'B', 'C', 'E'], ['S', 'F', 'C', 'S'], ['A', 'D', 'E', 'E']], word = 'ABCCED'
 Output: true
 ```
 
 **Example 2:**
 
 ```
-Input: board = [["A", "B", "C", "E"], ["S", "F", "C", "S"], ["A", "D", "E", "E"]], word = "SEE"
+Input: board = [['A', 'B', 'C', 'E'], ['S', 'F', 'C', 'S'], ['A', 'D', 'E', 'E']], word = 'SEE'
 Output: true
 ```
 
 **Example 3:**
 
 ```
-Input: board = [["A", "B", "C", "E"], ["S", "F", "C", "S"], ["A", "D", "E", "E"]], word = "ABCB"
+Input: board = [['A', 'B', 'C', 'E'], ['S', 'F', 'C', 'S'], ['A', 'D', 'E', 'E']], word = 'ABCB'
 Output: false
 ```
 
@@ -241,8 +241,8 @@ var exist = function(board, word) {
 Let's dry-run our algorithm to see how the solution works.
 
 ```
-Input: board = [["A", "B", "C", "E"], ["S", "F", "C", "S"], ["A", "D", "E", "E"]]
-       word = "SEE"
+Input: board = [['A', 'B', 'C', 'E'], ['S', 'F', 'C', 'S'], ['A', 'D', 'E', 'E']]
+       word = 'SEE'
 
 Step 1: initialize i, j
 
@@ -615,7 +615,7 @@ Step 17: //in function dfs
            3 >= 3
            true
 
-Step 18: // Here we have covered all chars of the string "SEE" and found in the grid.
+Step 18: // Here we have covered all chars of the string 'SEE' and found in the grid.
          // So we return true from this recursive calls and return to exist function.
 
 So the answer we return is true.

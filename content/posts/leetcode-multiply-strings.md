@@ -17,15 +17,15 @@ Problem statement taken from: <a href='https://leetcode.com/problems/multiply-st
 **Example 1:**
 
 ```
-Input: num1 = "2", num2 = "3"
-Output: "6"
+Input: num1 = '2', num2 = '3'
+Output: '6'
 ```
 
 **Example 2:**
 
 ```
-Input: num1 = "123", num2 = "456"
-Output: "56088"
+Input: num1 = '123', num2 = '456'
+Output: '56088'
 ```
 
 **Constraints:**
@@ -80,7 +80,7 @@ Let's check the algorithm:
   - lastZeroIndex++
 
 - if lastZeroIndex == m + n
-  - return "0"
+  - return '0'
 
 - return string(result.begin() + lastZeroIndex, result.end())
 ```
@@ -125,7 +125,7 @@ public:
         }
 
         if(lastZeroIndex == m + n){
-            return "0";
+            return '0';
         }
 
         return string(result.begin() + lastZeroIndex, result.end());
@@ -136,7 +136,7 @@ public:
 ### Golang solution
 
 ```go
-import "strings"
+import 'strings'
 
 func multiply(num1 string, num2 string) string {
     m, n := len(num1), len(num2)
@@ -171,7 +171,7 @@ func multiply(num1 string, num2 string) string {
     }
 
     if lastZeroIndex == m + n {
-        return "0"
+        return '0'
     }
 
     return string(result[lastZeroIndex:])
@@ -216,17 +216,17 @@ var multiply = function(num1, num2) {
     }
 
     if(lastZeroIndex == m + n){
-        return "0";
+        return '0';
     }
 
-    return result.join("").replace(/^0+/, '')
+    return result.join('').replace(/^0+/, '')
 };
 ```
 
 Let's dry-run our algorithm to see how the solution works.
 
 ```
-Input: num1 = "23", num2 = "46"
+Input: num1 = '23', num2 = '46'
 
 Step 1: m = num1.size()
           = 2
@@ -234,7 +234,7 @@ Step 1: m = num1.size()
           = 2
 
         string result(m + n, '0')
-        result = "0000"
+        result = '0000'
         indexCounter = 0
         int index, carry, currentNumber, sum
 
@@ -483,7 +483,7 @@ Step 7: if lastZeroIndex == m + n
 Step 8: return string(result.begin() + lastZeroIndex, result.end())
           string(result.begin() + 0, result.end())
           string(['1', '0', '5', '8'])
-          "1058"
+          '1058'
 
-So we return the result as "1058".
+So we return the result as '1058'.
 ```

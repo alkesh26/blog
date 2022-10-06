@@ -18,14 +18,14 @@ Problem statement taken from: <a href='https://leetcode.com/problems/largest-num
 
 ```
 Input: nums = [10, 2]
-Output: "210"
+Output: '210'
 ```
 
 **Example 2:**
 
 ```
 Input: nums = [3, 30, 34, 5, 9]
-Output: "9534330"
+Output: '9534330'
 ```
 
 **Constraints:**
@@ -51,7 +51,7 @@ Let's check the algorithm:
 ```
 // largestNumber function
 - if nums.size() == 0
-  - return ""
+  - return ''
 
 - initialize vector<string> numbers
   i = 0
@@ -62,12 +62,12 @@ Let's check the algorithm:
 
 - sort(numbers.begin(), numbers.end(), cmp)
 
-- set ans = ""
+- set ans = ''
 
 - loop for i = 0; i < numbers.size(); i++
   - ans = ans + numbers[i]
 
-- return ans[0] == "0" ? "0" : ans
+- return ans[0] == '0' ? '0' : ans
 
 // cmp function
 cmp(string a, string b)
@@ -85,7 +85,7 @@ static bool cmp(string a, string b){
 public:
     string largestNumber(vector<int>& nums) {
         if(nums.size() == 0){
-            return "";
+            return '';
         }
 
         vector<string> numbers;
@@ -96,13 +96,13 @@ public:
         }
 
         sort(numbers.begin(), numbers.end(), cmp);
-        string ans = "";
+        string ans = '';
 
         for(i = 0; i < numbers.size(); i++){
             ans += numbers[i];
         }
 
-        return ans[0] == "0" ? "0" : ans;
+        return ans[0] == '0' ? '0' : ans;
     }
 };
 ```
@@ -112,7 +112,7 @@ public:
 ```go
 func largestNumber(nums []int) string {
     if len(nums) == 0 {
-        return ""
+        return ''
     }
 
     numbers := make([]string, len(nums))
@@ -125,12 +125,12 @@ func largestNumber(nums []int) string {
 
     sort.Slice(numbers, func(a, b int) bool { return numbers[a] + numbers[b] > numbers[b] + numbers[a] })
 
-    ans := ""
+    ans := ''
 
     for _, v := range numbers { ans += v }
 
     if ans[0] == '0' {
-        return "0"
+        return '0'
     }
 
     return ans
@@ -142,7 +142,7 @@ func largestNumber(nums []int) string {
 ```javascript
 var largestNumber = function(nums) {
     if( nums.length == 0 ) {
-        return "";
+        return '';
     }
 
     let numbers = [];
@@ -155,13 +155,13 @@ var largestNumber = function(nums) {
         return x + y > y + x ? -1 : 1;
     });
 
-    let ans = "";
+    let ans = '';
 
     for( i = 0; i < numbers.length; i++ ){
         ans += numbers[i];
     }
 
-    return ans[0] == "0" ? "0" : ans;
+    return ans[0] == '0' ? '0' : ans;
 };
 ```
 
@@ -185,7 +185,7 @@ Step 3: loop i < nums.size()
 
         so the loop iterates from 0 to 4, and we append the string numbers
 
-        numbers = ["3", "30", "34", "5", "9"]
+        numbers = ['3', '30', '34', '5', '9']
 
 Step 4: sort(numbers.begin(), numbers.end(), cmp)
 
@@ -193,34 +193,34 @@ Step 4: sort(numbers.begin(), numbers.end(), cmp)
 Step 5: return a + b > b + a
 
         so for first two element we check
-        "3" + "30" > "30" + "3"
-        "330" > "303"
+        '3' + '30' > '30' + '3'
+        '330' > '303'
         true
 
-        "3" + "34" > "34" + "3"
-        "334" > "343"
+        '3' + '34' > '34' + '3'
+        '334' > '343'
         false
 
-        "5" + "34" > "34" + "5"
-        "534" > "345"
+        '5' + '34' > '34' + '5'
+        '534' > '345'
         true
 
-        "9" + "5" > "5" + "9"
-        "95" > "59"
+        '9' + '5' > '5' + '9'
+        '95' > '59'
         true
 
-        The final array is ["9", "5", "34", "3", "30"].
+        The final array is ['9', '5', '34', '3', '30'].
 
-Step 6: string ans = ""
+Step 6: string ans = ''
 
 Step 7: loop for(i = 0; i < numbers.size(); i++)
             - ans += numbers[i]
-        ans is set to "9534330"
+        ans is set to '9534330'
 
-Step 8: ans[0] == "0"
-        "9" == "0"
+Step 8: ans[0] == '0'
+        '9' == '0'
         false
         return ans
 
-So we return the result as "9534330".
+So we return the result as '9534330'.
 ```

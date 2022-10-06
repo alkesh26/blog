@@ -8,7 +8,7 @@ categories: "leetcode - zig-zag conversion, c++, golang, javascript"
 
 ### Problem statement
 
-The string *"PAYPALISHIRING"* is written in a zigzag pattern on a given number of rows like this: (you may want to display this pattern in a fixed font for better legibility)
+The string *'PAYPALISHIRING'* is written in a zigzag pattern on a given number of rows like this: (you may want to display this pattern in a fixed font for better legibility)
 
 ```
 P   A   H   N
@@ -16,7 +16,7 @@ A P L S I I G
 Y   I   R
 ```
 
-And then read line by line: *"PAHNAPLSIIGYIR"*
+And then read line by line: *'PAHNAPLSIIGYIR'*
 
 Write the code that will take a string and make this conversion given a number of rows:
 
@@ -29,15 +29,15 @@ Problem statement taken from: <a href='https://leetcode.com/problems/zigzag-conv
 **Example 1:**
 
 ```
-Input: s = "PAYPALISHIRING", numRows = 3
-Output: "PAHNAPLSIIGYIR"
+Input: s = 'PAYPALISHIRING', numRows = 3
+Output: 'PAHNAPLSIIGYIR'
 ```
 
 **Example 2:**
 
 ```
-Input: s = "PAYPALISHIRING", numRows = 4
-Output: "PINALSIGYAHRPI"
+Input: s = 'PAYPALISHIRING', numRows = 4
+Output: 'PINALSIGYAHRPI'
 Explanation:
 P     I    N
 A   L S  I G
@@ -48,8 +48,8 @@ P     I
 **Example 3:**
 
 ```
-Input: s = "A", numRows = 1
-Output: "A"
+Input: s = 'A', numRows = 1
+Output: 'A'
 ```
 
 **Constraints:**
@@ -80,7 +80,7 @@ Let's check the algorithm.
 - initialize array of strings: string array[numRows]
 
 - loop for i = 0; i < numRows; i++
-  - set array[i] = "" (empty string)
+  - set array[i] = '' (empty string)
 
 - loop for i = 0; i < s.size(); i++
   - append character to string
@@ -95,7 +95,7 @@ Let's check the algorithm.
   - increment or decrement row based on down boolean
     down ? row++ : row--
 
-- set string answer = ""
+- set string answer = ''
 
 - loop for i = 0; i < numRows; i++
   - answer += array[i]
@@ -118,7 +118,7 @@ public:
         string array[numRows];
 
         for(i = 0; i < numRows; i++){
-            array[i] = "";
+            array[i] = '';
         }
 
         for(i = 0; i < s.size(); i++){
@@ -135,7 +135,7 @@ public:
             down ? row++ : row--;
         }
 
-        string answer = "";
+        string answer = '';
 
         for(i = 0; i < numRows; i++){
             answer += array[i];
@@ -176,7 +176,7 @@ func convert(s string, numRows int) string {
         }
     }
 
-    answer := ""
+    answer := ''
 
     for i = 0; i < numRows; i++ {
         answer += array[i]
@@ -199,7 +199,7 @@ var convert = function(s, numRows) {
     let array = [];
 
     for( i = 0; i < numRows; i++ ){
-        array[i] = "";
+        array[i] = '';
     }
 
     for( i = 0; i < s.length; i++ ){
@@ -216,7 +216,7 @@ var convert = function(s, numRows) {
         down ? row++ : row--;
     }
 
-    var answer = "";
+    var answer = '';
 
     for( i = 0; i < numRows; i++ ){
         answer += array[i];
@@ -229,7 +229,7 @@ var convert = function(s, numRows) {
 Let's dry-run our algorithm to see how the solution works.
 
 ```
-Input: s = "ABCDEFGH", numRows = 3
+Input: s = 'ABCDEFGH', numRows = 3
 
 Step 1: if numRows <= 1
           3 <= 1
@@ -241,10 +241,10 @@ Step 2: int i, row = 0
         string array[3];
 
 Step 3: loop for i = 0; i < numRows; i++
-          - set array[i] = "";
+          - set array[i] = '';
 
         numRows = 3
-        so array[0] = array[1] = array[2] = ""
+        so array[0] = array[1] = array[2] = ''
 
 Step 4: loop for i = 0; i < s.size()
         i < 8
@@ -253,9 +253,9 @@ Step 4: loop for i = 0; i < s.size()
 
         array[row] += s[i]
         array[row] = array[0] + s[0]
-                   = "" + "A"
-                   = "A"
-        array[0] = "A"
+                   = '' + 'A'
+                   = 'A'
+        array[0] = 'A'
 
         row == 0
         true
@@ -275,9 +275,9 @@ Step 5: loop for i < s.size()
 
         array[row] += s[i]
         array[row] = array[1] + s[1]
-                   = "" + "B"
-                   = "B"
-        array[1] = "B"
+                   = '' + 'B'
+                   = 'B'
+        array[1] = 'B'
 
         row == 0
         false
@@ -300,9 +300,9 @@ Step 6: loop for i < s.size()
 
         array[row] += s[i]
         array[row] = array[2] + s[2]
-                   = "" + "C"
-                   = "C"
-        array[2] = "C"
+                   = '' + 'C'
+                   = 'C'
+        array[2] = 'C'
 
         row == 0
         false
@@ -326,9 +326,9 @@ Step 7: loop for i < s.size()
 
         array[row] += s[i]
         array[row] = array[1] + s[3]
-                   = "B" + "D"
-                   = "BD"
-        array[1] = "BD"
+                   = 'B' + 'D'
+                   = 'BD'
+        array[1] = 'BD'
 
         row == 0
         false
@@ -351,9 +351,9 @@ Step 8: loop for i < s.size()
 
         array[row] += s[i]
         array[row] = array[0] + s[4]
-                   = "A" + "E"
-                   = "AE"
-        array[1] = "AR"
+                   = 'A' + 'E'
+                   = 'AE'
+        array[1] = 'AR'
 
         row == 0
         true
@@ -377,9 +377,9 @@ Step 9: loop for i < s.size()
 
         array[row] += s[i]
         array[row] = array[1] + s[5]
-                   = "BD" + "F"
-                   = "BDF"
-        array[1] = "BDF"
+                   = 'BD' + 'F'
+                   = 'BDF'
+        array[1] = 'BDF'
 
         row == 0
         false
@@ -402,9 +402,9 @@ Step 10: loop for i < s.size()
 
         array[row] += s[i]
         array[row] = array[2] + s[6]
-                   = "C" + "G"
-                   = "CG"
-        array[2] = "CG"
+                   = 'C' + 'G'
+                   = 'CG'
+        array[2] = 'CG'
 
         row == 0
         false
@@ -428,9 +428,9 @@ Step 11: loop for i < s.size()
 
         array[row] += s[i]
         array[row] = array[1] + s[7]
-                   = "BDF" + "H"
-                   = "BDFH"
-        array[1] = "BDFH"
+                   = 'BDF' + 'H'
+                   = 'BDFH'
+        array[1] = 'BDFH'
 
         row == 0
         false
@@ -451,18 +451,18 @@ Step 11: loop for i < s.size()
         8 < 8
         false
 
-Step 12: string answer = "";
+Step 12: string answer = '';
 
 Step 13: loop for( i = 0; i < numRows; i++ )
            answer += array[i];
 
-        array[0] = "AE"
-        array[1] = "BDFH"
-        array[2] = "CG"
+        array[0] = 'AE'
+        array[1] = 'BDFH'
+        array[2] = 'CG'
 
-        so answer is "AEBDFHCG"
+        so answer is 'AEBDFHCG'
 
 Step 14: return answer
 
-So the answer is "AEBDFHCG"
+So the answer is 'AEBDFHCG'
 ```

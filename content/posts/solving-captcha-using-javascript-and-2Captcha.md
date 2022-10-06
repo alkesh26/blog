@@ -146,9 +146,9 @@ sitekey of geeksforgeeks is **6LexF0sUAAAAADiQjz9BMiSrqplrItl-tWYDSfWa**.
 We start adding changes to the index.js file.
 
 ```javascript
-const axios = require("axios");
-const captcha = require("2captcha");
-var FormData = require("form-data");
+const axios = require('axios');
+const captcha = require('2captcha');
+var FormData = require('form-data');
 ```
 
 a. We first require the necessary packages for integration.
@@ -160,7 +160,7 @@ a. We first require the necessary packages for integration.
 b. Initialize 2Captcha solver using 2Captcha API KEY
 
 ```javascript
-const solver = new captcha.Solver("<Our API key>");
+const solver = new captcha.Solver('<Our API key>');
 ```
 
 c. Solve Google's reCAPTCHA using the 2Captcha solver method.
@@ -170,8 +170,8 @@ reCAPTCHA. It expects **sitekey** and **pageurl** as parameters.
 
 ```javascript
 const { data } = await solver.recaptcha(
-  "6LexF0sUAAAAADiQjz9BMiSrqplrItl-tWYDSfWa",
-  "https://www.geeksforgeeks.org/"
+  '6LexF0sUAAAAADiQjz9BMiSrqplrItl-tWYDSfWa',
+  'https://www.geeksforgeeks.org/'
 );
 ```
 
@@ -183,32 +183,32 @@ to geeksforgeeks auth endpoint.
 
 ```javascript
 var bodyFormData = new FormData();
-bodyFormData.append("reqType", "Register");
-bodyFormData.append("email", "12sam1234@sam.co");
-bodyFormData.append("pass", "sam1234!@#$");
-bodyFormData.append("institute", "big data");
-bodyFormData.append("g-recaptcha-response", data);
-bodyFormData.append("to", "https://auth.geeksforgeeks.org/?to=https://www.geeksforgeeks.org/");
+bodyFormData.append('reqType', 'Register');
+bodyFormData.append('email', '12sam1234@sam.co');
+bodyFormData.append('pass', 'sam1234!@#$');
+bodyFormData.append('institute', 'big data');
+bodyFormData.append('g-recaptcha-response', data);
+bodyFormData.append('to', 'https://auth.geeksforgeeks.org/?to=https://www.geeksforgeeks.org/');
 ```
 
 We use Axios to submit the above-generated form data.
 
 ```javascript
 axios({
-  method: "post",
-  url: "https://auth.geeksforgeeks.org/auth.php",
+  method: 'post',
+  url: 'https://auth.geeksforgeeks.org/auth.php',
   data: bodyFormData,
   headers: {
-    "Content-Type": "application/x-www-form-urlencoded",
-    "Accept": "application/json, text/javascript, */*; q=0.01"
+    'Content-Type': 'application/x-www-form-urlencoded',
+    'Accept': 'application/json, text/javascript, */*; q=0.01'
   },
 })
 .then(function (response) {
-  console.log("In success");
+  console.log('In success');
   console.log(response.data);
 })
 .catch(function (response) {
-  console.log("In failure");
+  console.log('In failure');
   console.log(response);
 });
 ```
@@ -216,45 +216,48 @@ axios({
 The whole index.js file will look as below:
 
 ```javascript
-const axios = require("axios");
-const captcha = require("2captcha");
+const axios = require('axios');
+const captcha = require('2captcha');
 var FormData = require('form-data');
 
-const solver = new captcha.Solver("<My API key>");
+const solver = new captcha.Solver('<My API key>');
 
 const bypassWebsiteCaptcha = async () => {
-  console.log("Initiate captcha process");
+  console.log('Initiate captcha process');
 
   try {
     const { data } = await solver.recaptcha(
-      "6LexF0sUAAAAADiQjz9BMiSrqplrItl-tWYDSfWa",
-      "https://www.geeksforgeeks.org/"
+      '6LexF0sUAAAAADiQjz9BMiSrqplrItl-tWYDSfWa',
+      'https://www.geeksforgeeks.org/'
     );
 
     var bodyFormData = new FormData();
-    bodyFormData.append("reqType", "Register");
-    bodyFormData.append("email", "12sam1234@sam.co");
-    bodyFormData.append("pass", "sam1234!@#$");
-    bodyFormData.append("institute", "big data");
-    bodyFormData.append("g-recaptcha-response", data);
-    bodyFormData.append("to", "https://auth.geeksforgeeks.org/?to=https://www.geeksforgeeks.org/");
+    bodyFormData.append('reqType', 'Register');
+    bodyFormData.append('email', '12sam1234@sam.co');
+    bodyFormData.append('pass', 'sam1234!@#$');
+    bodyFormData.append('institute', 'big data');
+    bodyFormData.append('g-recaptcha-response', data);
+    bodyFormData.append('to', 'https://auth.geeksforgeeks.org/?to=https://www.geeksforgeeks.org/');
 
     axios({
-      method: "post",
-      url: "https://auth.geeksforgeeks.org/auth.php",
+      method: 'post',
+      url: 'https://auth.geeksforgeeks.org/auth.php',
       data: bodyFormData,
-      headers: { "Content-Type": "application/x-www-form-urlencoded", "Accept": "application/json, text/javascript, */*; q=0.01" },
+      headers: {
+        'Content-Type': 'application/x-www-form-urlencoded',
+        'Accept': 'application/json, text/javascript, */*; q=0.01'
+      },
     })
     .then(function (response) {
-      console.log("In success");
+      console.log('In success');
       console.log(response.data);
     })
     .catch(function (response) {
-      console.log("In failure");
+      console.log('In failure');
       console.log(response);
     });
   } catch (err) {
-    console.log("In catch");
+    console.log('In catch');
     console.log(err);
   }
 };
@@ -280,7 +283,7 @@ Our response should look like below:
 Alkeshs-MacBook-Pro:solve-captcha alkeshghorpade$ node index
 Initiate captcha process
 In success
-{"extra":"<div class=\"alert alert-info\">An email has been sent to your given address. Please click the link in the mail to continue.<\/div>","code":2000}
+{'extra':'<div class=\"alert alert-info\">An email has been sent to your given address. Please click the link in the mail to continue.<\/div>','code':2000}
 ```
 
 This means we have successfully bypassed the captcha.

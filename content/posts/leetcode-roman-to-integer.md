@@ -42,32 +42,32 @@ Problem statement taken from: <a href='https://leetcode.com/problems/roman-to-in
 
 **Example 1:**
 ```
-Input: s = "III"
+Input: s = 'III'
 Output: 3
 ```
 
 **Example 2:**
 ```
-Input: s = "IV"
+Input: s = 'IV'
 Output: 4
 ```
 
 **Example 3:**
 ```
-Input: s = "IX"
+Input: s = 'IX'
 Output: 9
 ```
 
 **Example 4:**
 ```
-Input: s = "LVIII"
+Input: s = 'LVIII'
 Output: 58
 Explanation: L = 50, V= 5, III = 3.
 ```
 
 **Example 5:**
 ```
-Input: s = "MCMXCIV"
+Input: s = 'MCMXCIV'
 Output: 1994
 Explanation: M = 1000, CM = 900, XC = 90 and IV = 4.
 ```
@@ -230,7 +230,7 @@ var romanToInt = function(s) {
 Let's dry-run our algorithm to see how the solution works.
 
 ```
-s = "MCMXCIV"
+s = 'MCMXCIV'
 map<char, int> characterMap = {
             {'I', 1},
             {'V', 5},

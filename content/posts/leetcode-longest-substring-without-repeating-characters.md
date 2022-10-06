@@ -14,26 +14,26 @@ Problem statement taken from: <a href='https://leetcode.com/problems/longest-sub
 
 **Example 1:**
 ```
-Input: s = "abcabcbb"
+Input: s = 'abcabcbb'
 Output: 3
-Explanation: The answer is "abc", with the length of 3.
+Explanation: The answer is 'abc', with the length of 3.
 ```
 
 **Example 2:**
 ```
-Input: s = "bbbbb"
+Input: s = 'bbbbb'
 Output: 1
 ```
 
 **Example 3:**
 ```
-Input: s = "pwwkew"
+Input: s = 'pwwkew'
 Output: 3
 ```
 
 **Example 4:**
 ```
-Input: s = ""
+Input: s = ''
 Output: 0
 ```
 
@@ -195,7 +195,7 @@ var lengthOfLongestSubstring = function(s) {
 Let's dry-run our algorithm to see how the solution works.
 
 ```
-s = "abcdeafb"
+s = 'abcdeafb'
 m = map()
 ans = 0
 

@@ -14,27 +14,27 @@ Problem statement taken from: <a href='https://leetcode.com/problems/longest-pal
 
 **Example 1:**
 ```
-Input: s = "babad"
-Output: "bab"
-Note: "aba" is also a valid answer.
+Input: s = 'babad'
+Output: 'bab'
+Note: 'aba' is also a valid answer.
 ```
 
 **Example 2:**
 ```
-Input: s = "cbbd"
-Output: "bb"
+Input: s = 'cbbd'
+Output: 'bb'
 ```
 
 **Example 3:**
 ```
-Input: s = "a"
-Output: "a"
+Input: s = 'a'
+Output: 'a'
 ```
 
 **Example 4:**
 ```
-Input: s = "ac"
-Output: "a"
+Input: s = 'ac'
+Output: 'a'
 ```
 
 **Constraints:**
@@ -47,8 +47,8 @@ Output: "a"
 ### Explanation
 
 A palindrome is a string that reads the same in both directions.
-For example, **s = "madam"** is a palindrome
-but **s = "code"** is not a palindrome.
+For example, **s = 'madam'** is a palindrome
+but **s = 'code'** is not a palindrome.
 
 #### Brute force
 
@@ -94,7 +94,7 @@ Base cases:
 // each character in a string is a palindrome.
 T(i, i)     = true
 
-// palindrome string like "aa", "bb" of length 2.
+// palindrome string like 'aa', 'bb' of length 2.
 T(i, i + 1) = true  if ( s[i] == s[i + 1] )
 ```
 
@@ -149,8 +149,8 @@ updating the maximum length that we have identified so far.
 class Solution {
 public:
     string longestPalindrome(string s) {
-        if(s == "" || s.size() == 0){
-            return "";
+        if(s == '' || s.size() == 0){
+            return '';
         }
 
         int maxLength = 1;
@@ -197,7 +197,7 @@ public:
 func longestPalindrome(s string) string {
     stringLength := len(s)
 
-    if s == "" || stringLength == 0 {
+    if s == '' || stringLength == 0 {
         return s
     }
 
@@ -242,7 +242,7 @@ func longestPalindrome(s string) string {
 var longestPalindrome = function(s) {
     const stringLength = s.length;
 
-    if( s === "" || stringLength == 0 ){
+    if( s === '' || stringLength == 0 ){
         return s;
     }
 
@@ -285,7 +285,7 @@ var longestPalindrome = function(s) {
 Let's dry-run our algorithm to see how the solution works.
 
 ```
-s = "babad"
+s = 'babad'
 stringLength = 5
 maxLength = 1
 low, high, start = 0, 0, 0
@@ -355,6 +355,6 @@ Step 4: i = 4, i < 5
 
 As start is 0 and maxLength is 3
 s.substring(start, start + maxLength)
-"babad".substring(0, 3)
-=> "bab"
+'babad'.substring(0, 3)
+=> 'bab'
 ```

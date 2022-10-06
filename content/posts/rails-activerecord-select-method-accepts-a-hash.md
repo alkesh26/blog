@@ -15,7 +15,7 @@ It is served in two ways:
   For e.g.,
 
   ```ruby
-  Post.all.select{ |post| post.title.include?("Rails") }
+  Post.all.select{ |post| post.title.include?('Rails') }
   ```
 
   The above code will first fetch all the posts from the database.
@@ -40,8 +40,8 @@ we can select fields of different tables as below:
 Post
   .joins(:comments)
   .select(
-    "posts.id as post_id, posts.title as post_tile,
-    comments.id as comment_id, comments.body as comment_body"
+    'posts.id as post_id, posts.title as post_tile,
+    comments.id as comment_id, comments.body as comment_body'
   )
 ```
 
@@ -65,7 +65,7 @@ Post
 Post
   .joins(:comments)
   .where(
-    "comments.author_id = ?", 1
+    'comments.author_id = ?', 1
   )
 ```
 

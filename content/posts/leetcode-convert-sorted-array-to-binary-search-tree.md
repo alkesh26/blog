@@ -189,18 +189,9 @@ Step 6: root->left = sortedArrayToBSTUtil(nums, start, mid - 1)
                    = sortedArrayToBSTUtil(nums, 0, 2 - 1)
                    = sortedArrayToBSTUtil(nums, 0, 1)
 
-                                       0
-                                      /
-                        sortedArrayToBSTUtil(nums, 0, 1)
-
         root->right = sortedArrayToBSTUtil(nums, mid + 1, end)
                     = sortedArrayToBSTUtil(nums, 2 + 1, 4)
                     = sortedArrayToBSTUtil(nums, 3, 4)
-
-                                        0
-                                     /     \
-                                    /       \
-        sortedArrayToBSTUtil(nums, 0, 1)    sortedArrayToBSTUtil(nums, 3, 4)
 
 // sortedArrayToBSTUtil(nums, 0, 1)
 Step 7: if start > end
@@ -220,26 +211,12 @@ Step 10: root->left = sortedArrayToBSTUtil(nums, start, mid - 1)
                     = sortedArrayToBSTUtil(nums, 0, 0 - 1)
                     = sortedArrayToBSTUtil(nums, 0, -1)
 
-                                -10
-                               /
-                sortedArrayToBSTUtil(nums, 0, -1)
-
          root->right = sortedArrayToBSTUtil(nums, mid + 1, end)
                      = sortedArrayToBSTUtil(nums, 0 + 1, 1)
                      = sortedArrayToBSTUtil(nums, 1, 1)
 
-                                        -10
-                                      /     \
-                                     /       \
-         sortedArrayToBSTUtil(nums, 0, -1)    sortedArrayToBSTUtil(nums, 1, 1)
-
         // for sortedArrayToBSTUtil(nums, 0, -1)
         // start > end evaluates to true so it return nil. Hence the tree looks like
-
-                                        -10
-                                      /     \
-                                     /       \
-                                   nil    sortedArrayToBSTUtil(nums, 1, 1)
 
 // sortedArrayToBSTUtil(nums, 1, 1)
 Step 11: if start > end
@@ -259,43 +236,16 @@ Step 14: root->left = sortedArrayToBSTUtil(nums, start, mid - 1)
                     = sortedArrayToBSTUtil(nums, 1, 1 - 1)
                     = sortedArrayToBSTUtil(nums, 1, 0)
 
-                                -3
-                               /
-                sortedArrayToBSTUtil(nums, 1, 0)
-
          root->right = sortedArrayToBSTUtil(nums, mid + 1, end)
                      = sortedArrayToBSTUtil(nums, 1 + 1, 1)
                      = sortedArrayToBSTUtil(nums, 2, 1)
 
-                                        -3
-                                      /     \
-                                     /       \
-         sortedArrayToBSTUtil(nums, 1, 0)    sortedArrayToBSTUtil(nums, 2, 1)
-
         // for sortedArrayToBSTUtil(nums, 1, 0) and sortedArrayToBSTUtil(nums, 2, 1)
         // start > end evaluates to true so it return nil. Hence the tree looks like
 
-                                        -3
-                                      /     \
-                                     /       \
-                                   nil       nil
-
 Step 15: We backtrack to Step 10 and -3 is set to right subtree of -10 node.
 
-                                        -10
-                                      /     \
-                                     /       \
-                                   nil       -3
-
 Step 16: We backtrack to Step 6 and the above subtree is set as left subtree of 0 node.
-
-                                        0
-                                     /     \
-                                    /       \
-                                  -10     sortedArrayToBSTUtil(nums, 3, 4)
-                                /     \
-                               /       \
-                             nil       -3
 
 // sortedArrayToBSTUtil(nums, 3, 4)
 Step 17: if start > end
@@ -315,26 +265,12 @@ Step 20: root->left = sortedArrayToBSTUtil(nums, start, mid - 1)
                     = sortedArrayToBSTUtil(nums, 3, 3 - 1)
                     = sortedArrayToBSTUtil(nums, 3, 2)
 
-                                5
-                               /
-                sortedArrayToBSTUtil(nums, 3, 2)
-
          root->right = sortedArrayToBSTUtil(nums, mid + 1, end)
                      = sortedArrayToBSTUtil(nums, 3 + 1, 4)
                      = sortedArrayToBSTUtil(nums, 4, 4)
 
-                                         5
-                                      /     \
-                                     /       \
-         sortedArrayToBSTUtil(nums, 3, 2)    sortedArrayToBSTUtil(nums, 4, 4)
-
         // for sortedArrayToBSTUtil(nums, 3, 3)
         // start > end evaluates to true so it return nil. Hence the tree looks like
-
-                                        5
-                                      /   \
-                                     /     \
-                                   nil     sortedArrayToBSTUtil(nums, 4, 4)
 
 // sortedArrayToBSTUtil(nums, 4, 4)
 Step 21: if start > end
@@ -354,47 +290,16 @@ Step 24: root->left = sortedArrayToBSTUtil(nums, start, mid - 1)
                     = sortedArrayToBSTUtil(nums, 4, 4 - 1)
                     = sortedArrayToBSTUtil(nums, 4, 3)
 
-                                9
-                               /
-                sortedArrayToBSTUtil(nums, 4, 3)
-
          root->right = sortedArrayToBSTUtil(nums, mid + 1, end)
                      = sortedArrayToBSTUtil(nums, 4 + 1, 4)
                      = sortedArrayToBSTUtil(nums, 5, 4)
 
-                                         9
-                                      /     \
-                                     /       \
-         sortedArrayToBSTUtil(nums, 4, 3)    sortedArrayToBSTUtil(nums, 5, 4)
-
         // for sortedArrayToBSTUtil(nums, 4, 3) and sortedArrayToBSTUtil(nums, 5, 4)
         // start > end evaluates to true so it return nil. Hence the tree looks like
 
-                                        9
-                                      /   \
-                                     /     \
-                                   nil     nil
-
 Step 25: We backtrack to Step 20 and the above subtree is set as right subtree of 5 node.
 
-                                        5
-                                      /   \
-                                     /     \
-                                   nil     9
-                                          / \
-                                         /   \
-                                        nil  nil
-
 Step 26: We backtrack to Step 16 and the tree is as below
-
-                                        0
-                                      /    \
-                                     /      \
-                                    /        \
-                                  -10         5
-                                /     \      / \
-                               /       \    /   \
-                             nil       -3  nil  9
 
 So the output we return is [0, -3, 9, -10, null, 5]
 ```

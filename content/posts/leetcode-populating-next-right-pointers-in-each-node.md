@@ -257,14 +257,6 @@ Step 4: loop while !q.empty()
             - 0 < 0
             - false
 
-               1
-             /   \
-            /     \
-           2       3
-          / \     / \
-         /   \   /   \
-        4     5  6   7
-
 Step 5: loop while !q.empty()
         q = [2, 3]
         q.empty() = false
@@ -304,14 +296,6 @@ Step 5: loop while !q.empty()
               node = 2
               q.front = 3
 
-               1
-             /   \
-            /     \
-           2-------3
-          / \     / \
-         /   \   /   \
-        4     5  6    7
-
           i++
           i = 1
 
@@ -340,14 +324,6 @@ Step 5: loop while !q.empty()
             - 1 < 2 - 1
             - 1 < 1
             - false
-
-               1
-             /   \
-            /     \
-           2-------3
-          / \     / \
-         /   \   /   \
-        4     5  6    7
 
         for(i < 2)
           - 2 < 2
@@ -386,14 +362,6 @@ Step 6: loop while !q.empty()
               node = 4
               q.front() = 5
 
-               1
-             /   \
-            /     \
-           2-------3
-          / \     / \
-         /   \   /   \
-        4-----5  6    7
-
         i++
         i = 1
 
@@ -420,14 +388,6 @@ Step 6: loop while !q.empty()
             - node->next = q.front()
               node = 5
               q.front() = 6
-
-               1
-             /   \
-            /     \
-           2-------3
-          / \     / \
-         /   \   /   \
-        4-----5-6     7
 
         i++
         i = 2
@@ -456,14 +416,6 @@ Step 6: loop while !q.empty()
               node = 6
               q.front() = 7
 
-               1
-             /   \
-            /     \
-           2-------3
-          / \     / \
-         /   \   /   \
-        4-----5-6-----7
-
         i++
         i = 3
 
@@ -488,14 +440,6 @@ Step 6: loop while !q.empty()
             - 3 < 3
             - false
 
-               1
-             /   \
-            /     \
-           2-------3
-          / \     / \
-         /   \   /   \
-        4-----5-6-----7
-
         i++
         i = 4
 
@@ -506,14 +450,6 @@ Step 6: loop while !q.empty()
 Step 7: return root
 
 So we return the answer as
-
-               1
-             /   \
-            /     \
-           2-------3
-          / \     / \
-         /   \   /   \
-        4-----5-6-----7
 
 [1, #, 2, 3, #, 4, 5, 6, 7, #]
 ```

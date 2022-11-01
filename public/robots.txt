@@ -1,4 +1,4 @@
 # Allow all user agents.
 User-agent: *
 Allow: /
-Sitemap: http://alkeshghorpade.me/sitemap.xml
+Sitemap: https://alkeshghorpade.me/sitemap.xml

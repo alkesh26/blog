@@ -1,4 +1,4 @@
-import Layout from "../components/layout"
+import Layout from '../components/layout';
 
 export default function About() {
   return (
@@ -49,7 +49,7 @@ export default function About() {
 
               <br/>
               <br/>
-              When I'm not coding, you'll find me <a href="https://www.goodreads.com/user/show/38642969-alkesh-ghorpade" target="_blank" rel="nofollow noopener noreferrer" className="text-yellow-500">reading books</a>, playing football or guitar.
+              When I&apos;m not coding, you&apos;ll find me <a href="https://www.goodreads.com/user/show/38642969-alkesh-ghorpade" target="_blank" rel="nofollow noopener noreferrer" className="text-yellow-500">reading books</a>, playing football or guitar.
             </p>
           </div>
         </section>

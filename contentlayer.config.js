@@ -1,41 +1,38 @@
-import { defineDocumentType, makeSource, defineNestedType } from "contentlayer/source-files";
+import { defineDocumentType, makeSource } from 'contentlayer/source-files';
 const Post = defineDocumentType(() => ({
   name: 'Post',
-  filePathPattern: `**/*.md`,
+  filePathPattern: '**/*.md',
   contentType: 'markdown',
   fields: {
     title: {
-      type: 'string', required: true,
+      type: 'string', required: true
     },
     date: {
       type: 'date',
-      required: true,
+      required: true
     },
     author: {
-      type: 'string',
+      type: 'string'
     },
     description: {
       type: 'string',
-      required: true,
+      required: true
     },
     hashtags: {
-      type: 'list', of: { type: 'string' },
+      type: 'list', of: { type: 'string' }
     },
     categories: {
-      type: 'string',
-    },
-    body: {
-      type: 'string',
+      type: 'string'
     }
   },
   computedFields: {
     slug: {
-      type: "string",
-      resolve: (doc) => doc._raw.sourceFileName.replace(/\.md/, ""),
-    },
+      type: 'string',
+      resolve: (doc) => doc._raw.sourceFileName.replace(/\.md/, '')
+    }
   }
-}))
+}));
 export default makeSource({
   contentDirPath: 'content/posts',
-  documentTypes: [Post],
-})
+  documentTypes: [Post]
+});

@@ -1,10 +1,10 @@
 module.exports = {
   theme: {
-    extend: {},
+    extend: {}
   },
   variants: {},
   plugins: [],
   corePlugins: {
-    preflight: false,
-  },
+    preflight: false
+  }
 };

@@ -1,5 +1,4 @@
-import React from 'react';
-import Link from "next/link";
+import Link from 'next/link';
 import PropTypes from 'prop-types';
 import { format, parseISO } from 'date-fns';
 import { DATE_FORMAT } from '../utils/constants';
@@ -12,7 +11,7 @@ const PostList = ({ posts }) => {
           <header>
             <span className="text-sm text-gray-600">{format(parseISO(date), DATE_FORMAT)}</span>
             <h3 className="mb-2 mt-0">
-              <Link href={"/post/[slug]"} as={`/post/${slug}`}>
+              <Link href={'/post/[slug]'} as={`/post/${slug}`}>
                 <a className="text-xl font-semibold text-yellow-500 no-underline">
                   {title}
                 </a>
@@ -26,7 +25,7 @@ const PostList = ({ posts }) => {
       ))}
     </>
   );
-}
+};
 
 PostList.propTypes = {
   posts: PropTypes.array

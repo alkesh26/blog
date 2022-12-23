@@ -1,4 +1,4 @@
-import Layout from "./layout";
+import Layout from './layout';
 import Pagination from './pagination';
 import PostList from './postList';
 import PropTypes from 'prop-types';
@@ -11,11 +11,11 @@ const Home = ({ posts, totalPostCount }) => {
       <Pagination count={totalPostCount} />
     </Layout>
   );
-}
+};
 
 Home.propTypes = {
   posts: PropTypes.arrayOf(PropTypes.object),
   totalPostCount: PropTypes.number
-}
+};
 
 export default Home;

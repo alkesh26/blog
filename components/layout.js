@@ -1,7 +1,8 @@
-import Header from "./header";
-import Footer from "./footer";
+import Header from './header';
+import Footer from './footer';
+import PropTypes from 'prop-types';
 
-export default function Layout({ children }) {
+const Layout = ({ children }) => {
   return (
     <div className="max-w-screen-lg px-4 py-4 mx-auto flex flex-col">
       <Header />
@@ -9,4 +10,10 @@ export default function Layout({ children }) {
       <Footer />
     </div>
   );
-}
+};
+
+Layout.propTypes = {
+  children: PropTypes.node
+};
+
+export default Layout;

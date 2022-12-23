@@ -1,10 +1,15 @@
 module.exports = {
   theme: {
-    extend: {},
+    extend: {}
   },
   variants: {},
   plugins: [],
   corePlugins: {
-    preflight: false,
+    preflight: false
   },
+  content: [
+    './pages/**/*.{html,js}',
+    './components/**/*.{html,js}',
+    './content/**/*.{ts,tsx}'
+  ]
 };

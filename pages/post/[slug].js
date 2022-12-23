@@ -1,63 +1,57 @@
-import React from "react";
-import fs from "fs";
-import path from "path";
-import matter from "gray-matter";
-import ReactMarkdown from "react-markdown/with-html";
-import { Prism as SyntaxHighlighter } from "react-syntax-highlighter";
+import fs from 'fs';
+import path from 'path';
+import matter from 'gray-matter';
+import ReactMarkdown from 'react-markdown/with-html';
+import { allPosts } from 'contentlayer/generated';
+import Layout from './../../components/layout';
+import SocialMediaShare from './../../components/socialMediaShare';
+import { Prism as SyntaxHighlighter } from 'react-syntax-highlighter';
+import PropTypes from 'prop-types';
 
-import Layout from "./../../components/layout";
-import SocialMediaShare from "./../../components/socialMediaShare";
+export async function getStaticPaths() {
+  const postsWithSlug = allPosts.map((post) => ({ params: { slug: post.slug } }));
+  return { paths: postsWithSlug, fallback: false };
+}
+
+export async function getStaticProps({ params: { slug } }) {
+  const markdownWithMetadata = fs
+    .readFileSync(path.join('content/posts', slug + '.md'))
+    .toString();
+
+  const { data, content } = matter(markdownWithMetadata);
+  const options = { year: 'numeric', month: 'long', day: 'numeric' };
+  const formattedDate = data.date.toLocaleDateString('en-US', options);
+
+  const frontmatter = {
+    ...data,
+    date: formattedDate
+  };
+
+  return { props: { content: `# ${data.title}\n${content}`, frontmatter } };
+}
+const Post = ({ content, frontmatter }) => {
+  return (
+    <Layout>
+      <article>
+        <ReactMarkdown escapeHtml={false} source={content} renderers={{ code: CodeBlock }} />
+      </article>
+      <SocialMediaShare frontmatter={frontmatter} />
+    </Layout>
+  );
+};
 
 const CodeBlock = ({ language, value }) => {
   return <SyntaxHighlighter language={language}>{value}</SyntaxHighlighter>;
 };
 
-export default function Post({ content, frontmatter }) {
-  return (
-    <Layout>
-      <article>
-        <ReactMarkdown escapeHtml={false} source={content} renderers={{ code: CodeBlock }}/>
-      </article>
-      <SocialMediaShare frontmatter={frontmatter}/>
-    </Layout>
-  );
-}
+CodeBlock.propTypes = {
+  language: PropTypes.string,
+  value: PropTypes.string
+};
 
-export async function getStaticPaths() {
-  const files = fs.readdirSync("content/posts");
+Post.propTypes = {
+  content: PropTypes.string,
+  frontmatter: PropTypes.object
+};
 
-  const paths = files.map((filename) => ({
-    params: {
-      slug: filename.replace(".md", ""),
-    },
-  }));
-
-  return {
-    paths,
-    fallback: false,
-  };
-}
-
-export async function getStaticProps({ params: { slug } }) {
-   const markdownWithMetadata = fs
-    .readFileSync(path.join("content/posts", slug + ".md"))
-    .toString();
-
-  const { data, content } = matter(markdownWithMetadata);
-
-  // Convert post date to format: Month day, Year
-  const options = { year: "numeric", month: "long", day: "numeric" };
-  const formattedDate = data.date.toLocaleDateString("en-US", options);
-
-  const frontmatter = {
-    ...data,
-    date: formattedDate,
-  };
-
-  return {
-    props: {
-      content: `# ${data.title}\n${content}`,
-      frontmatter,
-    },
-  };
-}
+export default Post;

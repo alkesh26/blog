@@ -1,13 +1,14 @@
-import Link from "next/link";
+import Link from 'next/link';
+import Image from 'next/image';
 
 export default function Header() {
   return (
     <header className="flex justify-between mb-8">
       <div>
         <div className="relative w-24 h-24">
-          <img
+          <Image
             className="rounded-full border border-gray-100 shadow-sm"
-            src="./../alkesh.jpg"
+            src="/alkesh.jpg"
             width="100"
             height="100"
             alt="Alkesh"

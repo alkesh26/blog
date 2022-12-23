@@ -1,6 +1,6 @@
-import Document, { Html, Head, Main, NextScript } from "next/document";
-import { TypographyStyle } from "react-typography";
-import typography from "../utils/typography";
+import Document, { Html, Head, Main, NextScript } from 'next/document';
+import { TypographyStyle } from 'react-typography';
+import typography from '../utils/typography';
 import { GA_TRACKING_ID } from '../lib/gtag';
 
 export default class MyDocument extends Document {
@@ -21,7 +21,7 @@ export default class MyDocument extends Document {
             gtag('config', '${GA_TRACKING_ID}', {
               page_path: window.location.pathname,
             });
-          `,
+          `
             }}
           />
           <TypographyStyle typography={typography} />

@@ -1,21 +1,21 @@
-// pages/_app.js
-import "../styles/tailwind.css";
-import "typeface-open-sans";
-import "typeface-merriweather";
-import Head from "next/head";
-import { useRouter } from "next/router";
-import { frontmatter } from "./../utils/constants";
-import * as gtag from "../lib/gtag";
-import { useEffect } from "react";
-import  { authorDetails, blogPostDetails } from "../utils/schemaMaps"
+import '../styles/tailwind.css';
+import 'typeface-open-sans';
+import 'typeface-merriweather';
+import Head from 'next/head';
+import { useRouter } from 'next/router';
+import { frontmatter } from './../utils/constants';
+import * as gtag from '../lib/gtag';
+import { useEffect } from 'react';
+import { authorDetails, blogPostDetails } from '../utils/schemaMaps';
+import PropTypes from 'prop-types';
 
 export default function MyApp({ Component, pageProps }) {
-  if ( !pageProps.frontmatter ) {
+  if (!pageProps.frontmatter) {
     pageProps.frontmatter = {
       title: frontmatter.title,
       description: frontmatter.description,
-      categories: frontmatter.categories,
-    }
+      categories: frontmatter.categories
+    };
   }
 
   const router = useRouter();
@@ -29,13 +29,13 @@ export default function MyApp({ Component, pageProps }) {
 
   useEffect(() => {
     const handleRouteChange = (url) => {
-      gtag.pageview(url)
-    }
-    router.events.on('routeChangeComplete', handleRouteChange)
+      gtag.pageview(url);
+    };
+    router.events.on('routeChangeComplete', handleRouteChange);
     return () => {
-      router.events.off('routeChangeComplete', handleRouteChange)
-    }
-  }, [router.events])
+      router.events.off('routeChangeComplete', handleRouteChange);
+    };
+  }, [router.events]);
 
   return (
     <>
@@ -74,9 +74,14 @@ export default function MyApp({ Component, pageProps }) {
 }
 
 function loadSchemaBasedOnPage(relativePath, pageProps) {
-  if (relativePath === "/" || relativePath === "/about") {
-    return authorDetails()
+  if (relativePath === '/' || relativePath === '/about') {
+    return authorDetails();
   } else {
-    return blogPostDetails(pageProps)
+    return blogPostDetails(pageProps);
   }
 }
+
+MyApp.propTypes = {
+  Component: PropTypes.func,
+  pageProps: PropTypes.object
+};

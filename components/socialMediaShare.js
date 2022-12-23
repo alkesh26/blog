@@ -1,14 +1,15 @@
 import { TwitterShareButton, LinkedinShareButton, RedditShareButton, TumblrShareButton } from 'react-share';
 import { FaTwitter, FaLinkedin, FaReddit, FaTumblr } from 'react-icons/fa';
-import { useRouter } from "next/router";
+import { useRouter } from 'next/router';
+import PropTypes from 'prop-types';
 
-export default function SocialMediaShare(props){
+const SocialMediaShare = (props) => {
   const { title, description, hashtags } = props.frontmatter;
   const basePath = process.env.BASE_PATH;
   const relativePath = useRouter().asPath;
   const fullPath = `${basePath}${relativePath}`;
 
-  return(
+  return (
     <div className="flex flex-col items-center">
       <div className="justify-center">Share this post!</div>
       <div className="flex flex-row">
@@ -35,4 +36,13 @@ export default function SocialMediaShare(props){
       </div>
     </div>
   );
-}
+};
+
+SocialMediaShare.propTypes = {
+  frontmatter: PropTypes.object,
+  title: PropTypes.string,
+  description: PropTypes.string,
+  hashtags: PropTypes.string
+};
+
+export default SocialMediaShare;

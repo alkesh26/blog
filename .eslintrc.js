@@ -5,7 +5,6 @@ module.exports = {
     es6: true,
     jest: true
   },
-  extends: ['plugin:react/recommended', 'standard'],
   globals: {
     Atomics: 'readonly',
     SharedArrayBuffer: 'readonly'
@@ -31,5 +30,6 @@ module.exports = {
     react: {
       version: 'detect'
     }
-  }
+  },
+  'extends': ['plugin:react/recommended', 'standard', 'eslint:recommended', 'next']
 };

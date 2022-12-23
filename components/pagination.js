@@ -12,7 +12,7 @@ const Pagination = ({ count }) => {
               return (
                 <li key={page} className="page-item p-2">
                   <Link href={page === 0 ? '/' : `/page/${page + 1}`}>
-                    <a className="text-yellow-500 page-link block hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">{page + 1} </a>
+                    <a className="text-gray-600 page-link block hover:text-orange-400 md:border-0 md:hover:text-orange-400 md:dark:hover:text-orange-400 dark:hover:text-orange-400 dark:hover:text-orange-400 md:dark:hover:bg-transparent">{page + 1} </a>
                   </Link>
                 </li>
               );

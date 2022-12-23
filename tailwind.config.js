@@ -6,5 +6,10 @@ module.exports = {
   plugins: [],
   corePlugins: {
     preflight: false
-  }
+  },
+  content: [
+    './pages/**/*.{html,js}',
+    './components/**/*.{html,js}',
+    './content/**/*.{ts,tsx}'
+  ]
 };

@@ -6,7 +6,7 @@ import { BLOGS_PER_PAGE } from '../../utils/constants';
 import Home from '../../components/home';
 
 export async function getStaticPaths() {
-  const totalPostCount = allPosts.length;
+  const totalPostCount = pageCount(allPosts.length);
   const pageIntoArray = Array.from(Array(totalPostCount).keys());
   const paths = [];
 
@@ -24,7 +24,6 @@ export async function getStaticPaths() {
 export async function getStaticProps({ params }) {
   const posts = allPosts.map((post) => pick(post, ['title', 'date', 'slug', 'description', 'categories', 'hashtags']));
   const postsSortByDate = sortByDate(posts);
-  const totalPostCount = pageCount(allPosts.length);
   let postsPerPage;
 
   if ((params)) {
@@ -43,21 +42,19 @@ export async function getStaticProps({ params }) {
 
   return {
     props: {
-      posts: postsPerPage,
-      totalPostCount
+      posts: postsPerPage
     }
   };
 }
 
-const Page = ({ posts, totalPostCount }) => {
+const Page = ({ posts }) => {
   return (
-    <Home posts={posts} totalPostCount={totalPostCount} />
+    <Home posts={posts} />
   );
 };
 
 Page.propTypes = {
-  posts: PropTypes.arrayOf(PropTypes.object),
-  totalPostCount: PropTypes.number
+  posts: PropTypes.arrayOf(PropTypes.object)
 };
 
 export default Page;

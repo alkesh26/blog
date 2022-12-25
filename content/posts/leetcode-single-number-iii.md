@@ -112,7 +112,7 @@ return result;
 The time complexity of the program is **O(n)**, and the space complexity
 is **O(n)**.
 
-#### XOR opertor
+#### XOR operator
 
 The program can be solve in **O(n)** time complexity and **O(1)**
 space complexity using XOR operation.

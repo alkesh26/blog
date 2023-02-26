@@ -153,6 +153,8 @@ func minOperations(n int) int {
 }
 ```
 
+#### JavaScript solution
+
 ```javascript
 var minOperations = function(n) {
     return (n * n) >> 2;

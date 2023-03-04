@@ -1,9 +1,9 @@
 ---
 title: LeetCode - Kth Smallest Element in a Sorted Matrix
-description: LeetCode - return the kth smallest element in the matrix. using C++, Golang, and JavaScript.
+description: LeetCode - return the kth smallest element in the matrix using C++, Golang, and JavaScript.
 date: 2023-03-04
 hashtags: ["leetcode", "algorithms", "golang", "cpp", "javascript"]
-categories: "leetcode - return the kth smallest element in the matrix., c++, golang, javascript"
+categories: "leetcode - return the kth smallest element in the matrix, c++, golang, javascript"
 ---
 
 ### Problem statement

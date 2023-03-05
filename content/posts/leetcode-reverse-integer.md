@@ -6,7 +6,7 @@ hashtags: ["leetcode", "algorithms", "golang", "cpp", "javascript"]
 categories: "leetcode - reverse an integer, c++, golang, javascript"
 ---
 
-### Problem statement
+## Problem statement
 
 Given a signed 32-bit integer **x**, return **x** with its digits reversed.
 If reversing **x** causes the value to go outside the signed 32-bit integer

@@ -6,7 +6,7 @@ hashtags: ["leetcode", "algorithms", "golang", "cpp", "javascript"]
 categories: "leetcode - the bottom-up level order traversal of its nodes, c++, golang, javascript"
 ---
 
-### Problem statement
+## Problem statement
 
 Given the `root` of a binary tree, return *the bottom-up level order traversal of its nodes' values*.
 (i.e., from left to right, level by level from leaf to root).

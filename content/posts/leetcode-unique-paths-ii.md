@@ -6,7 +6,7 @@ hashtags: ["leetcode", "algorithms", "golang", "cpp", "javascript"]
 categories: "leetcode - return the number of possible unique paths a robot can take to reach the bottom-right corner when paths have obstacles, c++, golang, javascript."
 ---
 
-### Problem statement
+## Problem statement
 
 You are given an *m x n* integer array grid. There is a robot initially located at the **top-left corner**
 (i.e., *grid[0][0]*). The robot tries to move to the **bottom-right corner** (i.e., *grid[m - 1][n - 1]*).

@@ -6,7 +6,7 @@ hashtags: ["leetcode", "algorithms", "golang", "cpp", "javascript"]
 categories: "leetcode return the total area covered by the two rectangles, c++, golang, javascript"
 ---
 
-### Problem statement
+## Problem statement
 
 Given the coordinates of two **rectilinear** rectangles in a 2D plane, return *the total area covered by the two rectangles*.
 

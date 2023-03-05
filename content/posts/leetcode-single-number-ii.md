@@ -6,7 +6,7 @@ hashtags: ["leetcode", "algorithms", "golang", "cpp", "javascript"]
 categories: "leetcode - find the number which appears only one time in an array, c++, golang, javascript"
 ---
 
-### Problem statement
+## Problem statement
 
 Given an integer array nums where every element appears **three times** except for one, which appears **exactly once**. Find the *single element and return it*.
 

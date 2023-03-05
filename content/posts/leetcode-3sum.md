@@ -6,7 +6,7 @@ hashtags: ["leetcode", "algorithms", "golang", "cpp"]
 categories: "leetcode - 3 sum, golang, c++"
 ---
 
-### Problem statement
+## Problem statement
 
 Given an array **nums** of n integers, are there elements **a**, **b**, **c**
 in **nums** such that **a + b + c = 0**?

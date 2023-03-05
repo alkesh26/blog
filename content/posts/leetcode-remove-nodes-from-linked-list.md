@@ -6,7 +6,7 @@ hashtags: ["leetcode", "algorithms", "golang", "cpp", "javascript"]
 categories: "leetcode - delete nodes which have a greater value on right side, c++, golang, javascript"
 ---
 
-### Problem statement
+## Problem statement
 
 You are given the `head` of a linked list.
 

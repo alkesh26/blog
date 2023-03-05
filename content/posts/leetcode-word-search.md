@@ -6,7 +6,7 @@ hashtags: ["leetcode", "algorithms", "golang", "cpp", "javascript"]
 categories: "leetcode - search a word in 2D grid of characters, c++, golang, javascript"
 ---
 
-### Problem statement
+## Problem statement
 
 Given an *m x n* grid of characters *board* and a string *word*, return *true* if *word* exists in the grid.
 

@@ -6,7 +6,7 @@ hashtags: ["leetcode", "algorithms", "golang", "cpp", "javascript"]
 categories: "leetcode - median of two sorted arrays, c++, golang, javascript"
 ---
 
-### Problem statement
+## Problem statement
 
 Given two sorted arrays **nums1**
 and

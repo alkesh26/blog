@@ -6,7 +6,7 @@ hashtags: ["leetcode", "algorithms", "golang", "cpp", "javascript"]
 categories: "leetcode - 3 sum closest, c++, golang, javascript"
 ---
 
-### Problem statement
+## Problem statement
 
 Given an integer array **nums** of length **n** and an integer **target**,
 find three integers in **nums** such that the sum is closest to **target**.

@@ -6,7 +6,7 @@ hashtags: ["leetcode", "algorithms", "golang", "cpp", "javascript"]
 categories: "leetcode - return the minimum number of jumps to reach the last index, c++, golang, javascript"
 ---
 
-### Problem statement
+## Problem statement
 
 Given an array of non-negative integers *nums*, you are initially positioned at the first index of the array.
 

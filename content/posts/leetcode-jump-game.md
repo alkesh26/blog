@@ -6,7 +6,7 @@ hashtags: ["leetcode", "algorithms", "golang", "cpp", "javascript"]
 categories: "leetcode - jump game, c++, golang, javascript"
 ---
 
-### Problem statement
+## Problem statement
 
 You are given an integer array **nums**.
 You are initially positioned at the array's **first index**,

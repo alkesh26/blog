@@ -6,7 +6,7 @@ hashtags: ["leetcode", "algorithms", "golang", "cpp", "javascript"]
 categories: "leetcode - the maximum amount of money you can rob tonight, c++, golang, javascript"
 ---
 
-### Problem statement
+## Problem statement
 
 You are a professional robber planning to rob houses along a street.
 Each house has a certain amount of money stashed,

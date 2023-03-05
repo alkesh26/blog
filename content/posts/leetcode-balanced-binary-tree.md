@@ -6,7 +6,7 @@ hashtags: ["leetcode", "algorithms", "golang", "cpp", "javascript"]
 categories: "leetcode - determine if a binary tree is height-balanced, c++, golang, javascript"
 ---
 
-### Problem statement
+## Problem statement
 
 Given a binary tree, determine if it is height-balanced.
 

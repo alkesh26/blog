@@ -6,7 +6,7 @@ hashtags: ["leetcode", "algorithms", "golang", "cpp", "javascript"]
 categories: "leetcode - find element in array which is greater than it's neighbors, c++, golang, javascript"
 ---
 
-### Problem statement
+## Problem statement
 
 A peak element is an element that is strictly greater than its neighbors.
 

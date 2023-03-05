@@ -6,7 +6,7 @@ hashtags: ["leetcode", "algorithms", "golang", "cpp", "javascript"]
 categories: "leetcode - return the total sum of all root-to-leaf numbers, c++, golang, javascript"
 ---
 
-### Problem statement
+## Problem statement
 
 You are given the `root` of a binary tree containing digits from `0` to `9` only.
 

@@ -6,7 +6,7 @@ hashtags: ["leetcode", "algorithms", "golang", "cpp", "javascript"]
 categories: "leetcode - return any valid n-bit gray code sequence, c++, golang, javascript"
 ---
 
-### Problem statement
+## Problem statement
 
 An **n-bit gray code sequence** is a sequence of `2^n` integers where:
 

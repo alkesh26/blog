@@ -6,7 +6,7 @@ hashtags: ["leetcode", "algorithms", "golang", "cpp", "javascript"]
 categories: "leetcode - populate next sibling in a perfect binary tree, c++, golang, javascript"
 ---
 
-### Problem statement
+## Problem statement
 
 We are given a **perfect binary tree** where all leaves are on the same level,
 and every parent has two children. The binary tree has the following definition:

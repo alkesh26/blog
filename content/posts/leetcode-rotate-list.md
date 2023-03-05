@@ -6,7 +6,7 @@ hashtags: ["leetcode", "algorithms", "golang", "cpp", "javascript"]
 categories: "leetcode - rotate the list to the right by k places, c++, golang, javascript"
 ---
 
-### Problem statement
+## Problem statement
 
 Given the *head* of a linked list, rotate the list to the right by *k* places.
 

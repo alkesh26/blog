@@ -6,7 +6,7 @@ hashtags: ["leetcode", "algorithms", "golang", "cpp", "javascript"]
 categories: "leetcode - next permutation, c++, golang, javascript"
 ---
 
-### Problem statement
+## Problem statement
 
 Implement **next permutation**,
 which rearranges numbers into the lexicographically next greater permutation of numbers.

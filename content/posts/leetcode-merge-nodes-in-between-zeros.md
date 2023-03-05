@@ -6,7 +6,7 @@ hashtags: ["leetcode", "algorithms", "golang", "cpp", "javascript"]
 categories: "leetcode - merge all the nodes lying in between them into a single node whose value is the sum of all the merged nodes, c++, golang, javascript"
 ---
 
-### Problem statement
+## Problem statement
 
 You are given the `head` of a linked list, which contains a series of integers **separated** by 0's. The **beginning** and **end** of the linked list will have `Node.val == 0`.
 

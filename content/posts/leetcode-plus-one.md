@@ -6,7 +6,7 @@ hashtags: ["leetcode", "algorithms", "golang", "cpp", "javascript"]
 categories: "leetcode - plus one, c++, golang, javascript"
 ---
 
-### Problem statement
+## Problem statement
 
 Given a **non-empty** array of decimal digits representing a non-negative integer,
 increment one to the integer.

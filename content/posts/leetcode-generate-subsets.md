@@ -6,7 +6,7 @@ hashtags: ["leetcode", "algorithms", "golang", "cpp", "javascript"]
 categories: "leetcode - generate all possible subsets, c++, golang, javascript"
 ---
 
-### Problem statement
+## Problem statement
 
 Given an integer array *nums* of **unique** elements, return *all possible subsets (the power set)*.
 

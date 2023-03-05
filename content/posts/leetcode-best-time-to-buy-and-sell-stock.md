@@ -6,7 +6,7 @@ hashtags: ["leetcode", "algorithms", "golang", "cpp", "javascript"]
 categories: "leetcode - maximize profit in stock trading, c++, golang, javascript"
 ---
 
-### Problem statement
+## Problem statement
 
 You are given an array *prices* where *prices[i]* is the price of a given stock on the *ith* day.
 

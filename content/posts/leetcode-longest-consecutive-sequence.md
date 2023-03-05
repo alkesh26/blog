@@ -6,7 +6,7 @@ hashtags: ["leetcode", "algorithms", "golang", "cpp", "javascript"]
 categories: "leetcode return the length of the longest consecutive elements sequence, c++, golang, javascript"
 ---
 
-### Problem statement
+## Problem statement
 
 Given an unsorted array of integers *nums*, return *the length of the longest consecutive elements sequence*.
 

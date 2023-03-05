@@ -6,7 +6,7 @@ hashtags: ["leetcode", "algorithms", "golang", "cpp", "javascript"]
 categories: "leetcode - calculate the differene of ones and zeros for every cell in the matrix, c++, golang, javascript"
 ---
 
-### Problem statement
+## Problem statement
 
 You are given a **0-indexed** `m x n` binary matrix `grid`.
 

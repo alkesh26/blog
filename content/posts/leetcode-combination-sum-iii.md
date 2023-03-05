@@ -6,7 +6,7 @@ hashtags: ["leetcode", "algorithms", "golang", "cpp", "javascript"]
 categories: "leetcode - return a list of all unique combinations of k numbers that sum up to n, c++, golang, javascript"
 ---
 
-### Problem statement
+## Problem statement
 
 Find all valid combinations of *k* numbers that sum up to *n* such that the following conditions are true:
 

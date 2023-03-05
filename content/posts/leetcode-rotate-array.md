@@ -6,7 +6,7 @@ hashtags: ["leetcode", "algorithms", "golang", "cpp", "javascript"]
 categories: "leetcode - rotate array to right by k steps, c++, golang, javascript"
 ---
 
-### Problem statement
+## Problem statement
 
 Given an array, rotate the array to the right by **k** steps, where **k** is non-negative.
 

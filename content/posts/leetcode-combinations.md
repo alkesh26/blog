@@ -6,7 +6,7 @@ hashtags: ["leetcode", "algorithms", "golang", "cpp", "javascript"]
 categories: "leetcode - return all possible combinations of k numbers out of the range [1, n], c++, golang, javascript"
 ---
 
-### Problem statement
+## Problem statement
 
 Given two integers *n* and *k*, return *all possible combinations of k numbers out of the range [1, n]*.
 

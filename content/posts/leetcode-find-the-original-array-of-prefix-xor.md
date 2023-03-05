@@ -6,7 +6,7 @@ hashtags: ["leetcode", "algorithms", "golang", "cpp", "javascript"]
 categories: "given a sequence arr[] of N - 1 elements which is xor of all adjacent pairs in an array, the task is to find that original array from the arr[], c++, golang, javascript"
 ---
 
-### Problem statement
+## Problem statement
 
 You are given an **integer** array `pref` of size `n`. Find and return *the array arr of size n that satisfies*:
 

@@ -6,7 +6,7 @@ hashtags: ["leetcode", "algorithms", "golang", "cpp", "javascript"]
 categories: "leetcode - find a contiguous non-empty subarray within the array that has the largest product, c++, golang, javascript"
 ---
 
-### Problem statement
+## Problem statement
 
 Given an integer array *nums*, find a contiguous non-empty subarray within the array that has the largest product, and return
 *the product*.

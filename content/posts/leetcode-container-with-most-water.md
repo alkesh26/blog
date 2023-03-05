@@ -6,7 +6,7 @@ hashtags: ["leetcode", "algorithms", "golang", "cpp", "javascript"]
 categories: "leetcode - container with most water, c++, golang, javascript"
 ---
 
-### Problem statement
+## Problem statement
 
 Given **N** non-negative integers **a1, a2, ..., an**,
 where each represents a point at coordinate **(i, ai)**.

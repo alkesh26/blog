@@ -8,7 +8,7 @@ categories: "leetcode - remove all duplicates from sorted array, c++, golang, ja
 
 ![Container](./../remove-duplicates.png)
 
-### Problem statement
+## Problem statement
 
 Given a sorted array **nums**, remove the duplicates in-place such that each element
 appears only once and returns the new length.

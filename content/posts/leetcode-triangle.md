@@ -6,7 +6,7 @@ hashtags: ["leetcode", "algorithms", "golang", "cpp", "javascript"]
 categories: "leetcode - return the minimum path sum from top to bottom, c++, golang, javascript"
 ---
 
-### Problem statement
+## Problem statement
 
 Given a triangle array, return *the minimum path sum from top to bottom*.
 

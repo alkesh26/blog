@@ -8,7 +8,7 @@ categories: "leetcode - sort colors represented as integers 0 1 and 2, c++, gola
 
 ![Container](./../sort-colors.png)
 
-### Problem statement
+## Problem statement
 
 Given an array **nums** with **n** objects colored red,
 white, or blue, sort them **in-place** so that objects of the same color are adjacent,

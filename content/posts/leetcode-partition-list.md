@@ -6,7 +6,7 @@ hashtags: ["leetcode", "algorithms", "golang", "cpp", "javascript"]
 categories: "leetcode - return the list such that all nodes less than x come before nodes greater than or equal to x, c++, golang, javascript"
 ---
 
-### Problem statement
+## Problem statement
 
 Given the `head` of a linked list and a value `x`, partition it such that all nodes **less than x come before nodes greater than or equal to x**.
 

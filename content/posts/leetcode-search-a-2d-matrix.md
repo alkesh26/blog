@@ -6,7 +6,7 @@ hashtags: ["leetcode", "algorithms", "golang", "cpp", "javascript"]
 categories: "leetcode - search in a row-wise and column-wise sorted matrix, c++, golang, javascript"
 ---
 
-### Problem statement
+## Problem statement
 
 Write an efficient algorithm that searches for a value *target* in an *m x n* integer matrix *matrix*. This matrix has the following properties:
 

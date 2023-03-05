@@ -6,7 +6,7 @@ hashtags: ["leetcode", "algorithms", "golang", "cpp", "javascript"]
 categories: "leetcode - search insert position, c++, golang, javascript"
 ---
 
-### Problem statement
+## Problem statement
 
 Given a sorted array of distinct integers and a target value,
 return the index if the target is found.

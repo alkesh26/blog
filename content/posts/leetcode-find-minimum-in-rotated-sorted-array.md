@@ -6,7 +6,7 @@ hashtags: ["leetcode", "algorithms", "golang", "cpp", "javascript"]
 categories: "leetcode - find the minimum element in a rotated sorted array, c++, golang, javascript"
 ---
 
-### Problem statement
+## Problem statement
 
 Suppose an array of length *n* sorted in ascending order is **rotated** between 1 and n times.
 For example, the array *nums = [0, 1, 2, 4, 5, 6, 7]* might become:

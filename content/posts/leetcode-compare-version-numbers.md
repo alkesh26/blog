@@ -6,7 +6,7 @@ hashtags: ["leetcode", "algorithms", "golang", "cpp", "javascript"]
 categories: "leetcode - compare two versions, compare revisions in the left-to-right order, c++, golang, javascript"
 ---
 
-### Problem statement
+## Problem statement
 
 Given two version numbers, *version1* and *version2*, compare them.
 

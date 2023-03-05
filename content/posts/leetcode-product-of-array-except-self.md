@@ -6,7 +6,7 @@ hashtags: ["leetcode", "algorithms", "golang", "cpp", "javascript"]
 categories: "leetcode - product of array except self, c++, golang, javascript"
 ---
 
-### Problem statement
+## Problem statement
 
 Given an integer array **nums**,
 return *an array* **answer** such that answer[i]

@@ -6,7 +6,7 @@ hashtags: ["leetcode", "geeksforgeeks", "algorithms", "golang", "cpp", "javascri
 categories: "leetcode - return all the possible permutations of an array with distinct elements, c++, golang, javascript, geeksforgeeks."
 ---
 
-### Problem statement
+## Problem statement
 
 Given an array *nums* of distinct integers,
 return *all the possible permutations*.

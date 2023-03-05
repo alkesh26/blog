@@ -8,7 +8,7 @@ categories: "leetcode - merge two sorted arrays, c++, golang, javascript"
 
 ![Container](./../merge-two-sorted-array.png)
 
-### Problem statement
+## Problem statement
 
 You are given two integer arrays **nums1** and **nums2**, sorted in **non-decreasing** order,
 and two integers **m** and **n**,

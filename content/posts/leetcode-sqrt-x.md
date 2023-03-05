@@ -8,7 +8,7 @@ categories: "leetcode - find square root of positive number x, c++, golang, java
 
 ![Container](./../square-root.png)
 
-### Problem statement
+## Problem statement
 
 Given a non-negative integer **x**, compute and return the square root of **x**.
 

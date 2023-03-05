@@ -6,7 +6,7 @@ hashtags: ["leetcode", "algorithms", "golang", "cpp", "javascript"]
 categories: "leetcode - unique paths in m X n grid, c++, golang, javascript"
 ---
 
-### Problem statement
+## Problem statement
 
 A robot is located at the top-left corner of a **m x n** grid (marked 'Start' in the diagram below).
 

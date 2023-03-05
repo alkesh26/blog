@@ -6,7 +6,7 @@ hashtags: ["leetcode", "algorithms", "golang", "cpp", "javascript"]
 categories: "leetcode - return number of primes strictly less than n, c++, golang, javascript"
 ---
 
-### Problem statement
+## Problem statement
 
 Given an integer *n*, return *the number of prime numbers that are strictly less than n*.
 

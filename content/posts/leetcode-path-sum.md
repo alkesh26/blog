@@ -6,7 +6,7 @@ hashtags: ["leetcode", "geeksforgeeks", "algorithms", "golang", "cpp", "javascri
 categories: "leetcode - return true if the tree has a root-to-leaf path such that adding up all the values along the path equals targetSum, c++, golang, javascript, geeksforgeeks."
 ---
 
-### Problem statement
+## Problem statement
 
 Given the *root* of a binary tree and an integer *targetSum*,
 return *true* if the tree has a **root-to-leaf** path such that adding up

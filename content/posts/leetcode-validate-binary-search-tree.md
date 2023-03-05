@@ -6,7 +6,7 @@ hashtags: ["leetcode", "algorithms", "golang", "cpp", "javascript"]
 categories: "leetcode - given a binary tree check if it is a valid BST, c++, golang, javascript"
 ---
 
-### Problem statement
+## Problem statement
 
 Given the *root* of a binary tree, *determine if it is a valid binary search tree (BST)*.
 

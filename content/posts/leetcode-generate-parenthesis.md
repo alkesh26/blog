@@ -6,7 +6,7 @@ hashtags: ["leetcode", "algorithms", "golang", "cpp", "javascript"]
 categories: "leetcode - generate parentheses, c++, golang, javascript"
 ---
 
-### Problem statement
+## Problem statement
 
 Given **n** pairs of parentheses,
 write a function to *generate all combinations of well-formed parentheses*.

@@ -6,7 +6,7 @@ hashtags: ["leetcode", "algorithms", "golang", "cpp", "javascript"]
 categories: "leetcode - remove Nth node from linked list, c++, golang, javascript"
 ---
 
-### Problem statement
+## Problem statement
 
 Given the **head** of a linked list, remove the **nth** node from the end of the list
 and return its head.

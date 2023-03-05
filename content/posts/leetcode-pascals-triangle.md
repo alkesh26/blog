@@ -6,7 +6,7 @@ hashtags: ["leetcode", "algorithms", "golang", "cpp", "javascript"]
 categories: "leetcode - pascal's triangle, c++, golang, javascript"
 ---
 
-### Problem statement
+## Problem statement
 
 Given an integer **numRows**, return the first numRows of **Pascal's triangle**.
 

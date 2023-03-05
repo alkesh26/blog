@@ -6,7 +6,7 @@ hashtags: ["leetcode", "algorithms", "golang", "cpp"]
 categories: "leetcode - two sum, c++, golang"
 ---
 
-### Problem statement
+## Problem statement
 
 Given an array of integers **nums** and an integer **target**, return indices of the two numbers such that they add up to **target**.
 

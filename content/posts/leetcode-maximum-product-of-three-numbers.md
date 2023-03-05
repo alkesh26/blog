@@ -6,7 +6,7 @@ hashtags: ["leetcode", "algorithms", "golang", "cpp", "javascript"]
 categories: "leetcode - find three numbers whose product is maximum, c++, golang, javascript"
 ---
 
-### Problem statement
+## Problem statement
 
 Given an integer array **nums**, *find three numbers whose product is maximum and return the maximum product*.
 

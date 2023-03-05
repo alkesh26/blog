@@ -6,7 +6,7 @@ hashtags: ["leetcode", "algorithms", "golang", "cpp", "javascript"]
 categories: "leetcode - check if we can complete gas station circuit, c++, golang, javascript"
 ---
 
-### Problem statement
+## Problem statement
 
 There are *n* gas stations along a circular route, where the amount of gas at the *ith* station is *gas[i]*.
 

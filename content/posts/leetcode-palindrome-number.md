@@ -6,7 +6,7 @@ hashtags: ["leetcode", "algorithms", "golang", "cpp", "javascript"]
 categories: "leetcode - palindrome number solution, c++, golang, javascript"
 ---
 
-### Problem statement
+## Problem statement
 
 Given an integer **x**, return **true** if **x** is palindrome integer.
 

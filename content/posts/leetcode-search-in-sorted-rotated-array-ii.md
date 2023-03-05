@@ -6,7 +6,7 @@ hashtags: ["leetcode", "algorithms", "golang", "cpp", "javascript"]
 categories: "leetcode - search in rotated sorted array containing duplicates, c++, golang, javascript"
 ---
 
-### Problem statement
+## Problem statement
 
 There is an integer array *nums* sorted in non-decreasing order (not necessarily with **distinct** values).
 

@@ -6,7 +6,7 @@ hashtags: ["leetcode", "algorithms", "golang", "cpp", "javascript"]
 categories: "leetcode - implement strStr(), c++, golang, javascript"
 ---
 
-### Problem statement
+## Problem statement
 
 Implement **strStr()**.
 

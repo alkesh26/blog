@@ -6,7 +6,7 @@ hashtags: ["leetcode", "algorithms", "golang", "cpp", "javascript"]
 categories: "leetcode - compute units of water trapped in an elevation map, c++, golang, javascript"
 ---
 
-### Problem statement
+## Problem statement
 
 Given *n* non-negative integers representing an elevation map where the width of each bar is *1*,
 compute how much water it can trap after raining.

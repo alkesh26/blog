@@ -6,7 +6,7 @@ hashtags: ["leetcode", "algorithms", "golang", "cpp"]
 categories: "leetcode - add two numbers represented using LinkedList, c++, golang"
 ---
 
-### Problem statement
+## Problem statement
 
 You are given two **non-empty** linked lists representing two non-negative integers.
 The digits are stored in **reverse order**, and each of their nodes contains a single digit.

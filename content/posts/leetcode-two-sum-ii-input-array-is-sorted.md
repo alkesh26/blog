@@ -6,7 +6,7 @@ hashtags: ["leetcode", "algorithms", "golang", "cpp", "javascript"]
 categories: "leetcode - return the indices of the two numbers that sum to target, c++, golang, javascript."
 ---
 
-### Problem statement
+## Problem statement
 
 Given a **1-indexed** array of integers *numbers* that is already ***sorted in non-decreasing order***,
 find two numbers such that they add up to a specific *target* number.

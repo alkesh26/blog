@@ -6,7 +6,7 @@ hashtags: ["leetcode", "algorithms", "golang", "cpp", "javascript"]
 categories: "leetcode - return the corresponding column title as it appears in an Excel sheet, c++, golang, javascript"
 ---
 
-### Problem statement
+## Problem statement
 
 Given an integer `columnNumber`, return *its corresponding column title as it appears in an Excel sheet*.
 

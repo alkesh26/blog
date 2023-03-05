@@ -6,7 +6,7 @@ hashtags: ["GeeksForGeeks", "algorithms", "golang", "cpp"]
 categories: "geeksforgeeks - pair in an array with a sum equal to the target, c++, golang"
 ---
 
-### Problem statement
+## Problem statement
 
 Given array nums of n numbers and another number target, determines
 whether or not there exist two elements in nums whose sum is exactly equal to target.

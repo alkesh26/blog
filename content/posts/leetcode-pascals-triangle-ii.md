@@ -6,7 +6,7 @@ hashtags: ["leetcode", "algorithms", "golang", "cpp", "javascript"]
 categories: "leetcode - return the rowIndexth row of Pascal's triangle, c++, golang, javascript."
 ---
 
-### Problem statement
+## Problem statement
 
 Given an integer rowIndex, return the rowIndexth (0-indexed) row of Pascal's triangle.
 

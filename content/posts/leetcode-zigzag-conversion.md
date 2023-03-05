@@ -6,7 +6,7 @@ hashtags: ["leetcode", "algorithms", "golang", "cpp", "javascript"]
 categories: "leetcode - zig-zag conversion, c++, golang, javascript"
 ---
 
-### Problem statement
+## Problem statement
 
 The string *'PAYPALISHIRING'* is written in a zigzag pattern on a given number of rows like this: (you may want to display this pattern in a fixed font for better legibility)
 

@@ -6,7 +6,7 @@ hashtags: ["leetcode", "algorithms", "golang", "cpp", "javascript"]
 categories: "leetcode - arrange numbers of array to form largest number, c++, golang, javascript"
 ---
 
-### Problem statement
+## Problem statement
 
 Given a list of non-negative integers *nums*, arrange them such that they form the largest number and return it.
 

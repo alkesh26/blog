@@ -6,7 +6,7 @@ hashtags: ["leetcode", "algorithms", "golang", "cpp", "javascript"]
 categories: "leetcode - roman to integer, c++, golang, javascript"
 ---
 
-### Problem statement
+## Problem statement
 
 Roman numerals are represented by seven different symbols: **I**, **V**,
 **X**, **L**, **C**, **D** and **M**.

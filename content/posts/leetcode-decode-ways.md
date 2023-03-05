@@ -6,7 +6,7 @@ hashtags: ["leetcode", "algorithms", "golang", "cpp", "javascript"]
 categories: "leetcode - find number of ways in which an encoded message can be decoded, c++, golang, javascript"
 ---
 
-### Problem statement
+## Problem statement
 
 A message containing letters from *A-Z* can be **encoded** into numbers using the following mapping:
 

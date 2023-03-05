@@ -6,7 +6,7 @@ hashtags: ["leetcode", "algorithms", "golang", "cpp", "javascript"]
 categories: "leetcode - return a list of all unique combinations of candidates where the chosen numbers sum to the target, c++, golang, javascript"
 ---
 
-### Problem statement
+## Problem statement
 
 Given an array of **distinct** integers *candidates* and a target integer *target*,
 return a list of all **unique combinations** of *candidates* where the chosen numbers sum to target.

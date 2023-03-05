@@ -6,7 +6,7 @@ hashtags: ["leetcode", "algorithms", "golang", "cpp", "javascript"]
 categories: "leetcode - check whether a tree is mirror of itself, c++, golang, javascript"
 ---
 
-### Problem statement
+## Problem statement
 
 Given the *root* of a binary tree,
 *check whether it is a mirror of itself* (i.e., symmetric around its center).

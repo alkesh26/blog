@@ -6,7 +6,7 @@ hashtags: ["leetcode", "algorithms", "golang", "cpp", "javascript"]
 categories: "leetcode - merge all overlapping intervals and return an array of non-overlapping intervals, c++, golang, javascript"
 ---
 
-### Problem statement
+## Problem statement
 
 Given an array of *intervals* where *intervals[i] = [starti, endi]*,
 merge all overlapping intervals,

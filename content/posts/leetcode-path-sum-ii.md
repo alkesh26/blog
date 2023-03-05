@@ -6,7 +6,7 @@ hashtags: ["leetcode", "geeksforgeeks", "algorithms", "golang", "cpp", "javascri
 categories: "leetcode - return all root-to-leaf paths where the sum of the node values in the path equals targetSum, c++, golang, javascript, geeksforgeeks."
 ---
 
-### Problem statement
+## Problem statement
 
 Given the *root* of a binary tree and an integer *targetSum*, return
 *all **root-to-leaf** paths where the sum of the node values in the path equals targetSum*.

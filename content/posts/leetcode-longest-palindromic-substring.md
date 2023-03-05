@@ -6,7 +6,7 @@ hashtags: ["leetcode", "algorithms", "golang", "cpp", "javascript"]
 categories: "leetcode - longest palindromic substring, c++, golang, javascript"
 ---
 
-### Problem statement
+## Problem statement
 
 Given a string **s**, return the longest palindromic substring in **s**.
 

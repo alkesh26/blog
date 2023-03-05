@@ -6,7 +6,7 @@ hashtags: ["leetcode", "algorithms", "golang", "cpp", "javascript"]
 categories: "leetcode - return the maximum amount of money you can rob when houses  in this place form a binary tree, c++, golang, javascript"
 ---
 
-### Problem statement
+## Problem statement
 
 The thief has found himself a new place for his thievery again. There is only one entrance to this area, called *root*.
 

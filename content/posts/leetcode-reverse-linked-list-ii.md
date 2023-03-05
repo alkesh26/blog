@@ -6,7 +6,7 @@ hashtags: ["leetcode", "algorithms", "golang", "cpp", "javascript"]
 categories: "leetcode - reverse a sublist in a linked list, c++, golang, javascript"
 ---
 
-### Problem statement
+## Problem statement
 
 Given the head of a singly linked list and two integers *left* and *right* where *left <= right*,
 reverse the nodes of the list from position *left* to position *right*, and return the reversed list.

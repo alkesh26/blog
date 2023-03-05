@@ -6,7 +6,7 @@ hashtags: ["leetcode", "algorithms", "golang", "cpp", "javascript"]
 categories: "leetcode - delete all nodes that have duplicate numbers, leaving only distinct numbers from the original list, c++, golang, javascript"
 ---
 
-### Problem statement
+## Problem statement
 
 Given the *head* of a sorted linked list,
 *delete all nodes that have duplicate numbers, leaving only distinct numbers from the original list*. Return the linked list **sorted** as well.

@@ -6,7 +6,7 @@ hashtags: ["leetcode", "algorithms", "golang", "cpp", "javascript"]
 categories: "leetcode - return the number of trailing zeroes in n!, c++, golang, javascript"
 ---
 
-### Problem statement
+## Problem statement
 
 Given an integer *n*, return the number of trailing zeroes in *n!*.
 

@@ -8,7 +8,7 @@ categories: "leetcode - letter combinations of a phone number, c++, golang, java
 
 ![Container](./../telephone-keypad.png)
 
-### Problem statement
+## Problem statement
 
 Given a string containing digits from **2-9** inclusive,
 return all possible letter combinations that the number could represent.

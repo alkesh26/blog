@@ -6,7 +6,7 @@ hashtags: ["leetcode", "algorithms", "golang", "cpp", "javascript"]
 categories: "leetcode - return the lowest common ancestor (LCA) node of two given nodes in the BST, c++, golang, javascript"
 ---
 
-### Problem statement
+## Problem statement
 
 Given a binary search tree (BST), find the lowest common ancestor (LCA) node of two given nodes in the BST.
 

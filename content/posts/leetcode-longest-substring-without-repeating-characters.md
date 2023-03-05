@@ -6,7 +6,7 @@ hashtags: ["leetcode", "algorithms", "golang", "cpp", "javascript"]
 categories: "leetcode - longest substring without repeating characters, c++, golang, javascript"
 ---
 
-### Problem statement
+## Problem statement
 
 Given a string **s**, find the length of the longest substring without repeating characters.
 

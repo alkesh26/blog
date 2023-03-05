@@ -6,7 +6,7 @@ hashtags: ["leetcode", "algorithms", "golang", "cpp", "javascript"]
 categories: "leetcode - rearrange the elements of nums such that very consecutive pair of integers have opposite signs, c++, golang, javascript"
 ---
 
-### Problem statement
+## Problem statement
 
 You are given a **0-indexed** integer array `nums` of even length consisting of an **equal** number of positive and negative integers.
 

@@ -6,7 +6,7 @@ hashtags: ["leetcode", "algorithms", "golang", "cpp", "javascript"]
 categories: "leetcode - return the minimum number of operations needed to make all the elements of arr equal, c++, golang, javascript"
 ---
 
-### Problem statement
+## Problem statement
 
 You have an array `arr` of length `n` where `arr[i] = (2 * i) + 1` for all valid values of `i` (i.e., `0 <= i < n`).
 

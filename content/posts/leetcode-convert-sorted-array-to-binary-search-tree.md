@@ -6,7 +6,7 @@ hashtags: ["leetcode", "algorithms", "golang", "cpp", "javascript"]
 categories: "leetcode - convert a sorted array into a height balanced binary search tree, c++, golang, javascript"
 ---
 
-### Problem statement
+## Problem statement
 
 Given an integer array *nums* where the elements are sorted in **ascending order**,
 *convert it to a **height-balanced** binary search tree*.

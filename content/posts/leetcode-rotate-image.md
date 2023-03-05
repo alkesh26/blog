@@ -8,7 +8,7 @@ categories: "leetcode - rotate image represented as 2D array, c++, golang, javas
 
 ![Container](./../rotate-image.png)
 
-### Problem statement
+## Problem statement
 
 You are given an **n x n** 2D **matrix** representing an image,
 rotate the image by **90** degrees (clockwise).

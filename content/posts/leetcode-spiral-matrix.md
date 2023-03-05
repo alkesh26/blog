@@ -6,7 +6,7 @@ hashtags: ["leetcode", "algorithms", "golang", "cpp", "javascript"]
 categories: "leetcode - for a given matrix m * n return all elements of the matrix in spiral order, c++, golang, javascript"
 ---
 
-### Problem statement
+## Problem statement
 
 Given an **m x n matrix**, return *all elements of the matrix in spiral order*.
 

@@ -8,7 +8,7 @@ categories: "leetcode - check for balanced brackets in an expression, c++, golan
 
 ![Container](./../valid-parentheses.png)
 
-### Problem statement
+## Problem statement
 
 Given a string **s** containing just the characters **'('**, **')'**, **'{'**, **'}'**,
 **'['** and **']'**, determine if the input string is valid.

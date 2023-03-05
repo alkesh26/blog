@@ -6,7 +6,7 @@ hashtags: ["leetcode", "algorithms", "golang", "cpp", "javascript"]
 categories: "leetcode - return all possible subsets (the power set) of array with duplicates, c++, golang, javascript"
 ---
 
-### Problem statement
+## Problem statement
 
 Given an integer array *nums* that may contain duplicates, return *all possible subsets (the power set)*.
 

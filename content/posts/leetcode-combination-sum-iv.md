@@ -6,7 +6,7 @@ hashtags: ["leetcode", "algorithms", "golang", "cpp", "javascript"]
 categories: "leetcode - return the number of possible combinations that add up to target, c++, golang, javascript"
 ---
 
-### Problem statement
+## Problem statement
 
 Given an array of **distinct** integers *nums* and a target integer *target*,
 return *the number of possible combinations that add up to the target*.

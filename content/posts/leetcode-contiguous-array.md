@@ -6,7 +6,7 @@ hashtags: ["leetcode", "algorithms", "golang", "cpp", "javascript"]
 categories: "leetcode - return the maximum length of a contiguous subarray with an equal number of 0 and 1, c++, golang, javascript"
 ---
 
-### Problem statement
+## Problem statement
 
 Given a binary array nums, return the maximum length of a contiguous subarray with an equal number of 0 and 1.
 

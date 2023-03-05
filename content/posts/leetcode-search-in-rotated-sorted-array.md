@@ -6,7 +6,7 @@ hashtags: ["leetcode", "algorithms", "golang", "cpp", "javascript"]
 categories: "leetcode - the maximum amount of money you can rob tonight, c++, golang, javascript"
 ---
 
-### Problem statement
+## Problem statement
 
 There is an integer array *nums* sorted in ascending order (with **distinct** values).
 

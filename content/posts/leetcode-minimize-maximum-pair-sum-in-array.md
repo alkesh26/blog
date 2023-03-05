@@ -6,7 +6,7 @@ hashtags: ["leetcode", "algorithms", "golang", "cpp", "javascript"]
 categories: "leetcode - return the minimized maximum pair sum after optimally pairing up the elements, c++, golang, javascript"
 ---
 
-### Problem statement
+## Problem statement
 
 The **pair sum of a pair** `(a, b)` is equal to `a + b`. The **maximum pair sum is the largest pair sum** in a list of pairs.
 

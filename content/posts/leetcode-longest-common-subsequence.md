@@ -6,7 +6,7 @@ hashtags: ["leetcode", "algorithms", "golang", "cpp", "javascript"]
 categories: "leetcode return the length of their longest common subsequence, c++, golang, javascript"
 ---
 
-### Problem statement
+## Problem statement
 
 Given two strings *text1* and *text2*, return the length of their longest **common subsequence**. If there is no **common subsequence**, return 0.
 

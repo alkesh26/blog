@@ -8,7 +8,7 @@ categories: "leetcode - find first and last position of element in sorted array,
 
 ![Container](./../first-and-last.png)
 
-### Problem statement
+## Problem statement
 
 Given an array of integers **nums** sorted in ascending order,
 find the starting and ending position of a given **target** value.

@@ -6,7 +6,7 @@ hashtags: ["leetcode", "algorithms", "golang", "cpp", "javascript"]
 categories: "leetcode evaluate the value of an arithmetic expression in Reverse Polish Notation, c++, golang, javascript"
 ---
 
-### Problem statement
+## Problem statement
 
 Evaluate the value of an arithmetic expression in *Reverse Polish Notation*.
 

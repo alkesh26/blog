@@ -12,7 +12,7 @@ const PostList = ({ posts }) => {
             <span className="text-sm text-gray-600">{format(parseISO(date), DATE_FORMAT)}</span>
             <h3 className="mb-2 mt-0">
               <Link href={'/post/[slug]'} as={`/post/${slug}`}>
-                <a className="text-xl font-semibold text-orange-400 no-underline">
+                <a className="text-xl font-semibold text-orange-400 no-underline" title={title}>
                   {title}
                 </a>
               </Link>

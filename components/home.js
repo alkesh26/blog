@@ -10,7 +10,7 @@ const Home = ({ posts }) => {
     <Layout>
       <h1 className="text-2xl text-orange-400 font-semibold">
         <Link href='/'>
-          <a className="text-2xl text-orange-400">
+          <a className="text-2xl text-orange-400" title="All Blogs">
             All Blogs
           </a>
         </Link>

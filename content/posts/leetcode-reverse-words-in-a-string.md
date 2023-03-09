@@ -21,23 +21,23 @@ Problem statement taken from: <a href='https://leetcode.com/problems/reverse-wor
 **Example 1:**
 
 ```
-Input: s = "the sky is blue"
-Output: "blue is sky the"
+Input: s = 'the sky is blue'
+Output: 'blue is sky the'
 ```
 
 **Example 2:**
 
 ```
-Input: s = "  hello world  "
-Output: "world hello"
+Input: s = '  hello world  '
+Output: 'world hello'
 Explanation: Your reversed string should not contain leading or trailing spaces.
 ```
 
 **Example 3:**
 
 ```
-Input: s = "a good   example"
-Output: "example good a"
+Input: s = 'a good   example'
+Output: 'example good a'
 Explanation: You need to reduce multiple spaces between two words to a single space in the reversed string.
 ```
 
@@ -61,7 +61,7 @@ A C++ snippet of this approach is as follows:
 string reverseWords(string s) {
     stack<string> st;
     int i = 0, n = s.length();
-    string c = "";
+    string c = '';
 
     while(i < n) {
         if(s[i] == ' ') {
@@ -78,7 +78,7 @@ string reverseWords(string s) {
     if(c.length() > 0)
         st.push(c);
 
-    string res = "";
+    string res = '';
 
     while(!st.empty()) {
         res += st.top();
@@ -103,14 +103,14 @@ When we encounter a white space, we store the temporary string to the resultant 
 #### Algorithm
 
 ```
-- set result, temp = "", ""
+- set result, temp = '', ''
   set n = s.length()
 
 - loop for i = n - 1; i >= 1; i--
   - if s[i] == ' '
-    - if temp != ""
-      - result = result + temp + " "
-      - temp = ""
+    - if temp != ''
+      - result = result + temp + ' '
+      - temp = ''
     - if end
   - else
     - temp = s[i] + temp
@@ -134,15 +134,15 @@ The time complexity of the above approach is **O(n)**. We are not using a stack 
 class Solution {
 public:
     string reverseWords(string s) {
-        string result = "";
+        string result = '';
         int n = s.length();
         string temp;
 
         for(int i = n - 1; i >= 0; i--){
             if(s[i] == ' ') {
-                if(temp != "") {
-                    result = result + temp + " ";
-                    temp = "";
+                if(temp != '') {
+                    result = result + temp + ' ';
+                    temp = '';
                 }
             } else {
                 temp = s[i] + temp;
@@ -164,14 +164,14 @@ public:
 
 ```go
 func reverseWords(s string) string {
-    result, temp := "", ""
+    result, temp := '', ''
     n := len(s)
 
     for i := n - 1; i >= 0; i-- {
         if s[i] == ' ' {
-            if temp != "" {
-                result = result + temp + " "
-                temp = ""
+            if temp != '' {
+                result = result + temp + ' '
+                temp = ''
             }
         } else {
             temp = string(s[i]) + temp
@@ -192,14 +192,14 @@ func reverseWords(s string) string {
 
 ```javascript
 var reverseWords = function(s) {
-    let result = "", temp = "";
+    let result = '', temp = '';
     let n = s.length;
 
     for(let i = n - 1; i >= 0; i--){
         if(s[i] == ' ') {
-            if(temp != "") {
-                result = result + temp + " ";
-                temp = "";
+            if(temp != '') {
+                result = result + temp + ' ';
+                temp = '';
             }
         } else {
             temp = s[i] + temp;
@@ -219,9 +219,9 @@ var reverseWords = function(s) {
 Let's dry-run our algorithm to see how the solution works.
 
 ```
-Input: s = "the sky is blue"
+Input: s = 'the sky is blue'
 
-Step 1: result = "", temp = ""
+Step 1: result = '', temp = ''
         n = s.length()
           = 15
 
@@ -237,9 +237,9 @@ Step 2: loop for i = n - 1; i >= 0
              false
           else
             temp = s[i] + temp
-                 = s[14] + ""
-                 = 'e' + ""
-                 = "e"
+                 = s[14] + ''
+                 = 'e' + ''
+                 = 'e'
 
           i--
           i = 13
@@ -254,9 +254,9 @@ Step 3: loop for i >= 0
              false
           else
             temp = s[i] + temp
-                 = s[13] + "e"
-                 = 'u' + "e"
-                 = "ue"
+                 = s[13] + 'e'
+                 = 'u' + 'e'
+                 = 'ue'
 
           i--
           i = 12
@@ -271,9 +271,9 @@ Step 4: loop for i >= 0
              false
           else
             temp = s[i] + temp
-                 = s[12] + "ue"
-                 = 'l' + "ue"
-                 = "lue"
+                 = s[12] + 'ue'
+                 = 'l' + 'ue'
+                 = 'lue'
 
           i--
           i = 11
@@ -288,9 +288,9 @@ Step 5: loop for i >= 0
              false
           else
             temp = s[i] + temp
-                 = s[11] + "lue"
-                 = 'b' + "lue"
-                 = "blue"
+                 = s[11] + 'lue'
+                 = 'b' + 'lue'
+                 = 'blue'
 
           i--
           i = 10
@@ -304,15 +304,15 @@ Step 6: loop for i >= 0
              ' ' == ' '
              true
 
-             if temp != ""
-                "blue" != ""
+             if temp != ''
+                'blue' != ''
                 true
 
-                result = result + temp + " "
-                       = "" + "blue" + " "
-                       = "blue "
+                result = result + temp + ' '
+                       = '' + 'blue' + ' '
+                       = 'blue '
 
-                temp = ""
+                temp = ''
 
           i--
           i = 9
@@ -327,9 +327,9 @@ Step 7: loop for i >= 0
              false
           else
             temp = s[i] + temp
-                 = s[9] + ""
-                 = 's' + ""
-                 = "s"
+                 = s[9] + ''
+                 = 's' + ''
+                 = 's'
 
           i--
           i = 8
@@ -344,9 +344,9 @@ Step 8: loop for i >= 0
              false
           else
             temp = s[i] + temp
-                 = s[8] + "s"
-                 = 'i' + "s"
-                 = "is"
+                 = s[8] + 's'
+                 = 'i' + 's'
+                 = 'is'
 
           i--
           i = 7
@@ -360,15 +360,15 @@ Step 9: loop for i >= 0
              ' ' == ' '
              true
 
-             if temp != ""
-                "is" != ""
+             if temp != ''
+                'is' != ''
                 true
 
-                result = result + temp + " "
-                       = "blue " + "is" + " "
-                       = "blue is "
+                result = result + temp + ' '
+                       = 'blue ' + 'is' + ' '
+                       = 'blue is '
 
-                temp = ""
+                temp = ''
 
           i--
           i = 6
@@ -383,9 +383,9 @@ Step 10: loop for i >= 0
              false
            else
             temp = s[i] + temp
-                 = s[6] + ""
-                 = 'y' + ""
-                 = "y"
+                 = s[6] + ''
+                 = 'y' + ''
+                 = 'y'
 
            i--
            i = 5
@@ -400,9 +400,9 @@ Step 11: loop for i >= 0
              false
            else
             temp = s[i] + temp
-                 = s[5] + "y"
-                 = 'k' + "y"
-                 = "ky"
+                 = s[5] + 'y'
+                 = 'k' + 'y'
+                 = 'ky'
 
            i--
            i = 4
@@ -417,9 +417,9 @@ Step 12: loop for i >= 0
              false
            else
             temp = s[i] + temp
-                 = s[5] + "ky"
-                 = 's' + "ky"
-                 = "sky"
+                 = s[5] + 'ky'
+                 = 's' + 'ky'
+                 = 'sky'
 
            i--
            i = 3
@@ -433,15 +433,15 @@ Step 13: loop for i >= 0
              ' ' == ' '
              true
 
-             if temp != ""
-                "sky" != ""
+             if temp != ''
+                'sky' != ''
                 true
 
-                result = result + temp + " "
-                       = "blue is " + "sky" + " "
-                       = "blue is sky "
+                result = result + temp + ' '
+                       = 'blue is ' + 'sky' + ' '
+                       = 'blue is sky '
 
-                temp = ""
+                temp = ''
 
           i--
           i = 2
@@ -456,9 +456,9 @@ Step 14: loop for i >= 0
              false
            else
             temp = s[i] + temp
-                 = s[2] + ""
-                 = 'e' + ""
-                 = "e"
+                 = s[2] + ''
+                 = 'e' + ''
+                 = 'e'
 
            i--
            i = 1
@@ -473,9 +473,9 @@ Step 15: loop for i >= 0
              false
            else
             temp = s[i] + temp
-                 = s[1] + "e"
-                 = 'h' + "e"
-                 = "he"
+                 = s[1] + 'e'
+                 = 'h' + 'e'
+                 = 'he'
 
            i--
            i = 0
@@ -490,9 +490,9 @@ Step 16: loop for i >= 0
              false
            else
             temp = s[i] + temp
-                 = s[0] + "he"
-                 = 't' + "he"
-                 = "the"
+                 = s[0] + 'he'
+                 = 't' + 'he'
+                 = 'the'
 
            i--
            i = -1
@@ -502,8 +502,8 @@ Step 17: loop for i >= 0
            false
 
 Step 18: result = result + temp
-                = "blue is sky " + "the"
-                = "blue is sky the"
+                = 'blue is sky ' + 'the'
+                = 'blue is sky the'
 
 Step 19: if result[result.length() - 1] == ' '
             result[15 - 1] == ' '
@@ -513,5 +513,5 @@ Step 19: if result[result.length() - 1] == ' '
 
 Step 20: return result
 
-We return the result as "blue is sky the".
+We return the result as 'blue is sky the'.
 ```

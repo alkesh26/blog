@@ -67,7 +67,7 @@ Output: false
 
 ### Explanation
 
-In these kind of problems, our approach should be to check the invalid cases first. We return false the moment we discover any invalid case. We need to iterate over the string and run few checks based on the current character. While iterating we should keep track whether the signs (`+` or `-`), the exponent `e` or decimal `.` has appeared before or not.
+In these kinds of problems, we should first check the invalid cases. We return false the moment we discover any invalid case. We must iterate over the string and run a few checks based on the current character. While iterating, we should keep track of whether the signs (`+` or `-`), the exponent `e` or decimal `.` has appeared before or not.
 
 We need to ensure below cases are handled in our code:
 
@@ -75,7 +75,7 @@ We need to ensure below cases are handled in our code:
 2. No `.` comes after `e` or `E`.
 3. A dot `.` should be followed by a digit.
 4. The character `e` should be followed either by `+`, `-`, or a digit [0-9].
-5. Any other non-numberic character appearing.
+5. Any other non-numeric character appearing.
 6. Reaching the end of S without an active number.
 7. No more than one exponent character `e` or `E` or one sign or decimal in the string.
 
@@ -90,11 +90,11 @@ Let's check the algorithm.
       decimal = false
 
 - loop for character in s
-  // check if current char is number then set number flag to true
+  // check if the current char is a number, then set the number flag to true
   - if c >= '0' && c <= '9'
     - number = true
 
-  // if char is an exponent then verify
+  // if char is an exponent, then verify
   // appeared twice or before any number
   // return false
   // else set exponent to true and all other variables to false
@@ -130,9 +130,9 @@ Let's check the algorithm.
     - return false
 - for end
 
-// if a number has not appeared in the string, number flag will be false
+// if a number has not appeared in the string, the number flag will be false
 // else it will be true
-// We return number as our answer
+// We return the number as our answer
 - return number
 ```
 
@@ -246,7 +246,7 @@ var isNumber = function(s) {
 };
 ```
 
-Let's dry-run our algorithm for few examples to see how the solution works.
+Let's dry-run our algorithm for a few examples to see how the solution works.
 
 ```
 Input: '-90E3'

@@ -67,6 +67,8 @@ export default function MyApp({ Component, pageProps }) {
           dangerouslySetInnerHTML={loadSchemaBasedOnPage(relativePath, pageProps)}
           key="product-jsonld"
         />
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5658509133811633"
+     crossOrigin="anonymous"></script>
       </Head>
       <Component {...pageProps} />
     </>

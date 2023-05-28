@@ -618,6 +618,8 @@ var mergeLists = function(l1, l2) {
 };
 ```
 
+#### Dry Run
+
 Let's dry-run our algorithm to see how the solution works.
 
 ```

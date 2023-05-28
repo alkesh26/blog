@@ -256,6 +256,8 @@ var uniquePathsWithObstacles = function(obstacleGrid) {
 };
 ```
 
+#### Dry Run
+
 Let's dry-run our algorithm for **Example 1**.
 
 ```

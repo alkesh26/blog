@@ -206,6 +206,8 @@ var minPathSum = function(grid) {
 };
 ```
 
+#### Dry Run
+
 Let's dry-run our algorithm for **Example 2**.
 
 ```

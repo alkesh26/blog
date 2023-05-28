@@ -228,6 +228,8 @@ var lowestCommonAncestor = function(root, p, q) {
 };
 ```
 
+#### Dry Run
+
 Let's dry-run our algorithm to see how the solution works.
 
 ```

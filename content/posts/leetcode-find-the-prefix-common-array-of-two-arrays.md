@@ -200,6 +200,8 @@ var findThePrefixCommonArray = function(A, B) {
 };
 ```
 
+#### Dry Run
+
 Let's dry-run our algorithm for a few examples to see how the solution works.
 
 ```

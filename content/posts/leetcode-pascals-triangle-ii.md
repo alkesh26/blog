@@ -156,6 +156,8 @@ var getRow = function(rowIndex) {
 };
 ```
 
+#### Dry Run
+
 Let's dry-run our algorithm for **Example 1**.
 
 ```

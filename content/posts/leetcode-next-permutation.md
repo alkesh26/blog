@@ -233,6 +233,8 @@ var nextPermutation = function(nums) {
 };
 ```
 
+#### Dry Run
+
 Let's dry-run our algorithm to see how the solution works.
 
 ```

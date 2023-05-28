@@ -244,6 +244,8 @@ var singleNumber = function(nums) {
 };
 ```
 
+#### Dry Run
+
 Let's dry-run our algorithm for **Example 1**.
 
 ```

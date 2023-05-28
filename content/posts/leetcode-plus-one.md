@@ -143,6 +143,8 @@ var plusOne = function(digits) {
 };
 ```
 
+#### Dry Run
+
 Let's dry-run our algorithm to see how the solution works.
 
 ```

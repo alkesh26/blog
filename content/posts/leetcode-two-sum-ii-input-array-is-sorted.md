@@ -164,6 +164,8 @@ var twoSum = function(numbers, target) {
 };
 ```
 
+#### Dry Run
+
 Let's dry-run our algorithm for **Example 1**.
 
 ```

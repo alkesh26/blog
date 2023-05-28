@@ -241,6 +241,8 @@ var longestCommonSubsequence = function(text1, text2) {
 };
 ```
 
+#### Dry Run
+
 Let's dry-run our algorithm for **Example 1**.
 
 ```

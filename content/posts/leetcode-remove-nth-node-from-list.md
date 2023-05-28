@@ -196,6 +196,8 @@ var removeNthFromEnd = function(head, n) {
 };
 ```
 
+#### Dry Run
+
 Let's dry-run our algorithm.
 
 ```

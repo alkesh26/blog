@@ -191,6 +191,8 @@ var isPalindrome = function(x) {
 };
 ```
 
+#### Dry Run
+
 Let's dry-run our algorithm.
 
 ```

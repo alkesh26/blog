@@ -166,6 +166,8 @@ function _getPermutations(result, nums, l, r) {
 }
 ```
 
+#### Dry Run
+
 Let's dry-run our algorithm for **Example 1**.
 
 ```

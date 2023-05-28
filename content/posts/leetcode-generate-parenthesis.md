@@ -190,6 +190,8 @@ var _generateParenthesis = function(current, n, left, right, result){
 }
 ```
 
+#### Dry Run
+
 Let's dry-run our algorithm to see how the solution works.
 
 ```

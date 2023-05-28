@@ -334,6 +334,8 @@ var findMedianSortedArrays = function(nums1, nums2) {
 };
 ```
 
+#### Dry Run
+
 Let's dry-run our algorithm to see how the solution works.
 
 ```

@@ -193,6 +193,8 @@ var uniquePaths = function(m, n) {
 };
 ```
 
+#### Dry Run
+
 Let's dry-run our algorithm to see how the solution works.
 
 ```

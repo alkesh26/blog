@@ -139,6 +139,8 @@ var findArray = function(pref) {
 };
 ```
 
+#### Dry Run
+
 Let's dry-run our algorithm for **Example 1**.
 
 ```

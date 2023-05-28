@@ -181,6 +181,8 @@ var merge = function(nums1, m, nums2, n) {
 };
 ```
 
+#### Dry Run
+
 Let's dry-run our algorithm to see how the solution works.
 
 ```

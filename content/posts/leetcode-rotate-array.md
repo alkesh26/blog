@@ -3,7 +3,7 @@ title: LeetCode - Rotate Array
 description: LeetCode - rotate array to right by k steps using C++, Golang, and Javascript.
 date: 2022-07-03
 hashtags: ["leetcode", "algorithms", "golang", "cpp", "javascript"]
-categories: "leetcode - rotate array to right by k steps, c++, golang, javascript"
+categories: "rotate array to right by k steps, c++, golang, javascript"
 ---
 
 ## Problem statement

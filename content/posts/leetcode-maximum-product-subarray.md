@@ -3,7 +3,7 @@ title: LeetCode - Maximum Product Subarray
 description: LeetCode - find a contiguous non-empty subarray within the array that has the largest product using C++, Golang and Javascript.
 date: 2022-02-06
 hashtags: ["leetcode", "algorithms", "golang", "cpp", "javascript"]
-categories: "leetcode - find a contiguous non-empty subarray within the array that has the largest product, c++, golang, javascript"
+categories: "find a contiguous non-empty subarray within the array that has the largest product, c++, golang, javascript"
 ---
 
 ## Problem statement

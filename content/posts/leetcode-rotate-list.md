@@ -3,7 +3,7 @@ title: LeetCode - Rotate List
 description: LeetCode - rotate the list to the right by k places using C++, Golang and Javascript.
 date: 2022-01-27
 hashtags: ["leetcode", "algorithms", "golang", "cpp", "javascript"]
-categories: "leetcode - rotate the list to the right by k places, c++, golang, javascript"
+categories: "rotate the list to the right by k places, c++, golang, javascript"
 ---
 
 ## Problem statement

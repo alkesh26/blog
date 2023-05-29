@@ -3,7 +3,7 @@ title: LeetCode - Maximum Product of Three Numbers
 description: LeetCode - find three numbers whose product is maximum using C++, Golang and Javascript.
 date: 2021-11-25
 hashtags: ["leetcode", "algorithms", "golang", "cpp", "javascript"]
-categories: "leetcode - find three numbers whose product is maximum, c++, golang, javascript"
+categories: "find three numbers whose product is maximum, c++, golang, javascript"
 ---
 
 ## Problem statement

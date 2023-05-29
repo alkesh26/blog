@@ -3,7 +3,7 @@ title: LeetCode - Decode Ways
 description: LeetCode - find number of ways in which an encoded message can be decoded using C++, Golang and Javascript.
 date: 2021-11-04
 hashtags: ["leetcode", "algorithms", "golang", "cpp", "javascript"]
-categories: "leetcode - find number of ways in which an encoded message can be decoded, c++, golang, javascript"
+categories: "find number of ways in which an encoded message can be decoded, c++, golang, javascript"
 ---
 
 ## Problem statement

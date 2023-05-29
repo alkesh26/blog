@@ -3,7 +3,7 @@ title: LeetCode - Partition List
 description: LeetCode - return the list such that all nodes less than x come before nodes greater than or equal to x using C++, Golang and Javascript.
 date: 2023-01-14
 hashtags: ["leetcode", "algorithms", "golang", "cpp", "javascript"]
-categories: "leetcode - return the list such that all nodes less than x come before nodes greater than or equal to x, c++, golang, javascript"
+categories: "return the list such that all nodes less than x come before nodes greater than or equal to x, c++, golang, javascript"
 ---
 
 ## Problem statement

@@ -3,7 +3,7 @@ title: LeetCode - Permutations
 description: LeetCode - return all the possible permutations of an array with distinct elements using C++, Golang, and Javascript.
 date: 2022-08-25
 hashtags: ["leetcode", "geeksforgeeks", "algorithms", "golang", "cpp", "javascript"]
-categories: "leetcode - return all the possible permutations of an array with distinct elements, c++, golang, javascript, geeksforgeeks."
+categories: "return all the possible permutations of an array with distinct elements, c++, golang, javascript, geeksforgeeks."
 ---
 
 ## Problem statement

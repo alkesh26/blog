@@ -3,7 +3,7 @@ title: LeetCode - Unique Paths
 description: LeetCode - unique paths in m X n grid using C++, Golang and Javascript.
 date: 2021-10-14
 hashtags: ["leetcode", "algorithms", "golang", "cpp", "javascript"]
-categories: "leetcode - unique paths in m X n grid, c++, golang, javascript"
+categories: "unique paths in m X n grid, c++, golang, javascript"
 ---
 
 ## Problem statement

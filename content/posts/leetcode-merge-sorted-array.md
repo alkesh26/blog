@@ -3,7 +3,7 @@ title: LeetCode - Merge Two Sorted Array
 description: LeetCode - Merge two sorted arrays using C++, Golang and Javascript.
 date: 2021-07-11
 hashtags: ["leetcode", "algorithms", "golang", "cpp", "javascript"]
-categories: "leetcode - merge two sorted arrays, c++, golang, javascript"
+categories: "merge two sorted arrays, c++, golang, javascript"
 ---
 
 ![Container](./../merge-two-sorted-array.png)

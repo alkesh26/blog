@@ -3,7 +3,7 @@ title: LeetCode - Remove Duplicates from Sorted List II
 description: LeetCode - delete all nodes that have duplicate numbers, leaving only distinct numbers from the original list using C++, Golang, and Javascript.
 date: 2022-08-20
 hashtags: ["leetcode", "algorithms", "golang", "cpp", "javascript"]
-categories: "leetcode - delete all nodes that have duplicate numbers, leaving only distinct numbers from the original list, c++, golang, javascript"
+categories: "delete all nodes that have duplicate numbers, leaving only distinct numbers from the original list, c++, golang, javascript"
 ---
 
 ## Problem statement

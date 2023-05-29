@@ -3,7 +3,7 @@ title: LeetCode Roman to Integer
 description: LeetCode convert a roman string into number.
 date: 2021-05-08
 hashtags: ["leetcode", "algorithms", "golang", "cpp", "javascript"]
-categories: "leetcode - roman to integer, c++, golang, javascript"
+categories: "roman to integer, c++, golang, javascript"
 ---
 
 ## Problem statement

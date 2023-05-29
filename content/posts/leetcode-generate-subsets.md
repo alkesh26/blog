@@ -3,7 +3,7 @@ title: LeetCode - Subsets
 description: LeetCode - Generate all possible subsets using C++, Golang and Javascript.
 date: 2021-10-31
 hashtags: ["leetcode", "algorithms", "golang", "cpp", "javascript"]
-categories: "leetcode - generate all possible subsets, c++, golang, javascript"
+categories: "generate all possible subsets, c++, golang, javascript"
 ---
 
 ## Problem statement

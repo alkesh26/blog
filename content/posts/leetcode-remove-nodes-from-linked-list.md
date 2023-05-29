@@ -3,7 +3,7 @@ title: LeetCode - Remove Nodes From Linked List
 description: LeetCode - delete nodes which have a greater value on right side using C++, Golang and Javascript.
 date: 2023-01-15
 hashtags: ["leetcode", "algorithms", "golang", "cpp", "javascript"]
-categories: "leetcode - delete nodes which have a greater value on right side, c++, golang, javascript"
+categories: "delete nodes which have a greater value on right side, c++, golang, javascript"
 ---
 
 ## Problem statement

@@ -3,7 +3,7 @@ title: LeetCode - Path Sum
 description: LeetCode - return true if the tree has a root-to-leaf path such that adding up all the values along the path equals targetSum using C++, Golang, and Javascript.
 date: 2022-09-03
 hashtags: ["leetcode", "geeksforgeeks", "algorithms", "golang", "cpp", "javascript"]
-categories: "leetcode - return true if the tree has a root-to-leaf path such that adding up all the values along the path equals targetSum, c++, golang, javascript, geeksforgeeks."
+categories: "return true if the tree has a root-to-leaf path such that adding up all the values along the path equals targetSum, c++, golang, javascript, geeksforgeeks."
 ---
 
 ## Problem statement

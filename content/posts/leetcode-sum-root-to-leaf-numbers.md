@@ -3,7 +3,7 @@ title: LeetCode - Sum Root to Leaf Numbers
 description: LeetCode - return the total sum of all root-to-leaf numbers using C++, Golang, and JavaScript.
 date: 2023-02-04
 hashtags: ["leetcode", "algorithms", "golang", "cpp", "javascript"]
-categories: "leetcode - return the total sum of all root-to-leaf numbers, c++, golang, javascript"
+categories: "return the total sum of all root-to-leaf numbers, c++, golang, javascript"
 ---
 
 ## Problem statement

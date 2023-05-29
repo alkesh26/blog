@@ -3,7 +3,7 @@ title: LeetCode - Construct Binary Tree from Preorder and Inorder Traversal
 description: LeetCode - construct and return the binary tree from preorder and inorder traversal using C++, Golang, and JavaScript.
 date: 2023-04-08
 hashtags: ["leetcode", "algorithms", "golang", "cpp", "javascript"]
-categories: "leetcode - construct and return the binary tree from preorder and inorder traversal, c++, golang, javascript"
+categories: "construct and return the binary tree from preorder and inorder traversal, c++, golang, javascript"
 ---
 
 ## Problem statement

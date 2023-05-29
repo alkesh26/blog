@@ -3,7 +3,7 @@ title: LeetCode - Count and Say
 description: LeetCode - return the nth term of the count-and-say sequence using C++, Golang, and JavaScript.
 date: 2023-04-06
 hashtags: ["leetcode", "algorithms", "golang", "cpp", "javascript"]
-categories: "leetcode - return the nth term of the count-and-say sequence, c++, golang, javascript"
+categories: "return the nth term of the count-and-say sequence, c++, golang, javascript"
 ---
 
 ## Problem statement

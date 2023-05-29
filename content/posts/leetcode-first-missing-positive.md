@@ -3,7 +3,7 @@ title: LeetCode - First Missing Positive
 description: LeetCode - return the smallest missing positive integer using C++, Golang, and JavaScript.
 date: 2023-03-25
 hashtags: ["leetcode", "algorithms", "golang", "cpp", "javascript"]
-categories: "leetcode - return the smallest missing positive integer, c++, golang, javascript"
+categories: "return the smallest missing positive integer, c++, golang, javascript"
 ---
 
 ## Problem statement

@@ -3,7 +3,7 @@ title: LeetCode - Search Insert Position
 description: LeetCode - Search Insert Position using C++, Golang and Javascript.
 date: 2021-09-05
 hashtags: ["leetcode", "algorithms", "golang", "cpp", "javascript"]
-categories: "leetcode - search insert position, c++, golang, javascript"
+categories: "search insert position, c++, golang, javascript"
 ---
 
 ## Problem statement

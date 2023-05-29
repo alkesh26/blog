@@ -3,7 +3,7 @@ title: LeetCode String to Integer (atoi)
 description: LeetCode convert a string of numbers(words) into integer using C++, Golang and Javascript.
 date: 2021-04-18
 hashtags: ["leetcode", "algorithms", "golang", "cpp", "javascript"]
-categories: "leetcode - string to integer atoi, c++, golang, javascript"
+categories: "string to integer atoi, c++, golang, javascript"
 ---
 
 ## Problem statement

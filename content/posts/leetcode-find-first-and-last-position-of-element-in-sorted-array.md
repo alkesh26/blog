@@ -3,7 +3,7 @@ title: LeetCode - Find First and Last Position of Element in Sorted Array
 description: LeetCode - find first and last position of element in sorted array using C++, Golang and Javascript.
 date: 2021-06-06
 hashtags: ["leetcode", "algorithms", "golang", "cpp", "javascript"]
-categories: "leetcode - find first and last position of element in sorted array, c++, golang, javascript"
+categories: "find first and last position of element in sorted array, c++, golang, javascript"
 ---
 
 ![Container](./../first-and-last.png)

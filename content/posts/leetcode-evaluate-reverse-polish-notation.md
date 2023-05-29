@@ -3,7 +3,7 @@ title: LeetCode - Evaluate Reverse Polish Notation
 description: LeetCode - evaluate the value of an arithmetic expression in Reverse Polish Notation in C++, Golang, and Javascript.
 date: 2022-10-01
 hashtags: ["leetcode", "algorithms", "golang", "cpp", "javascript"]
-categories: "leetcode evaluate the value of an arithmetic expression in Reverse Polish Notation, c++, golang, javascript"
+categories: "evaluate the value of an arithmetic expression in Reverse Polish Notation, c++, golang, javascript"
 ---
 
 ## Problem statement

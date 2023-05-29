@@ -3,7 +3,7 @@ title: LeetCode 3Sum
 description: LeetCode 3Sum solution in C++ and Golang.
 date: 2021-03-14
 hashtags: ["leetcode", "algorithms", "golang", "cpp"]
-categories: "leetcode - 3 sum, golang, c++"
+categories: "3 sum leetcode, golang, c++"
 ---
 
 ## Problem statement

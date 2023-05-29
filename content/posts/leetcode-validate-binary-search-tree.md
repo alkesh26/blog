@@ -3,7 +3,7 @@ title: LeetCode - Validate Binary Search Tree
 description: LeetCode - Given a binary tree check if it is a valid BST using C++, Golang and Javascript.
 date: 2021-11-21
 hashtags: ["leetcode", "algorithms", "golang", "cpp", "javascript"]
-categories: "leetcode - given a binary tree check if it is a valid BST, c++, golang, javascript"
+categories: "given a binary tree check if it is a valid BST, c++, golang, javascript"
 ---
 
 ## Problem statement

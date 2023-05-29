@@ -3,7 +3,7 @@ title: LeetCode - Minimum Operations to Make Array Equal
 description: LeetCode - return the minimum number of operations needed to make all the elements of arr equal using C++, Golang, and JavaScript.
 date: 2023-02-25
 hashtags: ["leetcode", "algorithms", "golang", "cpp", "javascript"]
-categories: "leetcode - return the minimum number of operations needed to make all the elements of arr equal, c++, golang, javascript"
+categories: "return the minimum number of operations needed to make all the elements of arr equal, c++, golang, javascript"
 ---
 
 ## Problem statement

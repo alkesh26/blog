@@ -3,7 +3,7 @@ title: LeetCode - ZigZag Conversion
 description: LeetCode - zig-zag conversion using C++, Golang and Javascript.
 date: 2021-10-21
 hashtags: ["leetcode", "algorithms", "golang", "cpp", "javascript"]
-categories: "leetcode - zig-zag conversion, c++, golang, javascript"
+categories: "zig-zag conversion, c++, golang, javascript"
 ---
 
 ## Problem statement

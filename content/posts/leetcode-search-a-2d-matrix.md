@@ -3,7 +3,7 @@ title: LeetCode - Search a 2D Matrix
 description: LeetCode - search in a row-wise and column-wise sorted matrix using C++, Golang, and Javascript.
 date: 2022-09-24
 hashtags: ["leetcode", "algorithms", "golang", "cpp", "javascript"]
-categories: "leetcode - search in a row-wise and column-wise sorted matrix, c++, golang, javascript"
+categories: "search in a row-wise and column-wise sorted matrix, c++, golang, javascript"
 ---
 
 ## Problem statement

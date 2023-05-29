@@ -3,7 +3,7 @@ title: LeetCode - Bitwise AND of Numbers Range
 description: LeetCode - return the bitwise AND of all numbers in this range, inclusive using C++, Golang, and JavaScript.
 date: 2023-04-15
 hashtags: ["leetcode", "algorithms", "golang", "cpp", "javascript"]
-categories: "leetcode - return the bitwise AND of all numbers in this range, c++, golang, javascript"
+categories: "return the bitwise AND of all numbers in this range, c++, golang, javascript"
 ---
 
 ## Problem statement

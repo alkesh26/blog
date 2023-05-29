@@ -3,7 +3,7 @@ title: LeetCode - Product of Array Except Self
 description: LeetCode - product of array except self using C++, Golang and Javascript.
 date: 2021-10-17
 hashtags: ["leetcode", "algorithms", "golang", "cpp", "javascript"]
-categories: "leetcode - product of array except self, c++, golang, javascript"
+categories: "product of array except self, c++, golang, javascript"
 ---
 
 ## Problem statement

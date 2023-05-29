@@ -3,7 +3,7 @@ title: LeetCode - Minimum Path Sum
 description: LeetCode - find a path from top left to bottom right, which minimizes the sum of all numbers along its path using C++, Golang, and Javascript.
 date: 2022-08-28
 hashtags: ["leetcode", "algorithms", "golang", "cpp", "javascript"]
-categories: "leetcode - find a path from top left to bottom right, which minimizes the sum of all numbers along its path, c++, golang, javascript."
+categories: "find a path from top left to bottom right, which minimizes the sum of all numbers along its path, c++, golang, javascript."
 ---
 
 ## Problem statement

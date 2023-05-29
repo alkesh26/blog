@@ -3,7 +3,7 @@ title: LeetCode - Trapping rain water
 description: LeetCode - compute units of water trapped in an elevation map using C++, Golang and Javascript.
 date: 2021-12-19
 hashtags: ["leetcode", "algorithms", "golang", "cpp", "javascript"]
-categories: "leetcode - compute units of water trapped in an elevation map, c++, golang, javascript"
+categories: "compute units of water trapped in an elevation map, c++, golang, javascript"
 ---
 
 ## Problem statement

@@ -3,7 +3,7 @@ title: LeetCode - Letter Combinations of a Phone Number
 description: LeetCode - Letter combinations of a phone number using C++, Golang and Javascript.
 date: 2021-08-08
 hashtags: ["leetcode", "algorithms", "golang", "cpp", "javascript"]
-categories: "leetcode - letter combinations of a phone number, c++, golang, javascript"
+categories: "letter combinations of a phone number, c++, golang, javascript"
 ---
 
 ![Container](./../telephone-keypad.png)

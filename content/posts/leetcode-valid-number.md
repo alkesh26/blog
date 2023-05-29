@@ -3,7 +3,7 @@ title: LeetCode - Valid Number
 description: LeetCode - return true if a string is a valid number using C++, Golang, and JavaScript.
 date: 2023-03-30
 hashtags: ["leetcode", "algorithms", "golang", "cpp", "javascript"]
-categories: "leetcode - return true if a string is a valid number, c++, golang, javascript"
+categories: "return true if a string is a valid number, c++, golang, javascript"
 ---
 
 ## Problem statement

@@ -3,7 +3,7 @@ title: LeetCode - Longest Common Subsequence
 description: LeetCode - return the length of their longest common subsequence in C++, Golang, and Javascript.
 date: 2022-10-09
 hashtags: ["leetcode", "algorithms", "golang", "cpp", "javascript"]
-categories: "leetcode return the length of their longest common subsequence, c++, golang, javascript"
+categories: "return the length of their longest common subsequence, c++, golang, javascript"
 ---
 
 ## Problem statement

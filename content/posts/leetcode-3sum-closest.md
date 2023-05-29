@@ -3,7 +3,7 @@ title: LeetCode - 3Sum closest
 description: LeetCode - 3Sum closest using C++, Golang and Javascript.
 date: 2021-09-26
 hashtags: ["leetcode", "algorithms", "golang", "cpp", "javascript"]
-categories: "leetcode - 3 sum closest, c++, golang, javascript"
+categories: "3 sum closest, c++, golang, javascript"
 ---
 
 ## Problem statement

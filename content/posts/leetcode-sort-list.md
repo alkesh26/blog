@@ -3,7 +3,7 @@ title: LeetCode - Sort list
 description: LeetCode - return the list after sorting it in ascending order using C++, Golang, and JavaScript.
 date: 2023-04-20
 hashtags: ["leetcode", "algorithms", "golang", "cpp", "javascript"]
-categories: "leetcode - return the list after sorting it in ascending order, c++, golang, javascript"
+categories: "return the list after sorting it in ascending order, c++, golang, javascript"
 ---
 
 ## Problem statement

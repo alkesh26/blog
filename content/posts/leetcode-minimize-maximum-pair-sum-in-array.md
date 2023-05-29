@@ -3,7 +3,7 @@ title: LeetCode - Minimize Maximum Pair Sum in Array
 description: LeetCode - return the minimized maximum pair sum after optimally pairing up the elements using C++, Golang, and JavaScript.
 date: 2023-02-19
 hashtags: ["leetcode", "algorithms", "golang", "cpp", "javascript"]
-categories: "leetcode - return the minimized maximum pair sum after optimally pairing up the elements, c++, golang, javascript"
+categories: "return the minimized maximum pair sum after optimally pairing up the elements, c++, golang, javascript"
 ---
 
 ## Problem statement

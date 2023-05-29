@@ -3,7 +3,7 @@ title: LeetCode - Binary Tree Zigzag Level Order Traversal
 description: LeetCode - Return the zigzag level order traversal of binary tree nodes values using C++, Golang and Javascript.
 date: 2021-12-02
 hashtags: ["leetcode", "algorithms", "golang", "cpp", "javascript"]
-categories: "leetcode - return the zigzag level order traversal of binary tree nodes, c++, golang, javascript"
+categories: "return the zigzag level order traversal of binary tree nodes, c++, golang, javascript"
 ---
 
 ## Problem statement

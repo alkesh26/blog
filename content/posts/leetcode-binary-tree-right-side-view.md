@@ -3,7 +3,7 @@ title: LeetCode - Binary Tree Right Side View
 description: LeetCode - return the values of the nodes you can see ordered from top to bottom using C++, Golang, and Javascript.
 date: 2023-01-22
 hashtags: ["leetcode", "algorithms", "golang", "cpp", "javascript"]
-categories: "leetcode - return the values of the nodes you can see ordered from top to bottom, c++, golang, javascript"
+categories: "return the values of the nodes you can see ordered from top to bottom, c++, golang, javascript"
 ---
 
 ## Problem statement

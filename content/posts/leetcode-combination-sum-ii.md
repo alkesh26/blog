@@ -3,7 +3,7 @@ title: LeetCode - Combination Sum II
 description: LeetCode - return a list of all unique combinations of candidates where the chosen numbers sum to the target using C++, Golang, and Javascript.
 date: 2022-08-07
 hashtags: ["leetcode", "algorithms", "golang", "cpp", "javascript"]
-categories: "leetcode - return a list of all unique combinations of candidates where the chosen numbers sum to the target, c++, golang, javascript"
+categories: "return a list of all unique combinations of candidates where the chosen numbers sum to the target, c++, golang, javascript"
 ---
 
 ## Problem statement

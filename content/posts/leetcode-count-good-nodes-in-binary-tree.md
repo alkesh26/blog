@@ -3,7 +3,7 @@ title: LeetCode - Count Good Nodes in Binary Tree
 description: LeetCode - return the number of good nodes in the binary tree using C++, Golang, and JavaScript.
 date: 2023-03-05
 hashtags: ["leetcode", "algorithms", "golang", "cpp", "javascript"]
-categories: "leetcode - return the number of good nodes in the binary tree, c++, golang, javascript"
+categories: "return the number of good nodes in the binary tree, c++, golang, javascript"
 ---
 
 ## Problem statement

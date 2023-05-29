@@ -3,7 +3,7 @@ title: LeetCode - Merge Two Sorted Lists
 description: LeetCode - Merge Two Sorted Lists using C++, Golang and Javascript.
 date: 2021-08-29
 hashtags: ["leetcode", "algorithms", "golang", "cpp", "javascript"]
-categories: "leetcode - merge two sorted lists, c++, golang, javascript"
+categories: "merge two sorted lists, c++, golang, javascript"
 ---
 
 ![Container](./../merge-two-sorted-lists.png)

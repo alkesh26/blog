@@ -3,7 +3,7 @@ title: LeetCode - Combination Sum IV
 description: LeetCode - return the number of possible combinations that add up to the target using C++, Golang, and Javascript.
 date: 2022-08-18
 hashtags: ["leetcode", "algorithms", "golang", "cpp", "javascript"]
-categories: "leetcode - return the number of possible combinations that add up to target, c++, golang, javascript"
+categories: "return the number of possible combinations that add up to target, c++, golang, javascript"
 ---
 
 ## Problem statement

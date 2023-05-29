@@ -3,7 +3,7 @@ title: LeetCode - Best Time to Buy and Sell Stock
 description: LeetCode - maximize profit in stock trading using C++, Golang and Javascript.
 date: 2021-12-09
 hashtags: ["leetcode", "algorithms", "golang", "cpp", "javascript"]
-categories: "leetcode - maximize profit in stock trading, c++, golang, javascript"
+categories: "maximize profit in stock trading, c++, golang, javascript"
 ---
 
 ## Problem statement

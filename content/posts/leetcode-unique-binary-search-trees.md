@@ -3,7 +3,7 @@ title: LeetCode - Unique Binary Search Trees
 description: LeetCode - return the number of structurally unique BST's using C++, Golang, and Javascript.
 date: 2022-03-20
 hashtags: ["leetcode", "algorithms", "golang", "cpp", "javascript"]
-categories: "leetcode - return the number of structurally unique BST's, c++, golang, javascript"
+categories: "return the number of structurally unique BST's, c++, golang, javascript"
 ---
 
 ## Problem statement

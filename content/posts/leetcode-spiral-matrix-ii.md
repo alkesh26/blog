@@ -3,7 +3,7 @@ title: LeetCode - Spiral Matrix II
 description: LeetCode - generate an n x n matrix filled with elements from 1 to n2 in spiral order using C++, Golang and Javascript.
 date: 2022-01-23
 hashtags: ["leetcode", "algorithms", "golang", "cpp", "javascript"]
-categories: "leetcode - generate an n x n matrix filled with elements from 1 to n2 in spiral order, c++, golang, javascript"
+categories: "generate an n x n matrix filled with elements from 1 to n2 in spiral order, c++, golang, javascript"
 ---
 
 ## Problem statement

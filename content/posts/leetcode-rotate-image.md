@@ -3,7 +3,7 @@ title: LeetCode - Rotate Image
 description: LeetCode - Rotate Image represented as 2D array using C++, Golang and Javascript.
 date: 2021-06-20
 hashtags: ["leetcode", "algorithms", "golang", "cpp", "javascript"]
-categories: "leetcode - rotate image represented as 2D array, c++, golang, javascript"
+categories: "rotate image represented as 2D array, c++, golang, javascript"
 ---
 
 ![Container](./../rotate-image.png)

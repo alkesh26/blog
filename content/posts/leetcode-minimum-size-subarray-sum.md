@@ -3,7 +3,7 @@ title: LeetCode - Minimum Size Subarray Sum
 description: LeetCode - return the minimal length of a subarray whose sum is greater than or equal to target using C++, Golang and Javascript.
 date: 2023-01-08
 hashtags: ["leetcode", "algorithms", "golang", "cpp", "javascript"]
-categories: "leetcode - the minimal length of a subarray whose sum is greater than or equal to target, c++, golang, javascript"
+categories: "the minimal length of a subarray whose sum is greater than or equal to target, c++, golang, javascript"
 ---
 
 ## Problem statement

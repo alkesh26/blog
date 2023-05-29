@@ -3,7 +3,7 @@ title: LeetCode - Populating Next Right Pointers in Each Node
 description: LeetCode - populate next sibling in a perfect binary tree using C++, Golang and Javascript.
 date: 2021-12-05
 hashtags: ["leetcode", "algorithms", "golang", "cpp", "javascript"]
-categories: "leetcode - populate next sibling in a perfect binary tree, c++, golang, javascript"
+categories: "populate next sibling in a perfect binary tree, c++, golang, javascript"
 ---
 
 ## Problem statement

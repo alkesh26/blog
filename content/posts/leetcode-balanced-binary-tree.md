@@ -3,7 +3,7 @@ title: LeetCode - Balanced Binary Tree
 description: LeetCode - determine if a binary tree is height-balanced using C++, Golang and Javascript.
 date: 2022-01-22
 hashtags: ["leetcode", "algorithms", "golang", "cpp", "javascript"]
-categories: "leetcode - determine if a binary tree is height-balanced, c++, golang, javascript"
+categories: "determine if a binary tree is height-balanced, c++, golang, javascript"
 ---
 
 ## Problem statement

@@ -3,7 +3,7 @@ title: LeetCode - Compare Version Numbers
 description: LeetCode - compare two versions, compare revisions in the left-to-right order using C++, Golang, and Javascript.
 date: 2022-09-25
 hashtags: ["leetcode", "algorithms", "golang", "cpp", "javascript"]
-categories: "leetcode - compare two versions, compare revisions in the left-to-right order, c++, golang, javascript"
+categories: "compare two versions, compare revisions in the left-to-right order, c++, golang, javascript"
 ---
 
 ## Problem statement

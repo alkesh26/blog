@@ -3,7 +3,7 @@ title: LeetCode - House Robber III
 description: LeetCode - return the maximum amount of money you can rob when houses in this place form a binary tree using C++, Golang, and Javascript.
 date: 2022-09-11
 hashtags: ["leetcode", "algorithms", "golang", "cpp", "javascript"]
-categories: "leetcode - return the maximum amount of money you can rob when houses  in this place form a binary tree, c++, golang, javascript"
+categories: "return the maximum amount of money you can rob when houses  in this place form a binary tree, c++, golang, javascript"
 ---
 
 ## Problem statement

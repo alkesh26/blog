@@ -3,7 +3,7 @@ title: LeetCode - Combination Sum III
 description: LeetCode - return a list of all unique combinations of k numbers that sum up to n using C++, Golang, and Javascript.
 date: 2022-08-14
 hashtags: ["leetcode", "algorithms", "golang", "cpp", "javascript"]
-categories: "leetcode - return a list of all unique combinations of k numbers that sum up to n, c++, golang, javascript"
+categories: "return a list of all unique combinations of k numbers that sum up to n, c++, golang, javascript"
 ---
 
 ## Problem statement

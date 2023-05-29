@@ -3,7 +3,7 @@ title: LeetCode Palindrome Number
 description: LeetCode palindrome number solution in C++, Golang and Javascript
 date: 2021-04-24
 hashtags: ["leetcode", "algorithms", "golang", "cpp", "javascript"]
-categories: "leetcode - palindrome number solution, c++, golang, javascript"
+categories: "palindrome number solution, c++, golang, javascript"
 ---
 
 ## Problem statement

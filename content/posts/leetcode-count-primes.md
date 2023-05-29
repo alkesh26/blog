@@ -3,7 +3,7 @@ title: LeetCode - Count Primes
 description: LeetCode - return number of primes strictly less than n using C++, Golang and Javascript.
 date: 2021-12-16
 hashtags: ["leetcode", "algorithms", "golang", "cpp", "javascript"]
-categories: "leetcode - return number of primes strictly less than n, c++, golang, javascript"
+categories: "return number of primes strictly less than n, c++, golang, javascript"
 ---
 
 ## Problem statement

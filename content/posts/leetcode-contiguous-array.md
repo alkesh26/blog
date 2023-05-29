@@ -3,7 +3,7 @@ title: LeetCode - Contiguous Array
 description: LeetCode - return the maximum length of a contiguous subarray with an equal number of 0 and 1 using C++, Golang and Javascript.
 date: 2022-02-05
 hashtags: ["leetcode", "algorithms", "golang", "cpp", "javascript"]
-categories: "leetcode - return the maximum length of a contiguous subarray with an equal number of 0 and 1, c++, golang, javascript"
+categories: "return the maximum length of a contiguous subarray with an equal number of 0 and 1, c++, golang, javascript"
 ---
 
 ## Problem statement

@@ -3,7 +3,7 @@ title: LeetCode - Single Number III
 description: LeetCode - Return the two elements that appear only once in an array using C++, Golang, and Javascript.
 date: 2022-12-25
 hashtags: ["leetcode", "algorithms", "golang", "cpp", "javascript"]
-categories: "leetcode - return the two elements that appear only once in an array, c++, golang, javascript"
+categories: "return the two elements that appear only once in an array, c++, golang, javascript"
 ---
 
 ## Problem statement

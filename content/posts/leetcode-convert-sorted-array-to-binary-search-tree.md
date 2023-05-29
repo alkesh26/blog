@@ -3,7 +3,7 @@ title: LeetCode - Convert Sorted Array to Binary Search Tree
 description: LeetCode - Convert a sorted array into a height-balanced binary search tree using C++, Golang and Javascript.
 date: 2021-11-28
 hashtags: ["leetcode", "algorithms", "golang", "cpp", "javascript"]
-categories: "leetcode - convert a sorted array into a height balanced binary search tree, c++, golang, javascript"
+categories: "convert a sorted array into a height balanced binary search tree, c++, golang, javascript"
 ---
 
 ## Problem statement

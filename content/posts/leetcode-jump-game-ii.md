@@ -3,7 +3,7 @@ title: LeetCode - Jump Game II
 description: LeetCode - return the minimum number of jumps to reach the last index using C++, Golang, and Javascript.
 date: 2022-09-17
 hashtags: ["leetcode", "algorithms", "golang", "cpp", "javascript"]
-categories: "leetcode - return the minimum number of jumps to reach the last index, c++, golang, javascript"
+categories: "return the minimum number of jumps to reach the last index, c++, golang, javascript"
 ---
 
 ## Problem statement

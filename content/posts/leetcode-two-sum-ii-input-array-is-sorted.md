@@ -3,7 +3,7 @@ title: LeetCode - Two Sum II - Input Array Is Sorted
 description: LeetCode - return the indices of the two numbers that sum to the target using C++, Golang, and Javascript.
 date: 2022-08-27
 hashtags: ["leetcode", "algorithms", "golang", "cpp", "javascript"]
-categories: "leetcode - return the indices of the two numbers that sum to target, c++, golang, javascript."
+categories: "return the indices of the two numbers that sum to target, c++, golang, javascript."
 ---
 
 ## Problem statement

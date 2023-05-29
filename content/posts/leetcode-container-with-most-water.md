@@ -3,7 +3,7 @@ title: LeetCode Container With Most Water
 description: LeetCode container with most water in C++, Golang and Javascript.
 date: 2021-05-02
 hashtags: ["leetcode", "algorithms", "golang", "cpp", "javascript"]
-categories: "leetcode - container with most water, c++, golang, javascript"
+categories: "container with most water, c++, golang, javascript"
 ---
 
 ## Problem statement

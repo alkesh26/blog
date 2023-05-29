@@ -3,7 +3,7 @@ title: LeetCode - Pascal's Triangle
 description: LeetCode - Pascal's Triangle using C++, Golang and Javascript.
 date: 2021-10-10
 hashtags: ["leetcode", "algorithms", "golang", "cpp", "javascript"]
-categories: "leetcode - pascal's triangle, c++, golang, javascript"
+categories: "pascal's triangle, c++, golang, javascript"
 ---
 
 ## Problem statement

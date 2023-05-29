@@ -3,7 +3,7 @@ title: LeetCode - Triangle
 description: LeetCode - return the minimum path sum from top to bottom using C++, Golang and Javascript.
 date: 2022-02-03
 hashtags: ["leetcode", "algorithms", "golang", "cpp", "javascript"]
-categories: "leetcode - return the minimum path sum from top to bottom, c++, golang, javascript"
+categories: "return the minimum path sum from top to bottom, c++, golang, javascript"
 ---
 
 ## Problem statement

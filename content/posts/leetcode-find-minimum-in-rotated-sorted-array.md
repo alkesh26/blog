@@ -3,7 +3,7 @@ title: LeetCode - Find Minimum in Rotated Sorted Array
 description: LeetCode - find the minimum element in a rotated sorted array using C++, Golang, and Javascript.
 date: 2022-07-24
 hashtags: ["leetcode", "algorithms", "golang", "cpp", "javascript"]
-categories: "leetcode - find the minimum element in a rotated sorted array, c++, golang, javascript"
+categories: "find the minimum element in a rotated sorted array, c++, golang, javascript"
 ---
 
 ## Problem statement

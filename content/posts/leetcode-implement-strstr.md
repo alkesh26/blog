@@ -3,7 +3,7 @@ title: LeetCode - Implement strStr()
 description: LeetCode - Implement strStr() using C++, Golang and Javascript.
 date: 2021-07-18
 hashtags: ["leetcode", "algorithms", "golang", "cpp", "javascript"]
-categories: "leetcode - implement strStr(), c++, golang, javascript"
+categories: "implement strStr(), c++, golang, javascript"
 ---
 
 ## Problem statement

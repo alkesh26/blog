@@ -3,7 +3,7 @@ title: LeetCode - Swap Nodes in Pairs
 description: LeetCode - Swap Nodes in Pairs using C++, Golang and Javascript.
 date: 2021-09-19
 hashtags: ["leetcode", "algorithms", "golang", "cpp", "javascript"]
-categories: "leetcode - swap nodes in pairs, c++, golang, javascript"
+categories: "swap nodes in pairs, c++, golang, javascript"
 ---
 
 ![Container](./../swap-nodes-in-pairs.png)

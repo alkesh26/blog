@@ -3,7 +3,7 @@ title: LeetCode - Next Permutation
 description: LeetCode - Next Permutation using C++, Golang and Javascript.
 date: 2021-09-12
 hashtags: ["leetcode", "algorithms", "golang", "cpp", "javascript"]
-categories: "leetcode - next permutation, c++, golang, javascript"
+categories: "next permutation, c++, golang, javascript"
 ---
 
 ## Problem statement

@@ -3,7 +3,7 @@ title: LeetCode - Difference Between Ones and Zeros in Row and Column
 description: LeetCode - calculate the differene of ones and zeros for every cell in the matrix using C++, Golang, and JavaScript.
 date: 2023-02-18
 hashtags: ["leetcode", "algorithms", "golang", "cpp", "javascript"]
-categories: "leetcode - calculate the differene of ones and zeros for every cell in the matrix, c++, golang, javascript"
+categories: "calculate the differene of ones and zeros for every cell in the matrix, c++, golang, javascript"
 ---
 
 ## Problem statement

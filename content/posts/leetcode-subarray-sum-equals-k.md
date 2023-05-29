@@ -3,7 +3,7 @@ title: LeetCode - Subarray Sum Equals K
 description: LeetCode - return the total number of subarrays whose sum equals to k using C++, Golang, and JavaScript.
 date: 2023-03-16
 hashtags: ["leetcode", "algorithms", "golang", "cpp", "javascript"]
-categories: "leetcode - the total number of subarrays whose sum equals to k, c++, golang, javascript"
+categories: "the total number of subarrays whose sum equals to k, c++, golang, javascript"
 ---
 
 ## Problem statement

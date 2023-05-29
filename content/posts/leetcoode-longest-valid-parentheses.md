@@ -3,7 +3,7 @@ title: Longest Valid Parentheses - LeetCode
 description: Given a string consisting of opening and closing parentheses, find the length of the longest valid parentheses in it using C++, Golang, and JavaScript.
 date: 2023-05-28
 hashtags: ["leetcode", "algorithms", "golang", "cpp", "javascript"]
-categories: "leetcode - Given a string consisting of opening and closing parentheses find the length of the longest valid parentheses, c++, golang, javascript"
+categories: "Given a string consisting of opening and closing parentheses find the length of the longest valid parentheses, c++, golang, javascript"
 ---
 
 ## Problem statement

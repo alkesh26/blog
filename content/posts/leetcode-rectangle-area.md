@@ -3,7 +3,7 @@ title: LeetCode - Rectangle Area
 description: LeetCode - return the total area covered by the two rectangles in C++, Golang, and Javascript.
 date: 2022-10-08
 hashtags: ["leetcode", "algorithms", "golang", "cpp", "javascript"]
-categories: "leetcode return the total area covered by the two rectangles, c++, golang, javascript"
+categories: "return the total area covered by the two rectangles, c++, golang, javascript"
 ---
 
 ## Problem statement

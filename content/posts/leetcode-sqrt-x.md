@@ -3,7 +3,7 @@ title: LeetCode Sqrt(x)
 description: LeetCode find square root of positive number x in C++, Golang and Javascript
 date: 2021-05-23
 hashtags: ["leetcode", "algorithms", "golang", "cpp", "javascript"]
-categories: "leetcode - find square root of positive number x, c++, golang, javascript"
+categories: "find square root of positive number x, c++, golang, javascript"
 ---
 
 ![Container](./../square-root.png)

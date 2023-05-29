@@ -3,7 +3,7 @@ title: LeetCode - Divide Two Integers
 description: LeetCode - return the quotient after dividing dividend by divisor using C++, Golang, and JavaScript.
 date: 2023-04-23
 hashtags: ["leetcode", "algorithms", "golang", "cpp", "javascript"]
-categories: "leetcode - return the quotient after dividing dividend by divisor, c++, golang, javascript"
+categories: "return the quotient after dividing dividend by divisor, c++, golang, javascript"
 ---
 
 ## Problem statement

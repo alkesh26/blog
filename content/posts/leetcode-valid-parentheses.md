@@ -3,7 +3,7 @@ title: LeetCode - Valid Parentheses
 description: LeetCode - check for balanced brackets in an expression using C++, Golang and Javascript.
 date: 2021-06-27
 hashtags: ["leetcode", "algorithms", "golang", "cpp", "javascript"]
-categories: "leetcode - check for balanced brackets in an expression, c++, golang, javascript"
+categories: "check for balanced brackets in an expression, c++, golang, javascript"
 ---
 
 ![Container](./../valid-parentheses.png)

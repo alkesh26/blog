@@ -3,7 +3,7 @@ title: LeetCode - Reverse Nodes in k-Group
 description: LeetCode - reverse the nodes of the list k at a time, and return the modified list using C++, Golang, and JavaScript.
 date: 2023-03-23
 hashtags: ["leetcode", "algorithms", "golang", "cpp", "javascript"]
-categories: "leetcode - reverse the nodes of the list k at a time and return the modified list, c++, golang, javascript"
+categories: "reverse the nodes of the list k at a time and return the modified list, c++, golang, javascript"
 ---
 
 ## Problem statement

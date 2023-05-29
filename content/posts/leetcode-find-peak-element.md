@@ -3,7 +3,7 @@ title: LeetCode - Find Peak Element
 description: LeetCode - find element in array which is greater than it's neighbors using C++, Golang and Javascript.
 date: 2022-01-20
 hashtags: ["leetcode", "algorithms", "golang", "cpp", "javascript"]
-categories: "leetcode - find element in array which is greater than it's neighbors, c++, golang, javascript"
+categories: "find element in array which is greater than it's neighbors, c++, golang, javascript"
 ---
 
 ## Problem statement

@@ -3,7 +3,7 @@ title: LeetCode - Maximum Subarray
 description: LeetCode - maximum sum subarray using C++, Golang and Javascript.
 date: 2021-06-13
 hashtags: ["leetcode", "algorithms", "golang", "cpp", "javascript"]
-categories: "leetcode - maximum sum subarray, c++, golang, javascript"
+categories: "maximum sum subarray, c++, golang, javascript"
 ---
 
 ![Container](./../kadane-algorithm.png)

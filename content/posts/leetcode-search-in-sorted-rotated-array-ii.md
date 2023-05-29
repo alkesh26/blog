@@ -3,7 +3,7 @@ title: LeetCode - Search in Rotated Sorted Array II
 description: LeetCode - search in rotated sorted array containing duplicates using C++, Golang, and Javascript.
 date: 2022-07-17
 hashtags: ["leetcode", "algorithms", "golang", "cpp", "javascript"]
-categories: "leetcode - search in rotated sorted array containing duplicates, c++, golang, javascript"
+categories: "search in rotated sorted array containing duplicates, c++, golang, javascript"
 ---
 
 ## Problem statement

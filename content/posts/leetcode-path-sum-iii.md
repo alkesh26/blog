@@ -3,7 +3,7 @@ title: LeetCode - Path Sum III
 description: LeetCode - return the number of paths where the sum of the values along the path equals targetSum using C++, Golang, and Javascript.
 date: 2023-01-21
 hashtags: ["leetcode", "geeksforgeeks", "algorithms", "golang", "cpp", "javascript"]
-categories: "leetcode - return the number of paths where the sum of the values along the path equals targetSum, c++, golang, javascript, geeksforgeeks."
+categories: "return the number of paths where the sum of the values along the path equals targetSum, c++, golang, javascript, geeksforgeeks."
 ---
 
 ## Problem statement

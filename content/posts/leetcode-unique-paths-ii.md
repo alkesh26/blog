@@ -3,7 +3,7 @@ title: LeetCode - Unique Path II
 description: LeetCode - return the number of possible unique paths a robot can take to reach the bottom-right corner when paths have obstacles.
 date: 2022-09-01
 hashtags: ["leetcode", "algorithms", "golang", "cpp", "javascript"]
-categories: "leetcode - return the number of possible unique paths a robot can take to reach the bottom-right corner when paths have obstacles, c++, golang, javascript."
+categories: "return the number of possible unique paths a robot can take to reach the bottom-right corner when paths have obstacles, c++, golang, javascript."
 ---
 
 ## Problem statement

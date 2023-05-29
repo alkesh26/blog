@@ -3,7 +3,7 @@ title: LeetCode - Excel Sheet Column Title
 description: LeetCode - return the corresponding column title as it appears in an Excel sheet using C++, Golang, and JavaScript.
 date: 2023-02-09
 hashtags: ["leetcode", "algorithms", "golang", "cpp", "javascript"]
-categories: "leetcode - return the corresponding column title as it appears in an Excel sheet, c++, golang, javascript"
+categories: "return the corresponding column title as it appears in an Excel sheet, c++, golang, javascript"
 ---
 
 ## Problem statement

@@ -3,7 +3,7 @@ title: LeetCode - Symmetric tree
 description: LeetCode - check whether a tree is mirror of itself using C++, Golang and Javascript.
 date: 2021-11-14
 hashtags: ["leetcode", "algorithms", "golang", "cpp", "javascript"]
-categories: "leetcode - check whether a tree is mirror of itself, c++, golang, javascript"
+categories: "check whether a tree is mirror of itself, c++, golang, javascript"
 ---
 
 ## Problem statement

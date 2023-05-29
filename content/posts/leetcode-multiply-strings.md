@@ -3,7 +3,7 @@ title: LeetCode - Multiply Strings
 description: LeetCode - multiply two non-negative integers represented as strings using C++, Golang and Javascript.
 date: 2022-01-15
 hashtags: ["leetcode", "algorithms", "golang", "cpp", "javascript"]
-categories: "leetcode - merge all overlapping intervals and return an array of non-overlapping intervals, c++, golang, javascript"
+categories: "merge all overlapping intervals and return an array of non-overlapping intervals, c++, golang, javascript"
 ---
 
 ## Problem statement

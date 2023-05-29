@@ -3,7 +3,7 @@ title: LeetCode - Plus One
 description: LeetCode - Plus One using C++, Golang and Javascript.
 date: 2021-07-25
 hashtags: ["leetcode", "algorithms", "golang", "cpp", "javascript"]
-categories: "leetcode - plus one, c++, golang, javascript"
+categories: "plus one, c++, golang, javascript"
 ---
 
 ## Problem statement

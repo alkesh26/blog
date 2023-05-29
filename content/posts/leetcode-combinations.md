@@ -3,7 +3,7 @@ title: LeetCode - Combinations
 description: LeetCode - return all possible combinations of k numbers out of the range [1, n] using C++, Golang, and Javascript.
 date: 2022-05-01
 hashtags: ["leetcode", "algorithms", "golang", "cpp", "javascript"]
-categories: "leetcode - return all possible combinations of k numbers out of the range [1, n], c++, golang, javascript"
+categories: "return all possible combinations of k numbers out of the range [1, n], c++, golang, javascript"
 ---
 
 ## Problem statement

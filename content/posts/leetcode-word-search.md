@@ -3,7 +3,7 @@ title: LeetCode - Word Search
 description: LeetCode - search a word in 2D grid of characters using C++, Golang and Javascript.
 date: 2021-11-07
 hashtags: ["leetcode", "algorithms", "golang", "cpp", "javascript"]
-categories: "leetcode - search a word in 2D grid of characters, c++, golang, javascript"
+categories: "search a word in 2D grid of characters, c++, golang, javascript"
 ---
 
 ## Problem statement

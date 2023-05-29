@@ -3,7 +3,7 @@ title: LeetCode - Reverse Words in a String
 description: LeetCode - return a string of the words in reverse order concatenated by a single space using C++, Golang, and JavaScript.
 date: 2023-03-09
 hashtags: ["leetcode", "algorithms", "golang", "cpp", "javascript"]
-categories: "leetcode - return a string of the words in reverse order concatenated by a single space, c++, golang, javascript"
+categories: "return a string of the words in reverse order concatenated by a single space, c++, golang, javascript"
 ---
 
 ## Problem statement

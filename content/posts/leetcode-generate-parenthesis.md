@@ -3,7 +3,7 @@ title: LeetCode - Generate Parentheses
 description: LeetCode - Generate Parentheses using C++, Golang and Javascript.
 date: 2021-08-15
 hashtags: ["leetcode", "algorithms", "golang", "cpp", "javascript"]
-categories: "leetcode - generate parentheses, c++, golang, javascript"
+categories: "generate parentheses, c++, golang, javascript"
 ---
 
 ## Problem statement

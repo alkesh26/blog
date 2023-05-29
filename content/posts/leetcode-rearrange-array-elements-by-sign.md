@@ -3,7 +3,7 @@ title: LeetCode - Rearrange Array Elements by Sign
 description: LeetCode - rearrange the elements of nums such that very consecutive pair of integers have opposite signs using C++, Golang, and JavaScript.
 date: 2023-02-16
 hashtags: ["leetcode", "algorithms", "golang", "cpp", "javascript"]
-categories: "leetcode - rearrange the elements of nums such that very consecutive pair of integers have opposite signs, c++, golang, javascript"
+categories: "rearrange the elements of nums such that very consecutive pair of integers have opposite signs, c++, golang, javascript"
 ---
 
 ## Problem statement

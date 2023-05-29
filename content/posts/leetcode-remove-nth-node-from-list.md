@@ -3,7 +3,7 @@ title: LeetCode Remove Nth Node From End of List
 description: LeetCode remove Nth node from linked list in C++, Golang and Javascript
 date: 2021-05-16
 hashtags: ["leetcode", "algorithms", "golang", "cpp", "javascript"]
-categories: "leetcode - remove Nth node from linked list, c++, golang, javascript"
+categories: "remove Nth node from linked list, c++, golang, javascript"
 ---
 
 ## Problem statement

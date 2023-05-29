@@ -3,7 +3,7 @@ title: Merge k Sorted Lists - LeetCode
 description: Merge k sorted linked lists into a single list using C++, Golang, and JavaScript.
 date: 2023-05-21
 hashtags: ["leetcode", "algorithms", "golang", "cpp", "javascript"]
-categories: "leetcode - merge all the k sorted lists into one single linked-list and return it, c++, golang, javascript"
+categories: "merge all the k sorted lists into one single linked-list and return it, c++, golang, javascript"
 ---
 
 ## Problem statement

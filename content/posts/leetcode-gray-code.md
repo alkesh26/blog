@@ -3,7 +3,7 @@ title: LeetCode - Gray Code
 description: LeetCode - return any valid n-bit gray code sequence using C++, Golang, and JavaScript.
 date: 2023-01-28
 hashtags: ["leetcode", "algorithms", "golang", "cpp", "javascript"]
-categories: "leetcode - return any valid n-bit gray code sequence, c++, golang, javascript"
+categories: "return any valid n-bit gray code sequence, c++, golang, javascript"
 ---
 
 ## Problem statement

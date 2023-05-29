@@ -3,7 +3,7 @@ title: LeetCode - House Robber II
 description: LeetCode - return the maximum amount of money you can rob when houses are arranged in a circle using C++, Golang, and Javascript.
 date: 2022-09-10
 hashtags: ["leetcode", "algorithms", "golang", "cpp", "javascript"]
-categories: "leetcode - return the maximum amount of money you can rob when houses are arranged in a circle, c++, golang, javascript"
+categories: "return the maximum amount of money you can rob when houses are arranged in a circle, c++, golang, javascript"
 ---
 
 ## Problem statement

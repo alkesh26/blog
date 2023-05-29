@@ -3,7 +3,7 @@ title: LeetCode - Remove Element
 description: Remove element from input array using C++, Golang and Javascript.
 date: 2021-10-28
 hashtags: ["leetcode", "algorithms", "golang", "cpp", "javascript"]
-categories: "leetcode - remove element from input array, c++, golang, javascript"
+categories: "remove element from input array, c++, golang, javascript"
 ---
 
 ## Problem statement

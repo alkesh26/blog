@@ -3,7 +3,7 @@ title: LeetCode - Binary Tree Level Order Traversal
 description: LeetCode - return the level order traversal of binary tree nodes using C++, Golang and Javascript.
 date: 2021-11-18
 hashtags: ["leetcode", "algorithms", "golang", "cpp", "javascript"]
-categories: "leetcode - return the level order traversal of binary tree nodes, c++, golang, javascript"
+categories: "return the level order traversal of binary tree nodes, c++, golang, javascript"
 ---
 
 ## Problem statement

@@ -3,7 +3,7 @@ title: LeetCode - Jump Game
 description: LeetCode - jump game using C++, Golang and Javascript.
 date: 2021-10-24
 hashtags: ["leetcode", "algorithms", "golang", "cpp", "javascript"]
-categories: "leetcode - jump game, c++, golang, javascript"
+categories: "jump game, c++, golang, javascript"
 ---
 
 ## Problem statement

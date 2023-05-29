@@ -3,7 +3,7 @@ title: LeetCode - Jump Game III
 description: LeetCode - return if it's possible to reach any index with value 0 using C++, Golang, and Javascript.
 date: 2022-09-18
 hashtags: ["leetcode", "algorithms", "golang", "cpp", "javascript"]
-categories: "leetcode - return if it's possible to reach any index with value 0, c++, golang, javascript"
+categories: "return if it's possible to reach any index with value 0, c++, golang, javascript"
 ---
 
 ## Problem statement

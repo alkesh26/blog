@@ -3,7 +3,7 @@ title: LeetCode - Sort Colors
 description: LeetCode - Sort colors represented as integers using C++, Golang and Javascript.
 date: 2021-07-04
 hashtags: ["leetcode", "algorithms", "golang", "cpp", "javascript"]
-categories: "leetcode - sort colors represented as integers 0 1 and 2, c++, golang, javascript"
+categories: "sort colors represented as integers 0 1 and 2, c++, golang, javascript"
 ---
 
 ![Container](./../sort-colors.png)

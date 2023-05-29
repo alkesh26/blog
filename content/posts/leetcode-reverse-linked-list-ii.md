@@ -3,7 +3,7 @@ title: LeetCode - Reverse Linked List II
 description: LeetCode - reverse a sublist in a linked list using C++, Golang and Javascript.
 date: 2022-02-10
 hashtags: ["leetcode", "algorithms", "golang", "cpp", "javascript"]
-categories: "leetcode - reverse a sublist in a linked list, c++, golang, javascript"
+categories: "reverse a sublist in a linked list, c++, golang, javascript"
 ---
 
 ## Problem statement

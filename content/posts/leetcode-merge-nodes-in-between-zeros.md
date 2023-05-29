@@ -3,7 +3,7 @@ title: LeetCode - Merge Nodes in Between Zeros
 description: LeetCode - merge all the nodes lying in between them into a single node whose value is the sum of all the merged nodes using C++, Golang, and JavaScript.
 date: 2023-02-11
 hashtags: ["leetcode", "algorithms", "golang", "cpp", "javascript"]
-categories: "leetcode - merge all the nodes lying in between them into a single node whose value is the sum of all the merged nodes, c++, golang, javascript"
+categories: "merge all the nodes lying in between them into a single node whose value is the sum of all the merged nodes, c++, golang, javascript"
 ---
 
 ## Problem statement

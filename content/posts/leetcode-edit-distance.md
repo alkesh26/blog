@@ -3,7 +3,7 @@ title: LeetCode - Edit Distance
 description: LeetCode - return the minimum number of operations required to convert word1 to word2 using C++, Golang, and JavaScript.
 date: 2023-05-14
 hashtags: ["leetcode", "algorithms", "golang", "cpp", "javascript"]
-categories: "leetcode - return the minimum number of operations required to convert word1 to word2, c++, golang, javascript"
+categories: "return the minimum number of operations required to convert word1 to word2, c++, golang, javascript"
 ---
 
 ## Problem statement

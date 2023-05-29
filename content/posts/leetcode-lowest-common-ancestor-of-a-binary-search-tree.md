@@ -3,7 +3,7 @@ title: LeetCode - Lowest Common Ancestor of a Binary Search Tree
 description: LeetCode - return the lowest common ancestor (LCA) node of two given nodes in the BST using C++, Golang, and JavaScript.
 date: 2023-02-05
 hashtags: ["leetcode", "algorithms", "golang", "cpp", "javascript"]
-categories: "leetcode - return the lowest common ancestor (LCA) node of two given nodes in the BST, c++, golang, javascript"
+categories: "return the lowest common ancestor (LCA) node of two given nodes in the BST, c++, golang, javascript"
 ---
 
 ## Problem statement

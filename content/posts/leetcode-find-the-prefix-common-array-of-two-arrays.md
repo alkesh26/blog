@@ -3,7 +3,7 @@ title: LeetCode - Find the Prefix Common Array of Two Arrays
 description: LeetCode - return the prefix common array of A and B using C++, Golang, and JavaScript.
 date: 2023-04-30
 hashtags: ["leetcode", "algorithms", "golang", "cpp", "javascript"]
-categories: "leetcode - return the prefix common array of A and B, c++, golang, javascript"
+categories: "return the prefix common array of A and B, c++, golang, javascript"
 ---
 
 ## Problem statement

@@ -3,7 +3,7 @@ title: LeetCode - Path Sum II
 description: LeetCode - return all root-to-leaf paths where the sum of the node values in the path equals targetSum using C++, Golang, and Javascript.
 date: 2022-09-04
 hashtags: ["leetcode", "geeksforgeeks", "algorithms", "golang", "cpp", "javascript"]
-categories: "leetcode - return all root-to-leaf paths where the sum of the node values in the path equals targetSum, c++, golang, javascript, geeksforgeeks."
+categories: "return all root-to-leaf paths where the sum of the node values in the path equals targetSum, c++, golang, javascript, geeksforgeeks."
 ---
 
 ## Problem statement

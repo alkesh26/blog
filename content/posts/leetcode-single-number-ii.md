@@ -3,7 +3,7 @@ title: LeetCode - Single Number II
 description: LeetCode - Find the number that appears only once in an array using C++, Golang, and Javascript.
 date: 2022-02-20
 hashtags: ["leetcode", "algorithms", "golang", "cpp", "javascript"]
-categories: "leetcode - find the number which appears only one time in an array, c++, golang, javascript"
+categories: "find the number which appears only one time in an array, c++, golang, javascript"
 ---
 
 ## Problem statement

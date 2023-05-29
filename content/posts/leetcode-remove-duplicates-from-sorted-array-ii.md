@@ -3,7 +3,7 @@ title: LeetCode - Remove Duplicates from Sorted Array II
 description: LeetCode - remove duplicates from sorted array ii using C++, Golang and Javascript.
 date: 2022-01-29
 hashtags: ["leetcode", "algorithms", "golang", "cpp", "javascript"]
-categories: "leetcode - remove duplicates from sorted array ii, c++, golang, javascript"
+categories: "remove duplicates from sorted array ii, c++, golang, javascript"
 ---
 
 ## Problem statement

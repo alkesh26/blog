@@ -3,7 +3,7 @@ title: LeetCode - Longest Consecutive Subsequence
 description: LeetCode - return the length of the longest consecutive elements sequence in C++, Golang, and Javascript.
 date: 2022-12-24
 hashtags: ["leetcode", "algorithms", "golang", "cpp", "javascript"]
-categories: "leetcode return the length of the longest consecutive elements sequence, c++, golang, javascript"
+categories: "return the length of the longest consecutive elements sequence, c++, golang, javascript"
 ---
 
 ## Problem statement

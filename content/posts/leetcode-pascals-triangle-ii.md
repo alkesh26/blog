@@ -3,7 +3,7 @@ title: LeetCode - Pascal's Triangle II
 description: LeetCode - return the rowIndexth row of Pascal's triangle using C++, Golang, and Javascript.
 date: 2022-08-21
 hashtags: ["leetcode", "algorithms", "golang", "cpp", "javascript"]
-categories: "leetcode - return the rowIndexth row of Pascal's triangle, c++, golang, javascript."
+categories: "return the rowIndexth row of Pascal's triangle, c++, golang, javascript."
 ---
 
 ## Problem statement

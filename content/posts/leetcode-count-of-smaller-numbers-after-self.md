@@ -3,7 +3,7 @@ title: LeetCode - Count of Smaller Numbers After Self
 description: LeetCode - return an integer array counts where counts[i] is the number of smaller elements to the right of nums[i] using C++, Golang, and JavaScript.
 date: 2023-04-01
 hashtags: ["leetcode", "algorithms", "golang", "cpp", "javascript"]
-categories: "leetcode - return an integer array counts where counts[i] is the number of smaller elements to the right of nums[i], c++, golang, javascript"
+categories: "return an integer array counts where counts[i] is the number of smaller elements to the right of nums[i], c++, golang, javascript"
 ---
 
 ## Problem statement

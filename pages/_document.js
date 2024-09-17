@@ -60,7 +60,7 @@ export default class MyDocument extends Document {
                 width="0"
                 style="display:none;visibility:hidden">
               </iframe>
-              `
+              `,
             }}
           />
           <Main />
